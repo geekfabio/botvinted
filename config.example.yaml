@@ -1,0 +1,220 @@
+# ───────────────────────────────────────────── 
+# Telegram 
+# ───────────────────────────────────────────── 
+telegram: 
+  token: "${TELEGRAM_TOKEN}"       # lido do .env — não colocar aqui directamente 
+  send_delay_seconds: 1.0
+  send_max_retries: 3
+  send_retry_backoff_seconds: 5
+  destinations: 
+    - chat_id: "123456789"         # o teu chat pessoal 
+      label: "Pessoal" 
+    # - chat_id: "-987654321"      # (opcional) grupo 
+    #   label: "Grupo Família" 
+ 
+# ───────────────────────────────────────────── 
+# Agendamento 
+# ───────────────────────────────────────────── 
+telegram_commands:
+  enabled: true
+  max_results: 5
+  max_pages: 1
+  state_path: "data/bot_state.json"
+
+scheduler: 
+  interval_minutes: 30             # intervalo entre verificações (mín. 10 recomendado) 
+ 
+# ───────────────────────────────────────────── 
+# Filtros globais (aplicados a todas as pesquisas) 
+# ───────────────────────────────────────────── 
+resale:
+  enabled: true
+  fixed_shipping_eur: 20
+  eur_to_kz: 1250
+  target_currency: "Kz"
+  highlight_profit_min_kz: 50000
+  profiles:
+    iphone xr:
+      sale_min_kz: 160000
+      sale_max_kz: 180000
+    iphone 11:
+      sale_min_kz: 190000
+      sale_max_kz: 200000
+    iphone 13:
+      sale_min_kz: 300000
+      sale_max_kz: 340000
+    iphone 12 pro max:
+      sale_min_kz: 370000
+      sale_max_kz: 420000
+
+global_filters: 
+  require_seller_feedback: true
+  max_item_age_days: 14
+  require_item_age: true
+  seller_min_stars: 3              # estrelas mínimas do vendedor (0–5) 
+  seller_min_reviews: 3            # nº mínimo de avaliações do vendedor 
+  exclude_keywords:                # ignora listagens com estas palavras no título 
+    - "avariado" 
+    - "para peças" 
+    - "partido" 
+ 
+# ───────────────────────────────────────────── 
+# Pesquisas — adiciona quantas quiseres! 
+# ───────────────────────────────────────────── 
+detail_validation:
+  enabled: true
+  delay_between_detail_requests: 1
+
+searches: 
+ 
+  # ── iPhones ────────────────────────────── 
+  - name: "iPhone XR"
+    query: "iphone xr"
+    price_min: 40
+    price_max: 90
+    condition: []
+    resale:
+      sale_min_kz: 160000
+      sale_max_kz: 180000
+
+  - name: "iPhone 11" 
+    query: "iphone 11" 
+    price_min: 80 
+    price_max: 200 
+    condition: []                  # [] = todos; ou: ["new","like_new","good","satisfactory"] 
+    resale:
+      sale_min_kz: 190000
+      sale_max_kz: 200000
+ 
+  - name: "iPhone 12"
+    query: "iphone 12"
+    price_min: 60
+    price_max: 110
+    condition: []
+    exclude_keywords: ["12 pro", "iphone 12 pro"]
+
+  - name: "iPhone 12 Pro"
+    query: "iphone 12 pro"
+    price_min: 100
+    price_max: 130
+    condition: []
+    exclude_keywords: ["pro max", "promax"]
+
+  - name: "iPhone 12 Pro Max"
+    query: "iphone 12 pro max"
+    price_min: 150
+    price_max: 210
+    condition: []
+    resale:
+      sale_min_kz: 370000
+      sale_max_kz: 420000
+ 
+  - name: "iPhone 13" 
+    query: "iphone 13" 
+    price_min: 200 
+    price_max: 450 
+    exclude_keywords: ["13 pro", "13 pro max"]
+    resale:
+      sale_min_kz: 300000
+      sale_max_kz: 340000
+ 
+  - name: "iPhone 14 Pro" 
+    query: "iphone 14 pro" 
+    price_min: 350 
+    price_max: 700 
+ 
+  - name: "iPhone 15 Pro Max" 
+    query: "iphone 15 pro max" 
+    price_min: 700 
+    price_max: 1100 
+ 
+  - name: "iPhone 16 Pro Max" 
+    query: "iphone 16 pro max" 
+    price_min: 900 
+    price_max: 1400 
+ 
+  - name: "iPhone 17 Pro / Pro Max" 
+    query: "iphone 17 pro" 
+    price_min: 1000 
+    price_max: 1600 
+ 
+  # ── Pesquisas customizadas ───────────────── 
+  - name: "Samsung Galaxy S21"
+    query: "samsung galaxy s21"
+    price_min: 80
+    price_max: 180
+    condition: []
+
+  - name: "Samsung Galaxy S22"
+    query: "samsung galaxy s22"
+    price_min: 130
+    price_max: 260
+    condition: []
+
+  - name: "Samsung Galaxy S23"
+    query: "samsung galaxy s23"
+    price_min: 220
+    price_max: 400
+    condition: []
+
+  - name: "AirPods Pro 2" 
+    query: "airpods pro 2" 
+    price_min: 80 
+    price_max: 200 
+ 
+  - name: "PlayStation 5" 
+    query: "ps5 playstation 5" 
+    price_min: 200 
+    price_max: 450 
+    condition: ["new", "like_new", "good"] 
+ 
+  - name: "MacBook Air M2" 
+    query: "macbook air m2" 
+    price_min: 600 
+    price_max: 1200 
+ 
+  - name: "Nike Air Force 1 42" 
+    query: "nike air force 1 42" 
+    price_min: 20 
+    price_max: 80 
+ 
+  # Pesquisa de texto livre — sem limite de preço máximo 
+  - name: "Lego Technic" 
+    query: "lego technic" 
+    price_min: 10 
+    price_max: null                # null = sem limite máximo 
+    condition: ["new", "like_new"] 
+ 
+# ───────────────────────────────────────────── 
+# Scraping 
+# ───────────────────────────────────────────── 
+scraping: 
+  delay_between_requests: 2       # segundos entre pedidos (não reduzir abaixo de 1) 
+  max_pages_per_search: 5         # páginas máximas por pesquisa (96 itens/página) 
+  results_per_page: 96 
+  timeout_seconds: 30             # tempo máximo de espera por pedido
+  country: "pt"                   # pt, es, fr, de, it, etc. 
+  currency: "EUR" 
+  retry_max_attempts: 3
+  retry_backoff_seconds: 120
+  retry_backoff_multiplier: 2
+  retry_max_backoff_seconds: 900
+  retry_after_max_seconds: 300
+  retry_jitter_seconds: 10
+  retry_status_codes: [403, 429, 500, 502, 503, 504]
+  cookie_refresh_status_codes: [401]
+ 
+# ───────────────────────────────────────────── 
+# Base de dados 
+# ───────────────────────────────────────────── 
+database: 
+  path: "data/seen_items.db"      # SQLite — guarda IDs já notificados 
+ 
+# ───────────────────────────────────────────── 
+# Logging 
+# ───────────────────────────────────────────── 
+logging: 
+  level: "INFO"                   # DEBUG, INFO, WARNING, ERROR 
+  file: "logs/bot.log" 
+  max_size_mb: 10 
+  backup_count: 3

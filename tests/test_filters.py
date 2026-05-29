@@ -1,0 +1,92 @@
+import pytest
+import time
+from filters import map_condition, item_passes_global_filters, build_search_url_params
+
+def test_map_condition():
+    assert map_condition("new") == 2
+    assert map_condition("new_with_tags") == 1
+    assert map_condition("like_new") == 3
+    assert map_condition("satisfactory") == 8
+    assert map_condition("nonexistent") is None
+
+def test_item_passes_global_filters_empty_filters():
+    item = {"title": "iPhone", "user": {"feedback_reputation": 1.0}}
+    assert item_passes_global_filters(item, {}) is True
+
+def test_item_passes_global_filters_reputation():
+    global_filters = {"seller_min_stars": 4} # Requires 4/5 = 0.8 reputation
+    
+    # 0.9 > 0.8 -> Pass
+    item_pass = {"user": {"feedback_reputation": 0.9}}
+    assert item_passes_global_filters(item_pass, global_filters) is True
+    
+    # 0.7 < 0.8 -> Fail
+    item_fail = {"user": {"feedback_reputation": 0.7}}
+    assert item_passes_global_filters(item_fail, global_filters) is False
+
+def test_item_passes_global_filters_reviews():
+    global_filters = {"seller_min_reviews": 5}
+    
+    item_pass = {"user": {"feedback_count": 6}}
+    assert item_passes_global_filters(item_pass, global_filters) is True
+    
+    item_fail = {"user": {"feedback_count": 4}}
+    assert item_passes_global_filters(item_fail, global_filters) is False
+
+def test_item_passes_global_filters_ignores_missing_seller_feedback():
+    global_filters = {"seller_min_stars": 4, "seller_min_reviews": 5}
+
+    item = {"title": "iPhone", "user": {}}
+    assert item_passes_global_filters(item, global_filters) is True
+
+def test_item_passes_global_filters_requires_seller_feedback_when_configured():
+    global_filters = {
+        "seller_min_stars": 3,
+        "seller_min_reviews": 1,
+        "require_seller_feedback": True,
+    }
+
+    item = {"title": "iPhone", "user": {}}
+    assert item_passes_global_filters(item, global_filters) is False
+
+def test_item_passes_global_filters_rejects_old_items():
+    global_filters = {"max_item_age_days": 14}
+    old_ts = int(time.time()) - (15 * 24 * 60 * 60)
+    fresh_ts = int(time.time()) - (2 * 24 * 60 * 60)
+
+    assert item_passes_global_filters({"created_at_ts": old_ts}, global_filters) is False
+    assert item_passes_global_filters({"created_at_ts": fresh_ts}, global_filters) is True
+
+def test_item_passes_global_filters_keywords():
+    global_filters = {"exclude_keywords": ["avariado", "partido"]}
+    
+    item_pass = {"title": "iPhone 13 novo", "description": "Lindo"}
+    assert item_passes_global_filters(item_pass, global_filters) is True
+    
+    item_fail = {"title": "iPhone 13 partido no ecrã", "description": "Funciona"}
+    assert item_passes_global_filters(item_fail, global_filters) is False
+    
+    item_fail2 = {"title": "iPhone", "description": "Está avariado"}
+    assert item_passes_global_filters(item_fail2, global_filters) is False
+
+def test_build_search_url_params():
+    search_config = {
+        "query": "iphone 12",
+        "price_min": 100,
+        "price_max": 200,
+        "condition": ["new", "like_new"]
+    }
+    scraping_config = {
+        "currency": "EUR",
+        "results_per_page": 50
+    }
+    
+    params = build_search_url_params(search_config, scraping_config)
+    
+    assert params["search_text"] == "iphone 12"
+    assert params["price_from"] == 100
+    assert params["price_to"] == 200
+    assert params["currency"] == "EUR"
+    assert params["order"] == "newest_first"
+    assert params["per_page"] == 50
+    assert params["status_ids[]"] == [2, 3]
