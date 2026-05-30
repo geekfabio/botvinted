@@ -33,6 +33,10 @@ class VintedScraper:
         """Faz um GET inicial à página da Vinted para obter os cookies de sessão."""
         logger.info(f"Fetching new cookies from {self.base_url}...")
         try:
+            self.session.cookies.clear()
+            if os.path.exists(self.cookie_file):
+                os.remove(self.cookie_file)
+
             # Precisamos apenas bater na homepage para a Vinted atribuir os cookies
             response = self.session.get(self.base_url, timeout=15)
             response.raise_for_status()
@@ -45,11 +49,17 @@ class VintedScraper:
                 json.dump(cookies_dict, f)
                 
             logger.info("Successfully fetched and saved new cookies.")
+            return True
         except Exception as e:
             logger.error(f"Failed to fetch initial cookies: {e}")
+            return False
 
     def _load_or_fetch_cookies(self):
         """Tenta carregar os cookies de ficheiro. Se não existirem, procura novos."""
+        if not self.config.get("reuse_saved_cookies", False):
+            self._fetch_new_cookies()
+            return
+
         if os.path.exists(self.cookie_file):
             try:
                 with open(self.cookie_file, "r") as f:
@@ -120,8 +130,8 @@ class VintedScraper:
                     logger.warning(
                         f"Received {response.status_code}. Cookies might be expired or blocked. Fetching new cookies..."
                     )
-                    self._fetch_new_cookies()
-                    response = self.session.get(url, timeout=self.timeout_seconds)
+                    if self._fetch_new_cookies():
+                        response = self.session.get(url, timeout=self.timeout_seconds)
 
                 if response.status_code not in retry_status_codes:
                     return response
@@ -136,6 +146,9 @@ class VintedScraper:
                     raise
                 if isinstance(e, requests.Timeout):
                     logger.warning("Timeout detected. Refreshing cookies and retrying...")
+                    self._fetch_new_cookies()
+                elif isinstance(e, requests.TooManyRedirects):
+                    logger.warning("Redirect loop detected. Clearing cookies and retrying with a fresh session...")
                     self._fetch_new_cookies()
                 self._sleep_before_retry(attempt, error=e)
 

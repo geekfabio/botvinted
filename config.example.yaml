@@ -193,6 +193,7 @@ scraping:
   max_pages_per_search: 5         # páginas máximas por pesquisa (96 itens/página) 
   results_per_page: 96 
   timeout_seconds: 30             # tempo máximo de espera por pedido
+  reuse_saved_cookies: false      # false = pedir cookies frescos ao arrancar; evita loops 401/redirect
   country: "pt"                   # pt, es, fr, de, it, etc. 
   currency: "EUR" 
   retry_max_attempts: 3

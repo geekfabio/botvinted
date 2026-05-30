@@ -2,4 +2,5 @@
 /.env.example
 /.pytest_cache
 /venv
+/tests
 /__pycache__

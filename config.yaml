@@ -80,7 +80,7 @@ searches:
   - name: "iPhone 11"
     query: "iphone 11"
     price_min: 50
-    price_max: 110
+    price_max: 90
     condition: []                  # [] = todos; ou: ["new","like_new","good","satisfactory"]
     exclude_keywords: ["11 pro", "11 pro max"]
     resale:
@@ -103,7 +103,7 @@ searches:
   - name: "iPhone 12"
     query: "iphone 12"
     price_min: 60
-    price_max: 110
+    price_max: 126
     condition: []
     exclude_keywords: ["12 pro", "iphone 12 pro"]
 
@@ -116,77 +116,150 @@ searches:
 
   - name: "iPhone 12 Pro Max"
     query: "iphone 12 pro max"
-    price_min: 150
-    price_max: 210
-    condition: []
-    resale:
-      sale_min_kz: 370000
-      sale_max_kz: 420000
- 
-  - name: "iPhone 13" 
-    query: "iphone 13" 
-    price_min: 150 
-    price_max: 250 
-    exclude_keywords: ["13 pro", "13 pro max"]
-    resale:
-      sale_min_kz: 300000
-      sale_max_kz: 340000
- 
-  - name: "iPhone 14 Pro" 
-    query: "iphone 14 pro" 
-    price_min: 350 
-    price_max: 700 
- 
-  - name: "iPhone 15 Pro Max" 
-    query: "iphone 15 pro max" 
-    price_min: 700 
-    price_max: 1100 
- 
-  - name: "iPhone 16 Pro Max" 
-    query: "iphone 16 pro max" 
-    price_min: 900 
-    price_max: 1400 
- 
-  - name: "iPhone 17 Pro / Pro Max" 
-    query: "iphone 17 pro" 
-    price_min: 1000 
-    price_max: 1600 
- 
-  # ── Pesquisas customizadas ───────────────── 
-  - name: "Samsung Galaxy S21"
-    query: "samsung galaxy s21"
-    price_min: 80
-    price_max: 180
+    price_min: 100
+    price_max: 200
     condition: []
 
-  - name: "Samsung Galaxy S22"
-    query: "samsung galaxy s22"
-    price_min: 130
+  - name: "iPhone 13"
+    query: "iphone 13"
+    price_min: 110
+    price_max: 180
+    condition: []
+    exclude_keywords: ["13 pro", "13 pro max", "13 mini"]
+
+  
+
+  - name: "iPhone 13 Pro"
+    query: "iphone 13 pro"
+    price_min: 120
+    price_max: 230
+    condition: []
+    exclude_keywords: ["13 pro max"]
+
+  - name: "iPhone 13 Pro Max"
+    query: "iphone 13 pro max"
+    price_min: 120
     price_max: 260
     condition: []
 
-  - name: "Samsung Galaxy S23"
-    query: "samsung galaxy s23"
-    price_min: 220
-    price_max: 400
+  - name: "iPhone 14"
+    query: "iphone 14"
+    price_min: 180
+    price_max: 250
+    condition: []
+    exclude_keywords: ["14 pro", "14 pro max", "14 plus"]
+
+  - name: "iPhone 14 Plus"
+    query: "iphone 14 plus"
+    price_min: 100
+    price_max: 180
+    condition: []
+    exclude_keywords: ["14 pro", "14 pro max"]
+
+  - name: "iPhone 14 Pro"
+    query: "iphone 14 pro"
+    price_min: 200
+    price_max: 270
+    condition: []
+    exclude_keywords: ["14 pro max"]
+
+  - name: "iPhone 14 Pro Max"
+    query: "iphone 14 pro max"
+    price_min: 200
+    price_max: 320
     condition: []
 
+  - name: "iPhone 15"
+    query: "iphone 15"
+    price_min: 200
+    price_max: 330
+    condition: []
+    exclude_keywords: ["15 pro", "15 pro max", "15 plus"]
+
+  - name: "iPhone 15 Plus"
+    query: "iphone 15 plus"
+    price_min: 200
+    price_max: 340
+    condition: []
+    exclude_keywords: ["15 pro", "15 pro max"]
+
+  - name: "iPhone 15 Pro"
+    query: "iphone 15 pro"
+    price_min: 200
+    price_max: 350
+    condition: []
+    exclude_keywords: ["15 pro max"]
+
+  - name: "iPhone 15 Pro Max"
+    query: "iphone 15 pro max"
+    price_min: 200
+    price_max: 380
+    condition: []
+
+  - name: "iPhone 16"
+    query: "iphone 16"
+    price_min: 200
+    price_max: 400
+    condition: []
+    exclude_keywords: ["16 pro", "16 pro max", "16 plus"]
+
+  - name: "iPhone 16 Plus"
+    query: "iphone 16 plus"
+    price_min: 200
+    price_max: 400
+    condition: []
+    exclude_keywords: ["16 pro", "16 pro max"]
+
+  - name: "iPhone 16 Pro"
+    query: "iphone 16 pro"
+    price_min: 200
+    price_max: 500
+    condition: []
+    exclude_keywords: ["16 pro max"]
+
+  - name: "iPhone 16 Pro Max"
+    query: "iphone 16 pro max"
+    price_min: 200
+    price_max: 620
+    condition: []
+
+  - name: "iPhone 17"
+    query: "iphone 17"
+    price_min: 200
+    price_max: 400
+    condition: []
+    exclude_keywords: ["17 pro", "17 pro max", "17 plus"]
+
+  - name: "iPhone 17 Pro"
+    query: "iphone 17 pro"
+    price_min: 200
+    price_max: 500
+    condition: []
+    exclude_keywords: ["17 pro max"]
+
+  - name: "iPhone 17 Pro Max"
+    query: "iphone 17 pro max"
+    price_min: 300
+    price_max: 680
+    condition: []
+ 
+  # ── Pesquisas customizadas ───────────────── 
   - name: "AirPods Pro 2" 
     query: "airpods pro 2" 
-    price_min: 80 
-    price_max: 200 
+    price_min: 20 
+    price_max: 60 
  
   - name: "PlayStation 5" 
     query: "ps5 playstation 5" 
-    price_min: 200 
-    price_max: 450 
+    price_min: 100 
+    price_max: 250 
     condition: ["new", "like_new", "good"] 
  
-  - name: "MacBook Air M2" 
+  - name: "MacBook Air M2 / M1 / M3 / M4 / PRO" 
     query: "macbook air m2" 
-    price_min: 600 
-    price_max: 1200 
- 
+    price_min: 100 
+    price_max: 300 
+
   # Pesquisa de texto livre — sem limite de preço máximo 
  
  
@@ -197,12 +270,15 @@ scraping:
   delay_between_requests: 2       # segundos entre pedidos (não reduzir abaixo de 1) 
   max_pages_per_search: 5         # páginas máximas por pesquisa (96 itens/página) 
   results_per_page: 96 
+  timeout_seconds: 30             # tempo máximo de espera por pedido
+  reuse_saved_cookies: false      # false = pedir cookies frescos ao arrancar; evita loops 401/redirect
   country: "pt"                   # pt, es, fr, de, it, etc. 
   currency: "EUR" 
   retry_max_attempts: 3
   retry_backoff_seconds: 120
   retry_backoff_multiplier: 2
   retry_max_backoff_seconds: 900
+  retry_after_max_seconds: 300
   retry_jitter_seconds: 10
   retry_status_codes: [403, 429, 500, 502, 503, 504]
   cookie_refresh_status_codes: [401]

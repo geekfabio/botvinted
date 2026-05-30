@@ -1933,3 +1933,477 @@
 2026-05-29 15:59:51,496 - bot - INFO - NEW MATCH: iPhone XR - Item 9000209267
 2026-05-29 15:59:54,265 - notifier - INFO - SENT: Text message sent to 7688548847
 2026-05-29 15:59:54,266 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9000209267
+2026-05-29 15:59:57,452 - bot - INFO - NEW MATCH: iPhone XR - Item 9000143431
+2026-05-29 16:00:00,051 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 16:00:00,052 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9000143431
+2026-05-29 16:00:13,553 - bot - INFO - NEW MATCH: iPhone XR - Item 8999434641
+2026-05-29 16:00:25,793 - notifier - ERROR - Failed to send telegram text to 7688548847: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=10)
+2026-05-29 16:00:27,732 - bot - INFO - NEW MATCH: iPhone XR - Item 8998901253
+2026-05-29 16:00:30,368 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 16:00:30,372 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8998901253
+2026-05-29 16:00:32,801 - bot - INFO - NEW MATCH: iPhone XR - Item 8997382402
+2026-05-29 16:00:35,507 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 16:00:35,512 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8997382402
+2026-05-29 16:00:37,844 - bot - INFO - NEW MATCH: iPhone XR - Item 8996594694
+2026-05-29 16:00:40,821 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 16:00:40,829 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8996594694
+2026-05-29 16:00:43,295 - bot - INFO - NEW MATCH: iPhone XR - Item 8996580423
+2026-05-29 16:00:49,309 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 16:00:49,316 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8996580423
+2026-05-29 16:00:52,039 - bot - INFO - NEW MATCH: iPhone XR - Item 8996278582
+2026-05-29 16:00:54,528 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 16:00:54,533 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8996278582
+2026-05-29 16:00:57,961 - bot - INFO - NEW MATCH: iPhone XR - Item 8995263955
+2026-05-29 16:01:00,684 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 16:01:00,688 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8995263955
+2026-05-29 16:01:05,067 - bot - INFO - NEW MATCH: iPhone XR - Item 8994716608
+2026-05-29 16:01:07,986 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 16:01:07,989 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8994716608
+2026-05-29 16:01:10,237 - bot - INFO - NEW MATCH: iPhone XR - Item 8994391859
+2026-05-29 16:01:12,647 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 16:01:12,649 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8994391859
+2026-05-29 16:01:14,901 - bot - INFO - NEW MATCH: iPhone XR - Item 8994311958
+2026-05-29 16:01:17,251 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 16:01:17,252 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8994311958
+2026-05-29 16:01:19,289 - bot - INFO - NEW MATCH: iPhone XR - Item 8992894361
+2026-05-29 16:01:22,097 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 16:01:22,098 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8992894361
+2026-05-29 16:01:26,868 - bot - INFO - NEW MATCH: iPhone XR - Item 8991474190
+2026-05-29 16:01:28,941 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 16:01:28,942 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8991474190
+2026-05-29 16:01:30,964 - bot - INFO - NEW MATCH: iPhone XR - Item 8990620834
+2026-05-29 16:01:33,041 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 16:01:33,046 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8990620834
+2026-05-29 16:01:40,152 - bot - INFO - NEW MATCH: iPhone XR - Item 8988687961
+2026-05-29 16:01:42,234 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 16:01:42,238 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8988687961
+2026-05-29 16:01:47,032 - bot - INFO - NEW MATCH: iPhone XR - Item 8983402838
+2026-05-29 16:01:49,573 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 16:01:49,575 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8983402838
+2026-05-29 16:02:00,419 - bot - INFO - NEW MATCH: iPhone XR - Item 8979861570
+2026-05-29 16:02:12,364 - notifier - ERROR - Failed to send telegram text to 7688548847: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=10)
+2026-05-29 16:02:16,750 - bot - INFO - NEW MATCH: iPhone XR - Item 8978206585
+2026-05-29 16:02:19,269 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 16:02:19,270 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8978206585
+2026-05-29 16:02:21,107 - bot - INFO - NEW MATCH: iPhone XR - Item 8977658783
+2026-05-29 16:02:23,503 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 16:02:23,503 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8977658783
+2026-05-29 16:02:25,928 - bot - INFO - NEW MATCH: iPhone XR - Item 8977249061
+2026-05-29 16:02:28,323 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 16:02:28,323 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8977249061
+2026-05-29 16:02:30,206 - bot - INFO - NEW MATCH: iPhone XR - Item 8976419137
+2026-05-29 16:02:32,570 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 16:02:32,571 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8976419137
+2026-05-29 16:02:39,891 - bot - INFO - NEW MATCH: iPhone XR - Item 8975885605
+2026-05-29 16:02:42,454 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 16:02:42,456 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8975885605
+2026-05-29 16:02:46,843 - bot - INFO - NEW MATCH: iPhone XR - Item 8974457584
+2026-05-29 16:02:49,455 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 16:02:49,458 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8974457584
+2026-05-29 16:02:51,372 - bot - INFO - NEW MATCH: iPhone XR - Item 8974067784
+2026-05-29 16:02:53,702 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 16:02:53,702 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8974067784
+2026-05-29 16:02:55,704 - bot - INFO - NEW MATCH: iPhone XR - Item 8973045144
+2026-05-29 16:02:57,848 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 16:02:57,851 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8973045144
+2026-05-29 16:02:59,847 - bot - INFO - NEW MATCH: iPhone XR - Item 8972312925
+2026-05-29 16:03:02,170 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 16:03:02,171 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8972312925
+2026-05-29 16:03:04,129 - bot - INFO - NEW MATCH: iPhone XR - Item 8970718368
+2026-05-29 16:03:06,650 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 16:03:06,654 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8970718368
+2026-05-29 16:03:08,676 - bot - INFO - NEW MATCH: iPhone XR - Item 8969474898
+2026-05-29 16:03:21,275 - notifier - ERROR - Failed to send telegram text to 7688548847: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=10)
+2026-05-29 17:57:43,919 - root - INFO - Starting Vinted Alert Bot...
+2026-05-29 17:57:43,931 - scraper - INFO - Loaded cookies from file.
+2026-05-29 17:57:47,040 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 17:57:47,040 - root - INFO - Telegram commands enabled: /pause, /resume, /status, /search
+2026-05-29 17:57:47,042 - root - INFO - Running in scheduler mode. Interval: 30 minutes.
+2026-05-29 17:57:47,044 - root - INFO - --- Starting periodic check ---
+2026-05-29 17:57:47,045 - bot - INFO - Running search: iPhone XR
+2026-05-29 17:58:01,700 - bot - INFO - Found 480 items for 'iPhone XR'
+2026-05-29 17:58:03,585 - bot - INFO - NEW MATCH: iPhone XR - Item 9035627244
+2026-05-29 17:58:06,992 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 17:58:06,994 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9035627244
+2026-05-29 17:58:12,687 - bot - INFO - NEW MATCH: iPhone XR - Item 9017638023
+2026-05-29 17:58:15,495 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 17:58:15,497 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9017638023
+2026-05-29 17:58:17,816 - bot - INFO - NEW MATCH: iPhone XR - Item 8999434641
+2026-05-29 17:58:20,575 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 17:58:20,577 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8999434641
+2026-05-29 17:58:22,543 - bot - INFO - NEW MATCH: iPhone XR - Item 8996191093
+2026-05-29 17:58:26,300 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 17:58:26,306 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8996191093
+2026-05-29 17:58:28,264 - bot - INFO - NEW MATCH: iPhone XR - Item 8979861570
+2026-05-29 17:58:31,125 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 17:58:31,126 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8979861570
+2026-05-29 17:58:33,162 - bot - INFO - NEW MATCH: iPhone XR - Item 8969474898
+2026-05-29 17:58:36,071 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 17:58:36,073 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8969474898
+2026-05-29 17:58:38,150 - bot - INFO - NEW MATCH: iPhone XR - Item 8968271987
+2026-05-29 17:58:40,979 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 17:58:40,980 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8968271987
+2026-05-29 17:58:43,240 - bot - INFO - NEW MATCH: iPhone XR - Item 8967864573
+2026-05-29 17:58:46,155 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 17:58:46,158 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8967864573
+2026-05-29 17:58:48,106 - bot - INFO - NEW MATCH: iPhone XR - Item 8967563099
+2026-05-29 17:58:50,895 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 17:58:50,897 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8967563099
+2026-05-29 17:58:53,466 - bot - INFO - NEW MATCH: iPhone XR - Item 8967378279
+2026-05-29 17:58:56,371 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 17:58:56,376 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8967378279
+2026-05-29 17:58:58,449 - bot - INFO - NEW MATCH: iPhone XR - Item 8966814474
+2026-05-29 17:59:01,381 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 17:59:01,383 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8966814474
+2026-05-29 17:59:04,471 - bot - INFO - NEW MATCH: iPhone XR - Item 8966737301
+2026-05-29 17:59:07,331 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 17:59:07,336 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8966737301
+2026-05-29 17:59:09,476 - bot - INFO - NEW MATCH: iPhone XR - Item 8965433093
+2026-05-29 17:59:12,764 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 17:59:12,768 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8965433093
+2026-05-29 17:59:18,100 - bot - INFO - NEW MATCH: iPhone XR - Item 8961628452
+2026-05-29 17:59:21,343 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 17:59:21,345 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8961628452
+2026-05-29 17:59:23,423 - bot - INFO - NEW MATCH: iPhone XR - Item 8961223612
+2026-05-29 17:59:26,793 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 17:59:26,797 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8961223612
+2026-05-29 17:59:29,821 - bot - INFO - NEW MATCH: iPhone XR - Item 8961180037
+2026-05-29 17:59:33,375 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 17:59:33,378 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8961180037
+2026-05-29 17:59:36,101 - bot - INFO - NEW MATCH: iPhone XR - Item 8960012598
+2026-05-29 17:59:39,322 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 17:59:39,326 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8960012598
+2026-05-29 17:59:41,331 - bot - INFO - NEW MATCH: iPhone XR - Item 8957383758
+2026-05-29 17:59:44,508 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 17:59:44,509 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8957383758
+2026-05-29 17:59:46,562 - bot - INFO - NEW MATCH: iPhone XR - Item 8954975494
+2026-05-29 17:59:49,460 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 17:59:49,462 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8954975494
+2026-05-29 17:59:53,946 - bot - INFO - NEW MATCH: iPhone XR - Item 8952702874
+2026-05-29 17:59:57,254 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 17:59:57,255 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8952702874
+2026-05-29 17:59:59,862 - bot - INFO - NEW MATCH: iPhone XR - Item 8953466392
+2026-05-29 18:00:02,667 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:00:02,667 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8953466392
+2026-05-29 18:00:04,795 - bot - INFO - NEW MATCH: iPhone XR - Item 8953004823
+2026-05-29 18:00:08,061 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:00:08,063 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8953004823
+2026-05-29 18:00:10,316 - bot - INFO - NEW MATCH: iPhone XR - Item 8952754589
+2026-05-29 18:00:13,938 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:00:13,940 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8952754589
+2026-05-29 18:00:16,806 - bot - INFO - NEW MATCH: iPhone XR - Item 8951678865
+2026-05-29 18:00:19,924 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:00:19,925 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8951678865
+2026-05-29 18:00:26,754 - bot - INFO - NEW MATCH: iPhone XR - Item 8947733458
+2026-05-29 18:00:30,544 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:00:30,545 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8947733458
+2026-05-29 18:00:38,730 - bot - INFO - NEW MATCH: iPhone XR - Item 8946903854
+2026-05-29 18:00:41,908 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:00:41,908 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8946903854
+2026-05-29 18:00:43,883 - bot - INFO - NEW MATCH: iPhone XR - Item 8944474626
+2026-05-29 18:00:46,991 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:00:46,997 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8944474626
+2026-05-29 18:00:49,094 - bot - INFO - NEW MATCH: iPhone XR - Item 8944345761
+2026-05-29 18:00:52,141 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:00:52,144 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8944345761
+2026-05-29 18:00:54,321 - bot - INFO - NEW MATCH: iPhone XR - Item 8942287753
+2026-05-29 18:00:57,109 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:00:57,109 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8942287753
+2026-05-29 18:01:05,198 - bot - INFO - NEW MATCH: iPhone XR - Item 8937517877
+2026-05-29 18:01:07,953 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:01:07,956 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8937517877
+2026-05-29 18:01:11,986 - bot - INFO - NEW MATCH: iPhone XR - Item 8933781889
+2026-05-29 18:01:15,288 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:01:15,293 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8933781889
+2026-05-29 18:01:20,289 - bot - INFO - NEW MATCH: iPhone XR - Item 8932831526
+2026-05-29 18:01:24,427 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:01:24,433 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8932831526
+2026-05-29 18:01:26,399 - bot - INFO - NEW MATCH: iPhone XR - Item 8932254791
+2026-05-29 18:01:29,578 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:01:29,579 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8932254791
+2026-05-29 18:01:31,760 - bot - INFO - NEW MATCH: iPhone XR - Item 8930317409
+2026-05-29 18:01:35,025 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:01:35,027 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8930317409
+2026-05-29 18:01:37,085 - bot - INFO - NEW MATCH: iPhone XR - Item 8929787781
+2026-05-29 18:01:40,202 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:01:40,203 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8929787781
+2026-05-29 18:01:47,046 - bot - INFO - NEW MATCH: iPhone XR - Item 8929531627
+2026-05-29 18:01:50,281 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:01:50,285 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8929531627
+2026-05-29 18:01:53,066 - bot - INFO - NEW MATCH: iPhone XR - Item 8929526486
+2026-05-29 18:01:56,198 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:01:56,203 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8929526486
+2026-05-29 18:02:06,178 - bot - INFO - NEW MATCH: iPhone XR - Item 8928090198
+2026-05-29 18:02:09,670 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:02:09,672 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8928090198
+2026-05-29 18:02:14,784 - bot - INFO - NEW MATCH: iPhone XR - Item 8926431201
+2026-05-29 18:02:17,980 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:02:17,985 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8926431201
+2026-05-29 18:02:20,929 - bot - INFO - NEW MATCH: iPhone XR - Item 8925022566
+2026-05-29 18:02:24,042 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:02:24,045 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8925022566
+2026-05-29 18:02:26,786 - bot - INFO - NEW MATCH: iPhone XR - Item 8921661463
+2026-05-29 18:02:29,984 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:02:29,988 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8921661463
+2026-05-29 18:10:00,920 - scraper - WARNING - Retrying after 128.1s due to HTTPSConnectionPool(host='www.vinted.pt', port=443): Read timed out.
+2026-05-29 18:18:29,994 - bot - INFO - Search summary 'iPhone XR': matched=41, already_seen=82, filtered_out=357, dry_run=False
+2026-05-29 18:18:29,999 - bot - INFO - Running search: iPhone 11
+2026-05-29 18:18:43,603 - bot - INFO - Found 480 items for 'iPhone 11'
+2026-05-29 18:18:45,724 - bot - INFO - NEW MATCH: iPhone 11 - Item 9035659162
+2026-05-29 18:18:53,856 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:18:53,859 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9035659162
+2026-05-29 18:19:04,993 - bot - INFO - NEW MATCH: iPhone 11 - Item 9035462421
+2026-05-29 18:19:12,970 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:19:12,972 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9035462421
+2026-05-29 18:19:16,721 - bot - INFO - NEW MATCH: iPhone 11 - Item 9035296167
+2026-05-29 18:19:20,826 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:19:20,828 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9035296167
+2026-05-29 18:19:25,734 - bot - INFO - NEW MATCH: iPhone 11 - Item 9034951447
+2026-05-29 18:19:28,655 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:19:28,656 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9034951447
+2026-05-29 18:19:30,810 - bot - INFO - NEW MATCH: iPhone 11 - Item 9034916802
+2026-05-29 18:19:34,441 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:19:34,442 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9034916802
+2026-05-29 18:19:36,682 - bot - INFO - NEW MATCH: iPhone 11 - Item 9034859306
+2026-05-29 18:19:39,437 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:19:39,441 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9034859306
+2026-05-29 18:19:44,251 - bot - INFO - NEW MATCH: iPhone 11 - Item 9034640939
+2026-05-29 18:19:47,876 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:19:47,879 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9034640939
+2026-05-29 18:19:50,887 - bot - INFO - NEW MATCH: iPhone 11 - Item 9034537885
+2026-05-29 18:19:53,844 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:19:53,846 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9034537885
+2026-05-29 18:19:57,920 - bot - INFO - Search summary 'iPhone 11': matched=8, already_seen=467, filtered_out=5, dry_run=False
+2026-05-29 18:19:57,922 - bot - INFO - Running search: iPhone 11 Pro
+2026-05-29 18:20:13,165 - bot - INFO - Found 480 items for 'iPhone 11 Pro'
+2026-05-29 18:26:08,140 - bot - INFO - Search summary 'iPhone 11 Pro': matched=0, already_seen=331, filtered_out=149, dry_run=False
+2026-05-29 18:26:08,143 - bot - INFO - Running search: iPhone 11 Pro Max
+2026-05-29 18:26:26,574 - bot - INFO - Found 391 items for 'iPhone 11 Pro Max'
+2026-05-29 18:26:28,630 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 9030230554
+2026-05-29 18:26:31,745 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:26:31,747 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9030230554
+2026-05-29 18:26:33,761 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 9025660439
+2026-05-29 18:26:36,709 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:26:36,710 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9025660439
+2026-05-29 18:26:38,943 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 9022765387
+2026-05-29 18:26:41,983 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:26:41,985 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9022765387
+2026-05-29 18:26:44,136 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 9021512160
+2026-05-29 18:26:47,194 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:26:47,200 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9021512160
+2026-05-29 18:26:49,520 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 9021437344
+2026-05-29 18:26:52,753 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:26:52,754 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9021437344
+2026-05-29 18:26:54,671 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 9019585493
+2026-05-29 18:26:57,832 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:26:57,836 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9019585493
+2026-05-29 18:27:00,025 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 9015166029
+2026-05-29 18:27:03,110 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:27:03,110 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9015166029
+2026-05-29 18:27:06,014 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 9015014536
+2026-05-29 18:27:09,150 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:27:09,151 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9015014536
+2026-05-29 18:27:11,053 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 9014778172
+2026-05-29 18:27:14,295 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:27:14,296 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9014778172
+2026-05-29 18:27:17,655 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 9012447525
+2026-05-29 18:27:21,514 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:27:21,521 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9012447525
+2026-05-29 18:27:42,993 - scraper - WARNING - Retrying after 127.7s due to ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-05-29 18:29:54,973 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 9010837313
+2026-05-29 18:29:59,996 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:30:00,001 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9010837313
+2026-05-29 18:30:07,217 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 9004947684
+2026-05-29 18:30:10,381 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:30:10,381 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9004947684
+2026-05-29 18:30:12,613 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 9004094403
+2026-05-29 18:30:15,956 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:30:15,959 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9004094403
+2026-05-29 18:30:18,070 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 9002568862
+2026-05-29 18:30:21,285 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:30:21,287 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9002568862
+2026-05-29 18:30:23,438 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 8996479891
+2026-05-29 18:30:26,717 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:30:26,722 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8996479891
+2026-05-29 18:30:28,718 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 8990689357
+2026-05-29 18:30:31,908 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:30:31,911 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8990689357
+2026-05-29 18:30:37,340 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 8989581963
+2026-05-29 18:30:47,077 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:30:47,078 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8989581963
+2026-05-29 18:30:49,287 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 8988777575
+2026-05-29 18:30:52,679 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:30:52,680 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8988777575
+2026-05-29 18:30:54,767 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 8982336637
+2026-05-29 18:30:58,094 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:30:58,096 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8982336637
+2026-05-29 18:31:03,829 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 8981946152
+2026-05-29 18:31:07,582 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:31:07,585 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8981946152
+2026-05-29 18:31:09,826 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 8979974224
+2026-05-29 18:31:13,348 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:31:13,354 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8979974224
+2026-05-29 18:31:17,316 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 8977960385
+2026-05-29 18:31:20,745 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:31:20,746 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8977960385
+2026-05-29 18:31:23,930 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 8977716134
+2026-05-29 18:31:26,825 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:31:26,827 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8977716134
+2026-05-29 18:31:28,823 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 8977561112
+2026-05-29 18:31:31,509 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:31:31,512 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8977561112
+2026-05-29 18:31:38,629 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 8971349978
+2026-05-29 18:31:41,359 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:31:41,361 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8971349978
+2026-05-29 18:31:43,748 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 8970515281
+2026-05-29 18:31:47,814 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:31:47,819 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8970515281
+2026-05-29 18:31:49,846 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 8969275912
+2026-05-29 18:31:52,816 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:31:52,819 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8969275912
+2026-05-29 18:31:54,882 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 8964790567
+2026-05-29 18:31:58,052 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:31:58,059 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8964790567
+2026-05-29 18:32:02,725 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 8962239884
+2026-05-29 18:32:09,304 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:32:09,310 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8962239884
+2026-05-29 18:32:11,280 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 8957920918
+2026-05-29 18:32:14,058 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:32:14,064 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8957920918
+2026-05-29 18:32:17,118 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 8951019147
+2026-05-29 18:32:20,443 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:32:20,449 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8951019147
+2026-05-29 18:32:22,844 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 8944460132
+2026-05-29 18:32:25,937 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:32:25,940 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8944460132
+2026-05-29 18:32:28,127 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 8941003482
+2026-05-29 18:32:31,138 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:32:31,140 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8941003482
+2026-05-29 18:32:33,896 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 8937429426
+2026-05-29 18:32:37,375 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:32:37,379 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8937429426
+2026-05-29 18:32:39,605 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 8932997776
+2026-05-29 18:32:45,797 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:32:45,800 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8932997776
+2026-05-29 18:32:47,977 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 8925188934
+2026-05-29 18:32:51,275 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:32:51,278 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8925188934
+2026-05-29 18:32:53,425 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 8922407196
+2026-05-29 18:32:56,689 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:32:56,690 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8922407196
+2026-05-29 18:32:58,864 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 8922207925
+2026-05-29 18:33:01,729 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-29 18:33:01,738 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8922207925
+2026-05-29 18:39:29,697 - scraper - WARNING - Timeout detected. Refreshing cookies and retrying...
+2026-05-29 18:39:29,698 - scraper - INFO - Fetching new cookies from https://www.vinted.pt...
+2026-05-29 18:39:30,651 - scraper - INFO - Successfully fetched and saved new cookies.
+2026-05-29 18:39:30,654 - scraper - WARNING - Retrying after 128.8s due to HTTPSConnectionPool(host='www.vinted.pt', port=443): Read timed out. (read timeout=30)
+2026-05-30 10:55:35,262 - scraper - WARNING - Retrying after 243.5s due to Exceeded 30 redirects.
+2026-05-30 11:02:51,512 - scraper - ERROR - Error loading item detail https://www.vinted.pt/items/7997905025-iphone-xs-max: Exceeded 30 redirects.
+2026-05-30 11:03:00,724 - scraper - WARNING - Retrying after 127.8s due to Exceeded 30 redirects.
+2026-05-30 11:05:18,120 - scraper - WARNING - Retrying after 240.3s due to Exceeded 30 redirects.
+2026-05-30 11:09:28,082 - scraper - ERROR - Error loading item detail https://www.vinted.pt/items/7997839018-iphone-11-pro-max: Exceeded 30 redirects.
+2026-05-30 11:09:39,639 - scraper - WARNING - Retrying after 124.4s due to Exceeded 30 redirects.
+2026-05-30 11:11:54,270 - scraper - WARNING - Retrying after 242.0s due to Exceeded 30 redirects.
+2026-05-30 11:16:05,634 - scraper - ERROR - Error loading item detail https://www.vinted.pt/items/7994092419-iphone-11-pro-max-256-gb-creme-champagnekleur: Exceeded 30 redirects.
+2026-05-30 11:16:17,238 - scraper - WARNING - Retrying after 121.0s due to Exceeded 30 redirects.
+2026-05-30 11:18:48,424 - root - INFO - Starting Vinted Alert Bot...
+2026-05-30 11:18:48,427 - scraper - INFO - Loaded cookies from file.
+2026-05-30 11:18:51,157 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 11:18:53,114 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 11:18:55,227 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 11:18:55,229 - root - INFO - Telegram commands enabled: /pause, /resume, /status, /search
+2026-05-30 11:18:55,232 - root - INFO - Running in scheduler mode. Interval: 30 minutes.
+2026-05-30 11:18:55,235 - root - INFO - --- Periodic check skipped: bot is paused ---
+2026-05-30 11:22:55,459 - telegram_commands - ERROR - Failed to fetch Telegram updates: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8977836544:AAG0pjS2JjX2I9O7SGojEsfoHx960LND3LA/getUpdates?timeout=0&allowed_updates=%5B%22message%22%2C%22edited_message%22%5D&offset=14374394 (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-05-30 11:22:56,464 - telegram_commands - ERROR - Failed to fetch Telegram updates: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8977836544:AAG0pjS2JjX2I9O7SGojEsfoHx960LND3LA/getUpdates?timeout=0&allowed_updates=%5B%22message%22%2C%22edited_message%22%5D&offset=14374394 (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-05-30 11:22:57,476 - telegram_commands - ERROR - Failed to fetch Telegram updates: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8977836544:AAG0pjS2JjX2I9O7SGojEsfoHx960LND3LA/getUpdates?timeout=0&allowed_updates=%5B%22message%22%2C%22edited_message%22%5D&offset=14374394 (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-05-30 11:22:58,490 - telegram_commands - ERROR - Failed to fetch Telegram updates: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8977836544:AAG0pjS2JjX2I9O7SGojEsfoHx960LND3LA/getUpdates?timeout=0&allowed_updates=%5B%22message%22%2C%22edited_message%22%5D&offset=14374394 (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-05-30 11:22:59,513 - telegram_commands - ERROR - Failed to fetch Telegram updates: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8977836544:AAG0pjS2JjX2I9O7SGojEsfoHx960LND3LA/getUpdates?timeout=0&allowed_updates=%5B%22message%22%2C%22edited_message%22%5D&offset=14374394 (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-05-30 11:57:16,998 - root - INFO - --- Periodic check skipped: bot is paused ---
+2026-05-30 11:57:17,134 - telegram_commands - ERROR - Failed to fetch Telegram updates: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8977836544:AAG0pjS2JjX2I9O7SGojEsfoHx960LND3LA/getUpdates?timeout=0&allowed_updates=%5B%22message%22%2C%22edited_message%22%5D&offset=14374394 (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-05-30 14:15:11,507 - root - INFO - --- Periodic check skipped: bot is paused ---
+2026-05-30 14:15:24,905 - telegram_commands - ERROR - Failed to fetch Telegram updates: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+2026-05-30 14:15:55,628 - root - INFO - Starting Vinted Alert Bot...
+2026-05-30 14:15:55,632 - scraper - INFO - Loaded cookies from file.
+2026-05-30 14:15:57,371 - root - INFO - Telegram commands enabled: /pause, /resume, /status, /search
+2026-05-30 14:15:57,372 - root - INFO - Running in scheduler mode. Interval: 30 minutes.
+2026-05-30 14:15:57,373 - root - INFO - --- Periodic check skipped: bot is paused ---
+2026-05-30 14:19:55,618 - telegram_commands - ERROR - Failed to fetch Telegram updates: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-05-30 14:19:56,635 - telegram_commands - ERROR - Failed to fetch Telegram updates: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8977836544:AAG0pjS2JjX2I9O7SGojEsfoHx960LND3LA/getUpdates?timeout=0&allowed_updates=%5B%22message%22%2C%22edited_message%22%5D (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-05-30 14:19:57,644 - telegram_commands - ERROR - Failed to fetch Telegram updates: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8977836544:AAG0pjS2JjX2I9O7SGojEsfoHx960LND3LA/getUpdates?timeout=0&allowed_updates=%5B%22message%22%2C%22edited_message%22%5D (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-05-30 14:19:58,655 - telegram_commands - ERROR - Failed to fetch Telegram updates: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8977836544:AAG0pjS2JjX2I9O7SGojEsfoHx960LND3LA/getUpdates?timeout=0&allowed_updates=%5B%22message%22%2C%22edited_message%22%5D (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-05-30 14:19:59,679 - telegram_commands - ERROR - Failed to fetch Telegram updates: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8977836544:AAG0pjS2JjX2I9O7SGojEsfoHx960LND3LA/getUpdates?timeout=0&allowed_updates=%5B%22message%22%2C%22edited_message%22%5D (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-05-30 14:57:21,088 - telegram_commands - ERROR - Failed to fetch Telegram updates: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8977836544:AAG0pjS2JjX2I9O7SGojEsfoHx960LND3LA/getUpdates?timeout=0&allowed_updates=%5B%22message%22%2C%22edited_message%22%5D (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-05-30 14:57:21,671 - root - INFO - --- Periodic check skipped: bot is paused ---
+2026-05-30 14:57:22,120 - telegram_commands - ERROR - Failed to fetch Telegram updates: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot8977836544:AAG0pjS2JjX2I9O7SGojEsfoHx960LND3LA/getUpdates?timeout=0&allowed_updates=%5B%22message%22%2C%22edited_message%22%5D (Caused by NameResolutionError("HTTPSConnection(host='api.telegram.org', port=443): Failed to resolve 'api.telegram.org' ([Errno 11001] getaddrinfo failed)"))
+2026-05-30 19:27:19,504 - root - INFO - --- Periodic check skipped: bot is paused ---
+2026-05-30 19:27:31,959 - telegram_commands - ERROR - Failed to fetch Telegram updates: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+2026-05-30 19:27:36,445 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 19:28:29,155 - root - INFO - Starting Vinted Alert Bot...
+2026-05-30 19:28:29,159 - scraper - INFO - Loaded cookies from file.
+2026-05-30 19:28:29,986 - root - INFO - Telegram commands enabled: /pause, /resume, /status, /search
+2026-05-30 19:28:29,987 - root - INFO - Running in scheduler mode. Interval: 30 minutes.
+2026-05-30 19:28:29,987 - root - INFO - --- Starting periodic check ---
+2026-05-30 19:28:29,988 - bot - INFO - Running search: iPhone XR
+2026-05-30 19:28:30,383 - scraper - WARNING - Received 401. Cookies might be expired or blocked. Fetching new cookies...
+2026-05-30 19:28:30,383 - scraper - INFO - Fetching new cookies from https://www.vinted.pt...
+2026-05-30 19:28:39,387 - scraper - ERROR - Failed to fetch initial cookies: Exceeded 30 redirects.
+2026-05-30 19:28:39,645 - scraper - WARNING - Retrying after 123.9s due to HTTP 401
+2026-05-30 19:30:43,530 - scraper - WARNING - Retrying after 244.3s due to ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-05-30 19:31:40,630 - root - INFO - Starting Vinted Alert Bot...
+2026-05-30 19:31:40,632 - scraper - INFO - Loaded cookies from file.
+2026-05-30 19:31:43,109 - root - INFO - Telegram commands enabled: /pause, /resume, /status, /search
+2026-05-30 19:31:43,110 - root - INFO - Running in scheduler mode. Interval: 30 minutes.
+2026-05-30 19:31:43,112 - root - INFO - --- Starting periodic check ---
+2026-05-30 19:31:43,112 - bot - INFO - Running search: iPhone XR
+2026-05-30 19:31:44,516 - scraper - WARNING - Received 401. Cookies might be expired or blocked. Fetching new cookies...
+2026-05-30 19:31:44,518 - scraper - INFO - Fetching new cookies from https://www.vinted.pt...
+2026-05-30 19:32:05,470 - scraper - ERROR - Failed to fetch initial cookies: Exceeded 30 redirects.
+2026-05-30 19:32:05,935 - scraper - WARNING - Retrying after 120.8s due to HTTP 401
+2026-05-30 19:32:35,328 - root - INFO - Starting Vinted Alert Bot...
+2026-05-30 19:32:35,330 - scraper - INFO - Loaded cookies from file.
+2026-05-30 19:32:38,476 - root - INFO - Telegram commands enabled: /pause, /resume, /status, /search
+2026-05-30 19:32:38,477 - root - INFO - Running in scheduler mode. Interval: 30 minutes.
+2026-05-30 19:32:38,478 - root - INFO - --- Starting periodic check ---
+2026-05-30 19:32:38,479 - bot - INFO - Running search: iPhone XR
+2026-05-30 19:32:39,794 - scraper - WARNING - Received 401. Cookies might be expired or blocked. Fetching new cookies...
+2026-05-30 19:32:39,794 - scraper - INFO - Fetching new cookies from https://www.vinted.pt...
+2026-05-30 19:32:59,441 - scraper - ERROR - Failed to fetch initial cookies: Exceeded 30 redirects.
+2026-05-30 19:33:00,034 - scraper - WARNING - Retrying after 128.6s due to HTTP 401
+2026-05-30 19:34:33,151 - root - INFO - Starting Vinted Alert Bot...
+2026-05-30 19:34:33,154 - scraper - INFO - Loaded cookies from file.
+2026-05-30 19:34:35,310 - root - INFO - Telegram commands enabled: /pause, /resume, /status, /search
+2026-05-30 19:34:35,310 - root - INFO - Running in scheduler mode. Interval: 30 minutes.
+2026-05-30 19:34:35,312 - root - INFO - --- Starting periodic check ---
+2026-05-30 19:34:35,312 - bot - INFO - Running search: iPhone XR
+2026-05-30 19:34:38,363 - scraper - WARNING - Received 401. Cookies might be expired or blocked. Fetching new cookies...
+2026-05-30 19:34:38,365 - scraper - INFO - Fetching new cookies from https://www.vinted.pt...
+2026-05-30 19:35:05,300 - scraper - ERROR - Failed to fetch initial cookies: Exceeded 30 redirects.
+2026-05-30 19:35:05,935 - scraper - WARNING - Retrying after 124.4s due to HTTP 401
+2026-05-30 19:37:10,890 - scraper - WARNING - Received 401. Cookies might be expired or blocked. Fetching new cookies...
+2026-05-30 19:37:10,891 - scraper - INFO - Fetching new cookies from https://www.vinted.pt...
+2026-05-30 19:37:33,352 - scraper - ERROR - Failed to fetch initial cookies: Exceeded 30 redirects.
+2026-05-30 19:37:33,799 - scraper - WARNING - Retrying after 245.3s due to HTTP 401
+2026-05-30 19:41:39,573 - scraper - WARNING - Received 401. Cookies might be expired or blocked. Fetching new cookies...
+2026-05-30 19:41:39,575 - scraper - INFO - Fetching new cookies from https://www.vinted.pt...
+2026-05-30 19:42:03,849 - scraper - ERROR - Failed to fetch initial cookies: Exceeded 30 redirects.
+2026-05-30 19:42:04,293 - scraper - ERROR - Error scraping https://www.vinted.pt/api/v2/catalog/items?search_text=iphone xr&currency=EUR&order=newest_first&per_page=96&price_from=40&price_to=90&page=1: 401 Client Error: Unauthorized for url: https://www.vinted.pt/api/v2/catalog/items?search_text=iphone%20xr&currency=EUR&order=newest_first&per_page=96&price_from=40&price_to=90&page=1
+2026-05-30 19:42:04,295 - bot - INFO - Found 0 items for 'iPhone XR'
+2026-05-30 19:42:04,303 - bot - INFO - Search summary 'iPhone XR': matched=0, already_seen=0, filtered_out=0, dry_run=False
+2026-05-30 19:42:04,306 - bot - INFO - Running search: iPhone 11
+2026-05-30 19:42:04,955 - scraper - WARNING - Received 401. Cookies might be expired or blocked. Fetching new cookies...
+2026-05-30 19:42:04,956 - scraper - INFO - Fetching new cookies from https://www.vinted.pt...
+2026-05-30 19:42:35,001 - scraper - ERROR - Failed to fetch initial cookies: Exceeded 30 redirects.
+2026-05-30 19:42:35,441 - scraper - WARNING - Retrying after 128.3s due to HTTP 401
+2026-05-30 19:44:44,294 - scraper - WARNING - Received 401. Cookies might be expired or blocked. Fetching new cookies...
+2026-05-30 19:44:44,297 - scraper - INFO - Fetching new cookies from https://www.vinted.pt...
+2026-05-30 19:45:19,145 - scraper - ERROR - Failed to fetch initial cookies: Exceeded 30 redirects.
+2026-05-30 19:45:19,685 - scraper - WARNING - Retrying after 244.5s due to HTTP 401
+2026-05-30 19:46:10,240 - root - INFO - Starting Vinted Alert Bot...
+2026-05-30 19:46:10,243 - scraper - INFO - Fetching new cookies from https://www.vinted.pt...
+2026-05-30 19:46:13,240 - scraper - INFO - Successfully fetched and saved new cookies.
+2026-05-30 19:46:16,536 - root - INFO - Telegram commands enabled: /pause, /resume, /status, /search
+2026-05-30 19:46:16,538 - root - INFO - Running in scheduler mode. Interval: 30 minutes.
+2026-05-30 19:46:16,544 - root - INFO - --- Starting periodic check ---
+2026-05-30 19:46:16,546 - bot - INFO - Running search: iPhone XR
