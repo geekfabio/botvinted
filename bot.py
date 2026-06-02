@@ -4,6 +4,7 @@ import time
 import schedule
 import sys
 import threading
+from contextlib import nullcontext
 from logging.handlers import RotatingFileHandler
 
 from config_loader import load_config
@@ -44,7 +45,15 @@ def setup_logging(config: dict, debug_mode: bool):
     
     return root_logger
 
-def run_searches(config: dict, db: Database, scraper: VintedScraper, notifier: TelegramNotifier, dry_run: bool, specific_search: str = None):
+def run_searches(
+    config: dict,
+    db: Database,
+    scraper: VintedScraper,
+    notifier: TelegramNotifier,
+    dry_run: bool,
+    specific_search: str = None,
+    operation_lock=None,
+):
     logger = logging.getLogger("bot")
     
     global_filters = config.get("global_filters", {})
@@ -68,51 +77,53 @@ def run_searches(config: dict, db: Database, scraper: VintedScraper, notifier: T
         if specific_search and specific_search.lower() not in name.lower():
             continue
             
-        logger.info(f"Running search: {name}")
-        
-        params = build_search_url_params(search, scraping_config)
-        items = scraper.search(params, max_pages=max_pages)
-        for item in items:
-            if search.get("resale"):
-                item["resale"] = search.get("resale")
-        
-        logger.info(f"Found {len(items)} items for '{name}'")
-        already_seen = 0
-        filtered_out = 0
-        matched = 0
-        
-        for item in items:
-            item_id = str(item.get("id"))
+        operation_context = operation_lock or nullcontext()
+        with operation_context:
+            logger.info(f"Running search: {name}")
             
-            # Se jÃ¡ vimos este item, saltar
-            if db.is_item_seen(item_id):
-                already_seen += 1
-                continue
-
-            if detail_enabled:
-                item = scraper.get_item_details(item)
-                if detail_delay:
-                    time.sleep(detail_delay)
+            params = build_search_url_params(search, scraping_config)
+            items = scraper.search(params, max_pages=max_pages)
+            for item in items:
+                if search.get("resale"):
+                    item["resale"] = search.get("resale")
+            
+            logger.info(f"Found {len(items)} items for '{name}'")
+            already_seen = 0
+            filtered_out = 0
+            matched = 0
+            
+            for item in items:
+                item_id = str(item.get("id"))
                 
-            # Verifica filtros globais
-            if not item_passes_global_filters(item, search_filters):
-                filtered_out += 1
+                # Se jÃ¡ vimos este item, saltar
+                if db.is_item_seen(item_id):
+                    already_seen += 1
+                    continue
+
+                if detail_enabled:
+                    item = scraper.get_item_details(item)
+                    if detail_delay:
+                        time.sleep(detail_delay)
+                    
+                # Verifica filtros globais
+                if not item_passes_global_filters(item, search_filters):
+                    filtered_out += 1
+                    if not dry_run:
+                        db.mark_item_seen(item_id)
+                    continue
+                    
+                # Ã‰ uma listagem nova e vÃ¡lida!
+                logger.info(f"NEW MATCH: {name} - Item {item_id}")
+                matched += 1
+                
                 if not dry_run:
-                    db.mark_item_seen(item_id)
-                continue
-                
-            # Ã‰ uma listagem nova e vÃ¡lida!
-            logger.info(f"NEW MATCH: {name} - Item {item_id}")
-            matched += 1
-            
-            if not dry_run:
-                if notifier.send_alert(item, name):
-                    db.mark_item_seen(item_id)
+                    if notifier.send_alert(item, name):
+                        db.mark_item_seen(item_id)
 
-        logger.info(
-            f"Search summary '{name}': matched={matched}, "
-            f"already_seen={already_seen}, filtered_out={filtered_out}, dry_run={dry_run}"
-        )
+            logger.info(
+                f"Search summary '{name}': matched={matched}, "
+                f"already_seen={already_seen}, filtered_out={filtered_out}, dry_run={dry_run}"
+            )
             
     # Limpeza da base de dados (remoÃ§Ã£o de itens > 90 dias)
     deleted = db.prune_old_items(days_old=90)
@@ -140,6 +151,7 @@ def main():
     db = Database(db_path=db_path)
     state_path = config.get("telegram_commands", {}).get("state_path", "data/bot_state.json")
     bot_state = BotState(path=state_path)
+    operation_lock = threading.Lock()
     
     scraper = VintedScraper(config.get("scraping", {}))
     
@@ -163,7 +175,8 @@ def main():
             config=config,
             scraper=scraper,
             notifier=notifier,
-            bot_state=bot_state
+            bot_state=bot_state,
+            operation_lock=operation_lock
         )
         command_handler.bootstrap()
         logger.info("Telegram commands enabled: /pause, /resume, /status, /search")
@@ -175,7 +188,7 @@ def main():
             return
         logger.info("--- Starting periodic check ---")
         try:
-            run_searches(config, db, scraper, notifier, args.dry_run, args.search)
+            run_searches(config, db, scraper, notifier, args.dry_run, args.search, operation_lock=operation_lock)
         except Exception as e:
             logger.error(f"Periodic check failed: {e}", exc_info=True)
         logger.info("--- Finished periodic check ---")

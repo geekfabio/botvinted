@@ -4176,3 +4176,164 @@
 2026-06-02 16:23:43,459 - root - INFO - Running in scheduler mode. Interval: 30 minutes.
 2026-06-02 16:23:43,465 - root - INFO - --- Starting periodic check ---
 2026-06-02 16:23:43,466 - bot - INFO - Running search: iPhone 11 Pro
+2026-06-02 16:23:57,951 - bot - INFO - Found 480 items for 'iPhone 11 Pro'
+2026-06-02 16:24:04,130 - bot - INFO - Search summary 'iPhone 11 Pro': matched=0, already_seen=477, filtered_out=3, dry_run=False
+2026-06-02 16:24:04,130 - bot - INFO - Running search: PlayStation 5
+2026-06-02 16:24:18,960 - bot - INFO - Found 480 items for 'PlayStation 5'
+2026-06-02 16:24:34,161 - bot - INFO - Search summary 'PlayStation 5': matched=0, already_seen=473, filtered_out=7, dry_run=False
+2026-06-02 16:24:34,161 - bot - INFO - Running search: iPhone 17 Pro Max
+2026-06-02 16:24:35,397 - bot - INFO - Found 95 items for 'iPhone 17 Pro Max'
+2026-06-02 16:24:41,991 - bot - INFO - Search summary 'iPhone 17 Pro Max': matched=0, already_seen=92, filtered_out=3, dry_run=False
+2026-06-02 16:24:41,992 - bot - INFO - Running search: AirPods Pro 2
+2026-06-02 16:24:43,093 - bot - INFO - Found 95 items for 'AirPods Pro 2'
+2026-06-02 16:25:00,965 - bot - INFO - Search summary 'AirPods Pro 2': matched=0, already_seen=87, filtered_out=8, dry_run=False
+2026-06-02 16:25:00,965 - bot - INFO - Running search: MacBook Air M2 / M1 / M3 / M4 / PRO
+2026-06-02 16:25:05,787 - bot - INFO - Found 186 items for 'MacBook Air M2 / M1 / M3 / M4 / PRO'
+2026-06-02 16:25:08,407 - bot - INFO - Search summary 'MacBook Air M2 / M1 / M3 / M4 / PRO': matched=0, already_seen=185, filtered_out=1, dry_run=False
+2026-06-02 16:25:08,408 - bot - INFO - Running search: iPhone XR
+2026-06-02 16:25:22,964 - bot - INFO - Found 480 items for 'iPhone XR'
+2026-06-02 16:25:29,792 - bot - INFO - Search summary 'iPhone XR': matched=0, already_seen=477, filtered_out=3, dry_run=False
+2026-06-02 16:25:29,793 - bot - INFO - Running search: iPhone 11
+2026-06-02 16:25:44,378 - bot - INFO - Found 480 items for 'iPhone 11'
+2026-06-02 16:25:44,579 - bot - INFO - Search summary 'iPhone 11': matched=0, already_seen=480, filtered_out=0, dry_run=False
+2026-06-02 16:25:44,579 - bot - INFO - Running search: iPhone 11 Pro
+2026-06-02 16:25:56,498 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-06-02 16:26:00,446 - bot - INFO - Found 480 items for 'iPhone 11 Pro'
+2026-06-02 16:26:00,647 - bot - INFO - Search summary 'iPhone 11 Pro': matched=0, already_seen=480, filtered_out=0, dry_run=False
+2026-06-02 16:26:00,648 - bot - INFO - Running search: iPhone 11 Pro Max
+2026-06-02 16:26:17,395 - bot - INFO - Found 393 items for 'iPhone 11 Pro Max'
+2026-06-02 16:26:20,579 - bot - INFO - Search summary 'iPhone 11 Pro Max': matched=0, already_seen=392, filtered_out=1, dry_run=False
+2026-06-02 16:26:20,580 - bot - INFO - Running search: iPhone 12
+2026-06-02 16:26:37,858 - bot - INFO - Found 480 items for 'iPhone 12'
+2026-06-02 16:26:46,223 - scraper - WARNING - Retrying after 124.7s due to HTTP 429
+2026-06-02 16:28:58,127 - bot - INFO - Search summary 'iPhone 12': matched=0, already_seen=475, filtered_out=5, dry_run=False
+2026-06-02 16:28:58,128 - bot - INFO - Running search: iPhone 12 Pro
+2026-06-02 16:29:07,648 - bot - INFO - Found 273 items for 'iPhone 12 Pro'
+2026-06-02 16:29:23,601 - bot - INFO - Search summary 'iPhone 12 Pro': matched=0, already_seen=269, filtered_out=4, dry_run=False
+2026-06-02 16:29:23,601 - bot - INFO - Running search: iPhone 12 Pro Max
+2026-06-02 16:29:37,628 - bot - INFO - Found 339 items for 'iPhone 12 Pro Max'
+2026-06-02 16:29:39,993 - scraper - WARNING - Retrying after 121.2s due to HTTP 429
+2026-06-02 16:29:40,599 - bot - INFO - Search summary 'iPhone 12 Pro Max': matched=0, already_seen=338, filtered_out=1, dry_run=False
+2026-06-02 16:29:40,599 - bot - INFO - Running search: iPhone 13
+2026-06-02 16:32:10,499 - root - INFO - Starting Vinted Alert Bot...
+2026-06-02 16:32:10,501 - scraper - INFO - Fetching new cookies from https://www.vinted.pt...
+2026-06-02 16:32:12,598 - scraper - INFO - Successfully fetched and saved new cookies.
+2026-06-02 16:32:13,769 - root - INFO - Telegram commands enabled: /pause, /resume, /status, /search
+2026-06-02 16:32:13,769 - root - INFO - Running in scheduler mode. Interval: 30 minutes.
+2026-06-02 16:32:13,772 - root - INFO - --- Starting periodic check ---
+2026-06-02 16:32:13,772 - bot - INFO - Running search: iPhone 11 Pro
+2026-06-02 16:32:22,210 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-06-02 16:32:27,521 - bot - INFO - Found 480 items for 'iPhone 11 Pro'
+2026-06-02 16:32:29,933 - bot - INFO - Search summary 'iPhone 11 Pro': matched=0, already_seen=479, filtered_out=1, dry_run=False
+2026-06-02 16:32:29,934 - bot - INFO - Running search: PlayStation 5
+2026-06-02 16:32:44,185 - bot - INFO - Found 480 items for 'PlayStation 5'
+2026-06-02 16:32:44,358 - bot - INFO - Search summary 'PlayStation 5': matched=0, already_seen=480, filtered_out=0, dry_run=False
+2026-06-02 16:32:44,359 - bot - INFO - Running search: iPhone 17 Pro Max
+2026-06-02 16:32:45,693 - bot - INFO - Found 95 items for 'iPhone 17 Pro Max'
+2026-06-02 16:32:45,724 - bot - INFO - Search summary 'iPhone 17 Pro Max': matched=0, already_seen=95, filtered_out=0, dry_run=False
+2026-06-02 16:32:45,725 - bot - INFO - Running search: AirPods Pro 2
+2026-06-02 16:32:46,770 - bot - INFO - Found 94 items for 'AirPods Pro 2'
+2026-06-02 16:32:46,811 - bot - INFO - Search summary 'AirPods Pro 2': matched=0, already_seen=94, filtered_out=0, dry_run=False
+2026-06-02 16:32:46,812 - bot - INFO - Running search: MacBook Air M2 / M1 / M3 / M4 / PRO
+2026-06-02 16:32:51,451 - bot - INFO - Found 186 items for 'MacBook Air M2 / M1 / M3 / M4 / PRO'
+2026-06-02 16:32:53,237 - telegram_commands - INFO - Manual search requested from chat 7688548847: query='Boticário', price_min=10, price_max=50.0
+2026-06-02 16:32:54,210 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-06-02 16:32:56,402 - telegram_commands - INFO - Manual search 'Boticário' fetched 96 items
+2026-06-02 16:33:02,122 - bot - INFO - Search summary 'MacBook Air M2 / M1 / M3 / M4 / PRO': matched=0, already_seen=182, filtered_out=4, dry_run=False
+2026-06-02 16:33:02,122 - bot - INFO - Running search: iPhone XR
+2026-06-02 16:33:08,512 - bot - INFO - Found 95 items for 'iPhone XR'
+2026-06-02 16:33:08,547 - bot - INFO - Search summary 'iPhone XR': matched=0, already_seen=95, filtered_out=0, dry_run=False
+2026-06-02 16:33:08,547 - bot - INFO - Running search: iPhone 11
+2026-06-02 16:33:28,652 - bot - INFO - Found 480 items for 'iPhone 11'
+2026-06-02 16:33:38,166 - bot - INFO - Search summary 'iPhone 11': matched=0, already_seen=477, filtered_out=3, dry_run=False
+2026-06-02 16:33:38,169 - bot - INFO - Running search: iPhone 11 Pro
+2026-06-02 16:33:51,598 - scraper - WARNING - Retrying after 127.7s due to HTTP 429
+2026-06-02 16:36:02,036 - bot - INFO - Found 480 items for 'iPhone 11 Pro'
+2026-06-02 16:36:09,790 - bot - INFO - Search summary 'iPhone 11 Pro': matched=0, already_seen=477, filtered_out=3, dry_run=False
+2026-06-02 16:36:09,793 - bot - INFO - Running search: iPhone 11 Pro Max
+2026-06-02 16:36:25,897 - bot - INFO - Found 389 items for 'iPhone 11 Pro Max'
+2026-06-02 16:36:29,196 - bot - INFO - Search summary 'iPhone 11 Pro Max': matched=0, already_seen=388, filtered_out=1, dry_run=False
+2026-06-02 16:36:29,198 - bot - INFO - Running search: iPhone 12
+2026-06-02 16:36:45,518 - scraper - WARNING - Retrying after 125.5s due to HTTP 429
+2026-06-02 16:38:54,719 - root - INFO - Starting Vinted Alert Bot...
+2026-06-02 16:38:54,721 - scraper - INFO - Fetching new cookies from https://www.vinted.pt...
+2026-06-02 16:38:56,878 - scraper - INFO - Successfully fetched and saved new cookies.
+2026-06-02 16:38:58,038 - root - INFO - Telegram commands enabled: /pause, /resume, /status, /search
+2026-06-02 16:38:58,042 - root - INFO - Running in scheduler mode. Interval: 30 minutes.
+2026-06-02 16:38:58,055 - root - INFO - --- Starting periodic check ---
+2026-06-02 16:38:58,058 - bot - INFO - Running search: iPhone 11 Pro
+2026-06-02 16:39:03,061 - telegram_commands - INFO - Manual search requested from chat 7688548847: query='Boticário', price_min=10, price_max=50.0
+2026-06-02 16:39:04,005 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-06-02 16:39:12,490 - bot - INFO - Found 480 items for 'iPhone 11 Pro'
+2026-06-02 16:39:15,528 - bot - INFO - Search summary 'iPhone 11 Pro': matched=0, already_seen=479, filtered_out=1, dry_run=False
+2026-06-02 16:39:15,529 - bot - INFO - Running search: PlayStation 5
+2026-06-02 16:39:29,782 - bot - INFO - Found 480 items for 'PlayStation 5'
+2026-06-02 16:39:34,414 - bot - INFO - Search summary 'PlayStation 5': matched=0, already_seen=478, filtered_out=2, dry_run=False
+2026-06-02 16:39:34,415 - bot - INFO - Running search: iPhone 17 Pro Max
+2026-06-02 16:39:35,590 - bot - INFO - Found 95 items for 'iPhone 17 Pro Max'
+2026-06-02 16:39:38,054 - bot - INFO - Search summary 'iPhone 17 Pro Max': matched=0, already_seen=94, filtered_out=1, dry_run=False
+2026-06-02 16:39:39,058 - telegram_commands - INFO - Manual search 'Boticário' fetched 96 items
+2026-06-02 16:39:45,932 - telegram_commands - INFO - Manual search 'Boticário' sending 5 matches
+2026-06-02 16:39:49,430 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-06-02 16:39:49,434 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9069829485
+2026-06-02 16:39:53,419 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-06-02 16:39:53,420 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9069697865
+2026-06-02 16:39:59,068 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-06-02 16:39:59,068 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9069692490
+2026-06-02 16:40:03,097 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-06-02 16:40:03,097 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9069667063
+2026-06-02 16:40:07,176 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-06-02 16:40:07,176 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9069665231
+2026-06-02 16:40:09,111 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-06-02 16:40:09,112 - bot - INFO - Running search: AirPods Pro 2
+2026-06-02 16:40:10,093 - bot - INFO - Found 95 items for 'AirPods Pro 2'
+2026-06-02 16:40:27,800 - bot - INFO - Search summary 'AirPods Pro 2': matched=0, already_seen=88, filtered_out=7, dry_run=False
+2026-06-02 16:40:27,801 - bot - INFO - Running search: MacBook Air M2 / M1 / M3 / M4 / PRO
+2026-06-02 16:40:32,722 - bot - INFO - Found 186 items for 'MacBook Air M2 / M1 / M3 / M4 / PRO'
+2026-06-02 16:40:35,053 - bot - INFO - Search summary 'MacBook Air M2 / M1 / M3 / M4 / PRO': matched=0, already_seen=185, filtered_out=1, dry_run=False
+2026-06-02 16:40:35,053 - bot - INFO - Running search: iPhone XR
+2026-06-02 16:40:49,074 - bot - INFO - Found 480 items for 'iPhone XR'
+2026-06-02 16:40:51,229 - bot - INFO - Search summary 'iPhone XR': matched=0, already_seen=479, filtered_out=1, dry_run=False
+2026-06-02 16:40:51,229 - bot - INFO - Running search: iPhone 11
+2026-06-02 16:41:05,743 - bot - INFO - Found 480 items for 'iPhone 11'
+2026-06-02 16:41:08,331 - bot - INFO - Search summary 'iPhone 11': matched=0, already_seen=479, filtered_out=1, dry_run=False
+2026-06-02 16:41:08,332 - bot - INFO - Running search: iPhone 11 Pro
+2026-06-02 16:41:23,753 - bot - INFO - Found 480 items for 'iPhone 11 Pro'
+2026-06-02 16:41:24,028 - bot - INFO - Search summary 'iPhone 11 Pro': matched=0, already_seen=480, filtered_out=0, dry_run=False
+2026-06-02 16:41:24,028 - bot - INFO - Running search: iPhone 11 Pro Max
+2026-06-02 16:41:37,141 - bot - INFO - Found 392 items for 'iPhone 11 Pro Max'
+2026-06-02 16:41:37,435 - bot - INFO - Search summary 'iPhone 11 Pro Max': matched=0, already_seen=392, filtered_out=0, dry_run=False
+2026-06-02 16:41:37,435 - bot - INFO - Running search: iPhone 12
+2026-06-02 16:41:52,364 - bot - INFO - Found 480 items for 'iPhone 12'
+2026-06-02 16:41:57,090 - bot - INFO - Search summary 'iPhone 12': matched=0, already_seen=478, filtered_out=2, dry_run=False
+2026-06-02 16:41:57,091 - bot - INFO - Running search: iPhone 12 Pro
+2026-06-02 16:42:05,096 - bot - INFO - Found 273 items for 'iPhone 12 Pro'
+2026-06-02 16:42:10,208 - bot - INFO - Search summary 'iPhone 12 Pro': matched=0, already_seen=271, filtered_out=2, dry_run=False
+2026-06-02 16:42:10,208 - bot - INFO - Running search: iPhone 12 Pro Max
+2026-06-02 16:42:21,016 - bot - INFO - Found 341 items for 'iPhone 12 Pro Max'
+2026-06-02 16:42:21,129 - bot - INFO - Search summary 'iPhone 12 Pro Max': matched=0, already_seen=341, filtered_out=0, dry_run=False
+2026-06-02 16:42:21,130 - bot - INFO - Running search: iPhone 13
+2026-06-02 16:42:22,333 - bot - INFO - Found 95 items for 'iPhone 13'
+2026-06-02 16:42:35,725 - bot - INFO - Search summary 'iPhone 13': matched=0, already_seen=90, filtered_out=5, dry_run=False
+2026-06-02 16:42:35,725 - bot - INFO - Running search: iPhone 13 Pro
+2026-06-02 16:42:50,047 - bot - INFO - Found 384 items for 'iPhone 13 Pro'
+2026-06-02 16:43:33,251 - bot - INFO - Search summary 'iPhone 13 Pro': matched=0, already_seen=367, filtered_out=17, dry_run=False
+2026-06-02 16:43:33,252 - bot - INFO - Running search: iPhone 13 Pro Max
+2026-06-02 16:43:44,393 - bot - INFO - Found 294 items for 'iPhone 13 Pro Max'
+2026-06-02 16:44:07,875 - bot - INFO - Search summary 'iPhone 13 Pro Max': matched=0, already_seen=285, filtered_out=9, dry_run=False
+2026-06-02 16:44:07,877 - bot - INFO - Running search: iPhone 14
+2026-06-02 16:44:22,617 - bot - INFO - Found 480 items for 'iPhone 14'
+2026-06-02 16:44:44,382 - bot - INFO - Search summary 'iPhone 14': matched=0, already_seen=470, filtered_out=10, dry_run=False
+2026-06-02 16:44:44,382 - bot - INFO - Running search: iPhone 14 Plus
+2026-06-02 16:44:52,270 - bot - INFO - Found 239 items for 'iPhone 14 Plus'
+2026-06-02 16:44:57,007 - bot - INFO - Search summary 'iPhone 14 Plus': matched=0, already_seen=237, filtered_out=2, dry_run=False
+2026-06-02 16:44:57,007 - bot - INFO - Running search: iPhone 14 Pro
+2026-06-02 16:45:05,174 - bot - INFO - Found 263 items for 'iPhone 14 Pro'
+2026-06-02 16:45:45,213 - bot - INFO - Search summary 'iPhone 14 Pro': matched=0, already_seen=248, filtered_out=15, dry_run=False
+2026-06-02 16:45:45,216 - bot - INFO - Running search: iPhone 14 Pro Max
+2026-06-02 16:45:53,510 - bot - INFO - Found 273 items for 'iPhone 14 Pro Max'
+2026-06-02 16:52:06,258 - bot - INFO - Search summary 'iPhone 14 Pro Max': matched=0, already_seen=121, filtered_out=152, dry_run=False
+2026-06-02 16:52:06,259 - bot - INFO - Running search: iPhone 15
+2026-06-02 16:52:07,544 - bot - INFO - Found 95 items for 'iPhone 15'
+2026-06-02 16:55:20,392 - bot - INFO - Search summary 'iPhone 15': matched=0, already_seen=13, filtered_out=82, dry_run=False
+2026-06-02 16:55:20,394 - bot - INFO - Running search: iPhone 15 Plus
