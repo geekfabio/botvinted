@@ -13,6 +13,12 @@ def test_item_passes_global_filters_empty_filters():
     item = {"title": "iPhone", "user": {"feedback_reputation": 1.0}}
     assert item_passes_global_filters(item, {}) is True
 
+
+def test_item_passes_global_filters_rejects_unavailable_item():
+    item = {"title": "iPhone", "unavailable": True}
+    assert item_passes_global_filters(item, {}) is False
+    assert item_passes_global_filters(item, {"seller_min_reviews": 1}) is False
+
 def test_item_passes_global_filters_reputation():
     global_filters = {"seller_min_stars": 4} # Requires 4/5 = 0.8 reputation
     

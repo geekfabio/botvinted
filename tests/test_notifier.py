@@ -57,9 +57,9 @@ def test_format_message_includes_resale_costs():
         "Pesquisa",
     )
 
-    assert "<b>Custo revenda</b>" in message
-    assert "Total: 118.70 EUR" in message
-    assert "Total Kz: 148,375 Kz" in message
+    assert "<b>📊 Custo revenda</b>" in message
+    assert "💳 <b>Total:</b> 118.70 EUR" in message
+    assert "🇦🇴 <b>Total Kz:</b> 148,375 Kz" in message
 
 
 def test_format_message_highlights_profit_range():
@@ -90,9 +90,10 @@ def test_format_message_highlights_profit_range():
         "iPhone 11",
     )
 
-    assert "<b>BOM LUCRO - Custo revenda</b>" in message
-    assert "Venda estimada: 190,000-200,000 Kz" in message
-    assert "Lucro estimado: 46,000-56,000 Kz" in message
+    assert "🚀 <b>BOM LUCRO DETECTADO</b>" in message
+    assert "<b>🚀 BOM LUCRO - Revenda</b>" in message
+    assert "📈 <b>Venda estimada:</b> 190,000-200,000 Kz" in message
+    assert "🔥 <b>Lucro estimado:</b> 46,000-56,000 Kz" in message
 
 
 @patch("notifier.time.sleep")

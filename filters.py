@@ -26,7 +26,10 @@ def item_passes_global_filters(item: dict, global_filters: dict) -> bool:
     Verifica se a listagem passa os filtros globais definidos no config.yaml.
     """
     if not global_filters:
-        return True
+        return not item.get("unavailable", False)
+
+    if item.get("unavailable"):
+        return False
         
     user = item.get("user", {})
     require_seller_feedback = global_filters.get("require_seller_feedback", False)

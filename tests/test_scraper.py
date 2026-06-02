@@ -1,4 +1,5 @@
 import pytest
+import requests
 from unittest.mock import patch, MagicMock
 from scraper import VintedScraper
 
@@ -77,7 +78,7 @@ def test_scraper_retries_after_rate_limit(mock_session, mock_sleep):
 
 @patch("scraper.requests.Session")
 @patch("scraper.time.sleep")
-def test_retry_after_is_capped_by_config(mock_session, mock_sleep):
+def test_retry_after_is_capped_by_config(mock_sleep, mock_session):
     config = {
         "country": "pt",
         "delay_between_requests": 0,
@@ -135,3 +136,43 @@ def test_get_item_details_enriches_description_and_seller_feedback(mock_session)
         assert enriched["user"]["feedback_count"] == 4
         assert enriched["user"]["feedback_reputation"] == 0.8
         assert enriched["detail_loaded"] is True
+
+
+@patch("scraper.requests.Session")
+def test_get_item_details_marks_deleted_items_unavailable(mock_session):
+    with patch.object(VintedScraper, '_load_or_fetch_cookies'):
+        scraper = VintedScraper({"country": "pt"})
+
+        mock_response = MagicMock()
+        mock_response.status_code = 404
+        mock_response.raise_for_status.side_effect = requests.HTTPError(response=mock_response)
+        scraper.session.get.return_value = mock_response
+
+        item = {
+            "id": 1,
+            "url": "https://www.vinted.pt/items/1-deleted",
+        }
+
+        enriched = scraper.get_item_details(item)
+
+        assert enriched["detail_loaded"] is False
+        assert enriched["unavailable"] is True
+        assert enriched["detail_error_status"] == 404
+
+
+@patch("scraper.os.remove")
+@patch("scraper.os.path.exists")
+@patch("scraper.requests.Session")
+def test_fetch_new_cookies_clears_stale_cookie_state(mock_session, mock_exists, mock_remove):
+    with patch.object(VintedScraper, '_load_or_fetch_cookies'):
+        scraper = VintedScraper({"country": "pt"})
+
+        mock_response = MagicMock()
+        mock_response.raise_for_status.return_value = None
+        scraper.session.get.return_value = mock_response
+        mock_exists.return_value = True
+
+        assert scraper._fetch_new_cookies() is True
+
+        scraper.session.cookies.clear.assert_called_once()
+        mock_remove.assert_called_once_with(scraper.cookie_file)

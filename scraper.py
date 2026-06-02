@@ -5,6 +5,7 @@ import json
 import logging
 import random
 import re
+import threading
 from html import unescape
 from email.utils import parsedate_to_datetime
 
@@ -20,6 +21,7 @@ class VintedScraper:
         self.api_url = f"{self.base_url}/api/v2/catalog/items"
         
         self.session = requests.Session()
+        self.request_lock = threading.RLock()
         self.session.headers.update({
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "Accept": "application/json, text/plain, */*",
@@ -32,27 +34,28 @@ class VintedScraper:
     def _fetch_new_cookies(self):
         """Faz um GET inicial à página da Vinted para obter os cookies de sessão."""
         logger.info(f"Fetching new cookies from {self.base_url}...")
-        try:
-            self.session.cookies.clear()
-            if os.path.exists(self.cookie_file):
-                os.remove(self.cookie_file)
+        with self.request_lock:
+            try:
+                self.session.cookies.clear()
+                if os.path.exists(self.cookie_file):
+                    os.remove(self.cookie_file)
 
-            # Precisamos apenas bater na homepage para a Vinted atribuir os cookies
-            response = self.session.get(self.base_url, timeout=15)
-            response.raise_for_status()
-            
-            # Guardar os cookies num ficheiro
-            cookies_dict = requests.utils.dict_from_cookiejar(self.session.cookies)
-            
-            os.makedirs(os.path.dirname(self.cookie_file), exist_ok=True)
-            with open(self.cookie_file, "w") as f:
-                json.dump(cookies_dict, f)
+                # Precisamos apenas bater na homepage para a Vinted atribuir os cookies
+                response = self.session.get(self.base_url, timeout=15)
+                response.raise_for_status()
                 
-            logger.info("Successfully fetched and saved new cookies.")
-            return True
-        except Exception as e:
-            logger.error(f"Failed to fetch initial cookies: {e}")
-            return False
+                # Guardar os cookies num ficheiro
+                cookies_dict = requests.utils.dict_from_cookiejar(self.session.cookies)
+                
+                os.makedirs(os.path.dirname(self.cookie_file), exist_ok=True)
+                with open(self.cookie_file, "w") as f:
+                    json.dump(cookies_dict, f)
+                    
+                logger.info("Successfully fetched and saved new cookies.")
+                return True
+            except Exception as e:
+                logger.error(f"Failed to fetch initial cookies: {e}")
+                return False
 
     def _load_or_fetch_cookies(self):
         """Tenta carregar os cookies de ficheiro. Se não existirem, procura novos."""
@@ -115,46 +118,47 @@ class VintedScraper:
         time.sleep(wait_seconds)
 
     def _request_with_retry(self, url: str):
-        max_attempts = max(1, int(self.config.get("retry_max_attempts", 3)))
-        retry_status_codes = set(self.config.get("retry_status_codes", [403, 429, 500, 502, 503, 504]))
-        cookie_refresh_status_codes = set(self.config.get("cookie_refresh_status_codes", [401]))
-        retry_status_codes.update(cookie_refresh_status_codes)
+        with self.request_lock:
+            max_attempts = max(1, int(self.config.get("retry_max_attempts", 3)))
+            retry_status_codes = set(self.config.get("retry_status_codes", [403, 429, 500, 502, 503, 504]))
+            cookie_refresh_status_codes = set(self.config.get("cookie_refresh_status_codes", [401]))
+            retry_status_codes.update(cookie_refresh_status_codes)
 
-        last_error = None
+            last_error = None
 
-        for attempt in range(max_attempts):
-            try:
-                response = self.session.get(url, timeout=self.timeout_seconds)
+            for attempt in range(max_attempts):
+                try:
+                    response = self.session.get(url, timeout=self.timeout_seconds)
 
-                if response.status_code in cookie_refresh_status_codes:
-                    logger.warning(
-                        f"Received {response.status_code}. Cookies might be expired or blocked. Fetching new cookies..."
-                    )
-                    if self._fetch_new_cookies():
-                        response = self.session.get(url, timeout=self.timeout_seconds)
+                    if response.status_code in cookie_refresh_status_codes:
+                        logger.warning(
+                            f"Received {response.status_code}. Cookies might be expired or blocked. Fetching new cookies..."
+                        )
+                        if self._fetch_new_cookies():
+                            response = self.session.get(url, timeout=self.timeout_seconds)
 
-                if response.status_code not in retry_status_codes:
-                    return response
+                    if response.status_code not in retry_status_codes:
+                        return response
 
-                if attempt == max_attempts - 1:
-                    return response
+                    if attempt == max_attempts - 1:
+                        return response
 
-                self._sleep_before_retry(attempt, response=response)
-            except requests.RequestException as e:
-                last_error = e
-                if attempt == max_attempts - 1:
-                    raise
-                if isinstance(e, requests.Timeout):
-                    logger.warning("Timeout detected. Refreshing cookies and retrying...")
-                    self._fetch_new_cookies()
-                elif isinstance(e, requests.TooManyRedirects):
-                    logger.warning("Redirect loop detected. Clearing cookies and retrying with a fresh session...")
-                    self._fetch_new_cookies()
-                self._sleep_before_retry(attempt, error=e)
+                    self._sleep_before_retry(attempt, response=response)
+                except requests.RequestException as e:
+                    last_error = e
+                    if attempt == max_attempts - 1:
+                        raise
+                    if isinstance(e, requests.Timeout):
+                        logger.warning("Timeout detected. Refreshing cookies and retrying...")
+                        self._fetch_new_cookies()
+                    elif isinstance(e, requests.TooManyRedirects):
+                        logger.warning("Redirect loop detected. Clearing cookies and retrying with a fresh session...")
+                        self._fetch_new_cookies()
+                    self._sleep_before_retry(attempt, error=e)
 
-        if last_error:
-            raise last_error
-        return response
+            if last_error:
+                raise last_error
+            return response
 
     def get_item_details(self, item: dict) -> dict:
         """Carrega a pagina do item e junta descricao/rating do vendedor."""
@@ -167,7 +171,13 @@ class VintedScraper:
             response = self._request_with_retry(url)
             response.raise_for_status()
         except Exception as e:
-            logger.error(f"Error loading item detail {url}: {e}")
+            status_code = getattr(getattr(e, "response", None), "status_code", None)
+            if status_code in (404, 410):
+                logger.warning(f"Item detail unavailable {url}: HTTP {status_code}")
+                item["unavailable"] = True
+                item["detail_error_status"] = status_code
+            else:
+                logger.error(f"Error loading item detail {url}: {e}")
             item["detail_loaded"] = False
             return item
 

@@ -8,6 +8,7 @@ Bot de monitorização da Vinted com notificações automáticas via Telegram. S
  
 - [Funcionalidades](#funcionalidades) 
 - [Pré-requisitos](#pré-requisitos) 
+- [Instalação no Windows](#instalação-no-windows) 
 - [Instalação no VPS Linux](#instalação-no-vps-linux) 
 - [Configuração do Bot Telegram](#configuração-do-bot-telegram) 
 - [Ficheiro de Configuração](#ficheiro-de-configuração-configyaml) 
@@ -38,50 +39,121 @@ Bot de monitorização da Vinted com notificações automáticas via Telegram. S
  
 ## Pré-requisitos 
  
-- VPS com Ubuntu 20.04+ (ou Debian 11+) 
 - Python 3.11 ou superior 
-- Acesso root ou utilizador com `sudo` 
+- Windows 10 ou 11 (ou Linux) 
+- Terminal PowerShell ou Cmd 
 - Conta Telegram 
- 
---- 
- 
+- Ambiente virtual Python recomendado 
+
+## Instalação no Windows 
+
+### 1. Abrir o PowerShell no diretório do projeto 
+
+```powershell
+cd C:\Users\Admin\Documents\sources\NextJs\botvinted
+```
+
+### 2. Criar e ativar o ambiente virtual 
+
+```powershell
+python -m venv venv
+.\venv\Scripts\Activate.ps1
+```
+
+Se usar o `cmd.exe`: 
+
+```cmd
+python -m venv venv
+venv\Scripts\activate.bat
+```
+
+### 3. Atualizar o pip e instalar dependências 
+
+```powershell
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+### 4. Copiar e editar os ficheiros de configuração 
+
+```powershell
+copy config.example.yaml config.yaml
+copy .env.example .env
+```
+
+Abra `config.yaml` e `.env` e atualize `TELEGRAM_TOKEN` e `destinations.chat_id`.
+
+### 5. Executar o bot 
+
+Executar uma vez usando o `venv`: 
+
+```powershell
+.\venv\Scripts\python.exe bot.py --once
+```
+
+Executar continuamente:
+
+```powershell
+.\venv\Scripts\python.exe bot.py
+```
+
+### 5.1 Usar um script de arranque rápido 
+
+```powershell
+run.bat --once
+run.bat
+```
+
+ou no PowerShell:
+
+```powershell
+.\run.ps1 --once
+.\run.ps1
+```
+
+### 6. Caso a execução do PowerShell esteja bloqueada 
+
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned -Force
+```
+
+> Se receber `ModuleNotFoundError: No module named 'schedule'`, execute `python -m pip install -r requirements.txt` no ambiente virtual.
+
 ## Instalação no VPS Linux 
- 
-### 1. Ligar ao VPS e actualizar o sistema 
- 
-```bash 
-ssh user@IP_DO_SEU_VPS 
- 
-sudo apt update && sudo apt upgrade -y 
-sudo apt install -y python3.11 python3.11-venv python3-pip git 
-``` 
- 
-### 2. Clonar o projecto 
- 
-```bash 
-cd /opt 
-sudo git clone https://github.com/SEU_UTILIZADOR/vinted-bot.git 
-sudo chown -R $USER:$USER /opt/vinted-bot 
-cd /opt/vinted-bot 
-``` 
- 
+
+### 1. Ligar ao VPS e atualizar o sistema 
+
+```bash
+ssh user@IP_DO_SEU_VPS
+sudo apt update && sudo apt upgrade -y
+sudo apt install -y python3.11 python3.11-venv python3-pip git
+```
+
+### 2. Clonar o projeto 
+
+```bash
+cd /opt
+git clone https://github.com/SEU_UTILIZADOR/vinted-bot.git
+sudo chown -R $USER:$USER /opt/vinted-bot
+cd /opt/vinted-bot
+```
+
 ### 3. Criar ambiente virtual e instalar dependências 
- 
-```bash 
-python3.11 -m venv venv 
-source venv/bin/activate 
- 
-pip install --upgrade pip 
-pip install -r requirements.txt 
-``` 
- 
+
+```bash
+python3.11 -m venv venv
+source venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
 ### 4. Criar o ficheiro de ambiente 
- 
-```bash 
-cp .env.example .env 
-nano .env 
-``` 
- 
+
+```bash
+cp .env.example .env
+nano .env
+```
+
 Preenche com o teu token do Telegram (ver secção seguinte): 
  
 ```env 
@@ -293,23 +365,43 @@ vinted-bot/
  
 ## Como Correr 
  
-### Execução manual (teste) 
- 
-```bash 
-cd /opt/vinted-bot 
-source venv/bin/activate 
- 
-# Correr uma vez (sem agendamento) — útil para testar 
-python bot.py --once 
- 
-# Correr com agendamento 
-python bot.py 
- 
-# Ver logs em tempo real 
-tail -f logs/bot.log 
-``` 
- 
-### Flags disponíveis 
+### Execução manual no Windows 
+
+```powershell
+cd C:\Users\Admin\Documents\sources\NextJs\botvinted
+.\venv\Scripts\Activate.ps1
+python bot.py --once
+```
+
+### Alternativa com script de arranque 
+
+```powershell
+run.bat --once
+run.bat
+```
+
+ou PowerShell:
+
+```powershell
+.\run.ps1 --once
+.\run.ps1
+```
+
+### Execução manual no Linux 
+
+```bash
+cd /opt/vinted-bot
+source venv/bin/activate
+
+# Correr uma vez (sem agendamento) — útil para testar
+python bot.py --once
+
+# Correr com agendamento
+python bot.py
+
+# Ver logs em tempo real
+tail -f logs/bot.log
+```
  
 ```bash 
 python bot.py --once              # executa uma vez e termina 

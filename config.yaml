@@ -30,7 +30,7 @@ scheduler:
 resale:
   enabled: true
   fixed_shipping_eur: 20
-  eur_to_kz: 1250
+  eur_to_kz: 1260
   target_currency: "Kz"
   highlight_profit_min_kz: 50000
   profiles:
@@ -46,6 +46,12 @@ resale:
     iphone 12 pro max:
       sale_min_kz: 370000
       sale_max_kz: 420000
+    iphone 17 pro max:
+      sale_min_kz: 1000000
+      sale_max_kz: 1400000
+    iphone 15 pro max:
+      sale_min_kz: 600000
+      sale_max_kz: 420000    
 
 global_filters: 
   require_seller_feedback: true
@@ -67,7 +73,39 @@ detail_validation:
 
 searches: 
  
+
+  - name: "iPhone 11 Pro"
+    query: "iphone 11 pro"
+    price_min: 50
+    price_max: 200
+    condition: []
+    exclude_keywords: ["11 pro max"]
   # ── iPhones ────────────────────────────── 
+  - name: "PlayStation 5" 
+    query: "ps5 playstation 5" 
+    price_min: 200 
+    price_max: 320 
+    condition: ["new", "like_new", "good"] 
+    exclude_keywords: ["dual sense", "pack", "Casque" ,"console", "Cover", "skin", "case", "bundle", "pack", "edition", "disc", "disk", "game", "games", "vr", "virtual reality", "camera", "headset"]
+
+  - name: "iPhone 17 Pro Max"
+    query: "iphone 17 pro max"
+    price_min: 300
+    price_max: 700
+    condition: []
+    exclude_keywords: ["17 plus"]
+ 
+  # ── Pesquisas customizadas ───────────────── 
+  - name: "AirPods Pro 2" 
+    query: "airpods pro 2" 
+    price_min: 20 
+    price_max: 60 
+ 
+  - name: "MacBook Air M2 / M1 / M3 / M4 / PRO" 
+    query: "macbook air m2" 
+    price_min: 100 
+    price_max: 300 
+
   - name: "iPhone XR"
     query: "iphone xr"
     price_min: 40
@@ -126,8 +164,6 @@ searches:
     price_max: 180
     condition: []
     exclude_keywords: ["13 pro", "13 pro max", "13 mini"]
-
-  
 
   - name: "iPhone 13 Pro"
     query: "iphone 13 pro"

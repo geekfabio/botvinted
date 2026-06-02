@@ -50,9 +50,31 @@ class FakeState:
 class FakeNotifier:
     def __init__(self):
         self.messages = []
+        self.alerts = []
 
     def send_text_to_chat(self, chat_id, text):
         self.messages.append((chat_id, text))
+
+    def send_alert_to_chat(self, item, search_name, chat_id):
+        self.alerts.append((chat_id, search_name, item))
+        return True
+
+
+class FakeScraper:
+    def __init__(self):
+        self.params = None
+
+    def search(self, params, max_pages=1):
+        self.params = params
+        return [
+            {
+                "id": 1,
+                "title": "iPhone 11",
+                "url": "https://example.com/item",
+                "user": {"feedback_count": 3, "feedback_reputation": 1.0},
+                "created_at_ts": 2000000000,
+            }
+        ]
 
 
 def test_control_commands_pause_resume_and_status():
@@ -76,3 +98,35 @@ def test_control_commands_pause_resume_and_status():
 
     handler._handle_control_message(message, "/resume")
     assert state.is_paused() is False
+
+
+def test_poll_once_processes_control_and_search_commands_without_restart():
+    state = FakeState()
+    notifier = FakeNotifier()
+    scraper = FakeScraper()
+    handler = TelegramCommandHandler(
+        token="token",
+        allowed_chat_ids=["123"],
+        config={
+            "telegram_commands": {"max_results": 1, "max_pages": 1},
+            "scraping": {"currency": "EUR", "results_per_page": 10},
+            "detail_validation": {"enabled": False},
+        },
+        scraper=scraper,
+        notifier=notifier,
+        bot_state=state,
+    )
+    handler._get_updates = lambda timeout: [
+        {"update_id": 10, "message": {"chat": {"id": "123"}, "text": "/pause"}},
+        {"update_id": 11, "message": {"chat": {"id": "123"}, "text": "/resume"}},
+        {"update_id": 12, "message": {"chat": {"id": "123"}, "text": "/search iphone 11, 50, 100"}},
+    ]
+
+    handler.poll_once()
+
+    assert state.is_paused() is False
+    assert handler.offset == 13
+    assert scraper.params["search_text"] == "iphone 11"
+    assert scraper.params["price_from"] == 50
+    assert scraper.params["price_to"] == 100
+    assert notifier.alerts[0][0] == "123"

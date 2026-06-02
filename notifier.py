@@ -51,33 +51,36 @@ class TelegramNotifier:
         description = self._truncate(item.get("description", ""), 500)
         url = item.get("url", "")
 
-        msg = f"<b>{escape(str(search_name))}</b> - {escape(str(price_str))}\n\n"
-        msg += f"<b>{escape(str(title))}</b>\n"
-        msg += f"Estado: {escape(str(condition))}\n"
-        msg += f"Local: {escape(str(city))}\n"
-        msg += f"Idade do anuncio: {escape(str(age_text))}\n"
-        msg += f"Vendedor: {escape(str(stars))} estrelas ({escape(str(reviews_text))} avaliacoes)\n"
-        msg += f"Utilizador: @{escape(str(login))}\n"
-        if description:
-            msg += f"\n<b>Descricao</b>\n{escape(description)}\n"
         resale = calculate_resale_costs(item, self.config)
+        is_high_profit = resale.get("enabled") and resale.get("is_high_profit")
+
+        msg = "🚀 <b>BOM LUCRO DETECTADO</b>\n" if is_high_profit else "🔔 <b>NOVA OPORTUNIDADE</b>\n"
+        msg += f"🏷️ <b>{escape(str(search_name))}</b>\n\n"
+        msg += f"📱 <b>{escape(str(title))}</b>\n"
+        msg += f"💶 <b>Preco:</b> {escape(str(price_str))}\n"
+        msg += f"✨ <b>Estado:</b> {escape(str(condition))}\n"
+        msg += f"📍 <b>Local:</b> {escape(str(city))}\n"
+        msg += f"🕒 <b>Idade:</b> {escape(str(age_text))}\n"
+        msg += f"⭐ <b>Vendedor:</b> {escape(str(stars))} estrelas ({escape(str(reviews_text))} avaliacoes)\n"
+        msg += f"👤 <b>Utilizador:</b> @{escape(str(login))}\n"
+        if description:
+            msg += f"\n📝 <b>Descricao</b>\n{escape(description)}\n"
         if resale.get("enabled"):
-            heading = "Custo revenda"
-            if resale.get("is_high_profit"):
-                heading = "BOM LUCRO - Custo revenda"
+            heading = "🚀 BOM LUCRO - Revenda" if is_high_profit else "📊 Custo revenda"
             msg += f"\n<b>{heading}</b>\n"
-            msg += f"Item: {resale['item_price_eur']:.2f} EUR\n"
-            msg += f"Taxa Vinted: {resale['vinted_fee_eur']:.2f} EUR\n"
-            msg += f"Frete Vinted: {resale['vinted_shipping_eur']:.2f} EUR\n"
-            msg += f"Envio/importacao: {resale['fixed_shipping_eur']:.2f} EUR\n"
-            msg += f"Total: {resale['total_eur']:.2f} EUR\n"
-            msg += f"Total Kz: {resale['total_kz']:,.0f} {escape(str(resale['currency']))}\n"
+            msg += f"• Item: {resale['item_price_eur']:.2f} EUR\n"
+            msg += f"• Taxa Vinted: {resale['vinted_fee_eur']:.2f} EUR\n"
+            msg += f"• Frete Vinted: {resale['vinted_shipping_eur']:.2f} EUR\n"
+            msg += f"• Envio/importacao: {resale['fixed_shipping_eur']:.2f} EUR\n"
+            msg += f"💳 <b>Total:</b> {resale['total_eur']:.2f} EUR\n"
+            msg += f"🇦🇴 <b>Total Kz:</b> {resale['total_kz']:,.0f} {escape(str(resale['currency']))}\n"
             if resale["sale_min_kz"] is not None and resale["sale_max_kz"] is not None:
-                msg += f"Venda estimada: {resale['sale_min_kz']:,.0f}-{resale['sale_max_kz']:,.0f} {escape(str(resale['currency']))}\n"
-                msg += f"Lucro estimado: {resale['profit_min_kz']:,.0f}-{resale['profit_max_kz']:,.0f} {escape(str(resale['currency']))}\n"
-                msg += f"Margem: {resale['margin_min_percent']:.1f}%-{resale['margin_max_percent']:.1f}%\n"
-            msg += f"Cambio: 1 EUR = {resale['eur_to_kz']:,.0f} {escape(str(resale['currency']))}\n"
-        msg += f"\n<a href=\"{escape(str(url))}\">Ver listagem</a>"
+                profit_icon = "🔥" if is_high_profit else "💰"
+                msg += f"📈 <b>Venda estimada:</b> {resale['sale_min_kz']:,.0f}-{resale['sale_max_kz']:,.0f} {escape(str(resale['currency']))}\n"
+                msg += f"{profit_icon} <b>Lucro estimado:</b> {resale['profit_min_kz']:,.0f}-{resale['profit_max_kz']:,.0f} {escape(str(resale['currency']))}\n"
+                msg += f"📌 <b>Margem:</b> {resale['margin_min_percent']:.1f}%-{resale['margin_max_percent']:.1f}%\n"
+            msg += f"💱 <b>Cambio:</b> 1 EUR = {resale['eur_to_kz']:,.0f} {escape(str(resale['currency']))}\n"
+        msg += f"\n🔗 <a href=\"{escape(str(url))}\">Ver listagem</a>"
 
         return msg
 
@@ -92,10 +95,13 @@ class TelegramNotifier:
             price_str = f"{item.get('price_numeric', price)} {item.get('currency', 'EUR')}"
 
         url = item.get("url", "")
+        resale = calculate_resale_costs(item, self.config)
+        prefix = "🚀 <b>BOM LUCRO</b>\n" if resale.get("enabled") and resale.get("is_high_profit") else "🔔 <b>NOVA OPORTUNIDADE</b>\n"
         return (
-            f"<b>{escape(str(search_name))}</b> - {escape(str(price_str))}\n"
-            f"{escape(str(title))}\n"
-            f"<a href=\"{escape(str(url))}\">Ver listagem</a>"
+            f"{prefix}"
+            f"🏷️ <b>{escape(str(search_name))}</b> - {escape(str(price_str))}\n"
+            f"📱 {escape(str(title))}\n"
+            f"🔗 <a href=\"{escape(str(url))}\">Ver listagem</a>"
         )
 
     def _wait_for_send_slot(self):

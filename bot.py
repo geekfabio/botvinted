@@ -186,13 +186,7 @@ def main():
     else:
         interval_minutes = config.get("scheduler", {}).get("interval_minutes", 30)
         logger.info(f"Running in scheduler mode. Interval: {interval_minutes} minutes.")
-        
-        # Executar imediatamente a primeira vez
-        job()
-        
-        # Agendar prÃ³ximas execuÃ§Ãµes
-        schedule.every(interval_minutes).minutes.do(job)
-        
+
         stop_event = threading.Event()
         command_thread = None
 
@@ -204,6 +198,12 @@ def main():
         if command_handler:
             command_thread = threading.Thread(target=poll_commands, daemon=True)
             command_thread.start()
+        
+        # Executar imediatamente a primeira vez
+        job()
+        
+        # Agendar prÃ³ximas execuÃ§Ãµes
+        schedule.every(interval_minutes).minutes.do(job)
 
         try:
             while True:

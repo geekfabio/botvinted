@@ -2407,3 +2407,1765 @@
 2026-05-30 19:46:16,538 - root - INFO - Running in scheduler mode. Interval: 30 minutes.
 2026-05-30 19:46:16,544 - root - INFO - --- Starting periodic check ---
 2026-05-30 19:46:16,546 - bot - INFO - Running search: iPhone XR
+2026-05-30 19:46:41,355 - bot - INFO - Found 480 items for 'iPhone XR'
+2026-05-30 19:46:49,283 - bot - INFO - NEW MATCH: iPhone XR - Item 9042858414
+2026-05-30 19:46:56,724 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 19:46:56,725 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9042858414
+2026-05-30 19:47:25,772 - bot - INFO - NEW MATCH: iPhone XR - Item 9040573914
+2026-05-30 19:47:30,860 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 19:47:30,861 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9040573914
+2026-05-30 19:47:42,653 - bot - INFO - NEW MATCH: iPhone XR - Item 9040501585
+2026-05-30 19:47:48,541 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 19:47:48,542 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9040501585
+2026-05-30 19:47:59,410 - bot - INFO - NEW MATCH: iPhone XR - Item 9039679563
+2026-05-30 19:48:04,349 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 19:48:04,352 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9039679563
+2026-05-30 19:48:07,969 - bot - INFO - NEW MATCH: iPhone XR - Item 9036706484
+2026-05-30 19:48:15,242 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 19:48:15,244 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9036706484
+2026-05-30 19:48:31,249 - bot - INFO - NEW MATCH: iPhone XR - Item 9036582368
+2026-05-30 19:48:36,538 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 19:48:36,542 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9036582368
+2026-05-30 19:48:40,006 - bot - INFO - NEW MATCH: iPhone XR - Item 9036436387
+2026-05-30 20:05:38,726 - root - INFO - Starting Vinted Alert Bot...
+2026-05-30 20:05:38,729 - scraper - INFO - Fetching new cookies from https://www.vinted.pt...
+2026-05-30 20:06:17,123 - scraper - INFO - Successfully fetched and saved new cookies.
+2026-05-30 20:06:18,598 - root - INFO - Telegram commands enabled: /pause, /resume, /status, /search
+2026-05-30 20:06:18,599 - root - INFO - Running in scheduler mode. Interval: 30 minutes.
+2026-05-30 20:06:18,600 - root - INFO - --- Starting periodic check ---
+2026-05-30 20:06:18,600 - bot - INFO - Running search: iPhone 17 Pro Max
+2026-05-30 20:07:12,394 - bot - INFO - Found 440 items for 'iPhone 17 Pro Max'
+2026-05-30 20:08:04,737 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 9038044668
+2026-05-30 20:08:08,797 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:08:08,798 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9038044668
+2026-05-30 20:08:27,754 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 9036629880
+2026-05-30 20:08:31,933 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:08:31,936 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9036629880
+2026-05-30 20:10:05,885 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 9034800326
+2026-05-30 20:10:09,487 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:10:09,487 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9034800326
+2026-05-30 20:10:16,340 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 9034016214
+2026-05-30 20:10:20,030 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:10:20,032 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9034016214
+2026-05-30 20:10:45,071 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 9029511900
+2026-05-30 20:10:49,062 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:10:49,066 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9029511900
+2026-05-30 20:11:28,817 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 9030371452
+2026-05-30 20:11:33,396 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:11:33,399 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9030371452
+2026-05-30 20:11:54,565 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 9029941067
+2026-05-30 20:11:59,536 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:11:59,539 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9029941067
+2026-05-30 20:12:05,004 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 9029929169
+2026-05-30 20:12:09,009 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:12:09,010 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9029929169
+2026-05-30 20:12:36,103 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 9029845112
+2026-05-30 20:12:39,969 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:12:39,970 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9029845112
+2026-05-30 20:13:38,825 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 9025494720
+2026-05-30 20:13:43,463 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:13:43,465 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9025494720
+2026-05-30 20:14:07,143 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 9022165994
+2026-05-30 20:14:10,799 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:14:10,802 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9022165994
+2026-05-30 20:14:47,862 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 9021881369
+2026-05-30 20:14:55,146 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:14:55,148 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9021881369
+2026-05-30 20:14:59,328 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 9020014467
+2026-05-30 20:15:03,134 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:15:03,135 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9020014467
+2026-05-30 20:15:12,062 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 9019573574
+2026-05-30 20:15:16,068 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:15:16,071 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9019573574
+2026-05-30 20:15:22,374 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 9019430398
+2026-05-30 20:15:26,548 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:15:26,548 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9019430398
+2026-05-30 20:15:32,700 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 9019140625
+2026-05-30 20:15:36,137 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:15:36,140 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9019140625
+2026-05-30 20:15:58,982 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 9019059186
+2026-05-30 20:16:02,484 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:16:02,486 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9019059186
+2026-05-30 20:16:52,889 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 9018960748
+2026-05-30 20:16:56,514 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:16:56,519 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9018960748
+2026-05-30 20:17:02,550 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 9018941248
+2026-05-30 20:17:06,060 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:17:06,065 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9018941248
+2026-05-30 20:17:09,137 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 9016365680
+2026-05-30 20:17:12,698 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:17:12,703 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9016365680
+2026-05-30 20:17:17,141 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 9014486010
+2026-05-30 20:17:20,799 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:17:20,801 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9014486010
+2026-05-30 20:17:23,349 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 9014462395
+2026-05-30 20:17:26,685 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:17:26,688 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9014462395
+2026-05-30 20:17:29,577 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 9014283344
+2026-05-30 20:17:33,169 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:17:33,172 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9014283344
+2026-05-30 20:17:55,154 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 8995085564
+2026-05-30 20:17:58,553 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:17:58,555 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8995085564
+2026-05-30 20:18:01,248 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 8990933720
+2026-05-30 20:18:04,695 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:18:04,695 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8990933720
+2026-05-30 20:18:09,088 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 8986288281
+2026-05-30 20:18:12,847 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:18:12,851 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8986288281
+2026-05-30 20:18:15,148 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 8985630542
+2026-05-30 20:18:18,527 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:18:18,532 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8985630542
+2026-05-30 20:18:20,860 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 8984295486
+2026-05-30 20:18:24,487 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:18:24,493 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8984295486
+2026-05-30 20:18:29,787 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 8983118799
+2026-05-30 20:18:33,537 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:18:33,544 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8983118799
+2026-05-30 20:19:45,005 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 8976273586
+2026-05-30 20:19:49,953 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:19:49,960 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8976273586
+2026-05-30 20:19:53,878 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 8974098467
+2026-05-30 20:19:57,734 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:19:57,741 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8974098467
+2026-05-30 20:20:01,006 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 8971081484
+2026-05-30 20:20:04,399 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:20:04,405 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8971081484
+2026-05-30 20:20:07,354 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 8970960445
+2026-05-30 20:20:10,785 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:20:10,790 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8970960445
+2026-05-30 20:20:17,133 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 8968894596
+2026-05-30 20:20:20,629 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:20:20,629 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8968894596
+2026-05-30 20:20:25,199 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 8966203118
+2026-05-30 20:20:29,079 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:20:29,084 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8966203118
+2026-05-30 20:20:31,753 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 8960752060
+2026-05-30 20:20:35,782 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:20:35,786 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8960752060
+2026-05-30 20:20:40,863 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 8956504026
+2026-05-30 20:20:44,635 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:20:44,645 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8956504026
+2026-05-30 20:20:47,559 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 8955353852
+2026-05-30 20:20:51,107 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:20:51,116 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8955353852
+2026-05-30 20:20:56,559 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 8946808843
+2026-05-30 20:21:00,239 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:21:00,249 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8946808843
+2026-05-30 20:27:36,900 - scraper - ERROR - Error loading item detail https://www.vinted.pt/items/8569645145-iphone-17-pro-max: 404 Client Error: Not Found for url: https://www.vinted.pt/items/8569645145-iphone-17-pro-max
+2026-05-30 20:42:32,053 - scraper - WARNING - Retrying after 125.1s due to ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-05-30 20:45:57,629 - bot - INFO - Search summary 'iPhone 17 Pro Max': matched=39, already_seen=0, filtered_out=401, dry_run=False
+2026-05-30 20:45:57,634 - bot - INFO - Running search: AirPods Pro 2
+2026-05-30 20:45:59,535 - bot - INFO - Found 95 items for 'AirPods Pro 2'
+2026-05-30 20:46:01,945 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9044906094
+2026-05-30 20:46:06,212 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:46:06,212 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9044906094
+2026-05-30 20:46:13,766 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9044561846
+2026-05-30 20:46:17,694 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:46:17,700 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9044561846
+2026-05-30 20:46:19,925 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9044254848
+2026-05-30 20:46:23,505 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:46:23,507 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9044254848
+2026-05-30 20:46:25,799 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9044010033
+2026-05-30 20:46:30,315 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:46:30,320 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9044010033
+2026-05-30 20:46:35,155 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9043933048
+2026-05-30 20:46:39,057 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:46:39,062 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9043933048
+2026-05-30 20:46:41,552 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9043875945
+2026-05-30 20:46:45,108 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:46:45,112 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9043875945
+2026-05-30 20:46:52,541 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9042404675
+2026-05-30 20:46:56,451 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:46:56,456 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9042404675
+2026-05-30 20:46:58,783 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9042266950
+2026-05-30 20:47:03,340 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:47:03,347 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9042266950
+2026-05-30 20:47:06,049 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9041920157
+2026-05-30 20:47:09,906 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:47:09,914 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9041920157
+2026-05-30 20:47:12,245 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9042009549
+2026-05-30 20:47:20,375 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:47:20,380 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9042009549
+2026-05-30 20:47:22,931 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9041077769
+2026-05-30 20:47:27,353 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:47:27,359 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9041077769
+2026-05-30 20:47:29,636 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9039138724
+2026-05-30 20:47:33,313 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:47:33,318 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9039138724
+2026-05-30 20:47:35,508 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9037544183
+2026-05-30 20:47:38,978 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:47:38,984 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9037544183
+2026-05-30 20:47:43,973 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9037932695
+2026-05-30 20:47:47,853 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:47:47,859 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9037932695
+2026-05-30 20:47:56,709 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9035701265
+2026-05-30 20:48:00,759 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:48:00,764 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9035701265
+2026-05-30 20:48:02,963 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9034080402
+2026-05-30 20:48:07,372 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:48:07,379 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9034080402
+2026-05-30 20:48:17,039 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9033737559
+2026-05-30 20:48:21,459 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:48:21,463 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9033737559
+2026-05-30 20:48:26,420 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9031664756
+2026-05-30 20:48:30,578 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:48:30,580 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9031664756
+2026-05-30 20:48:32,905 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9029609924
+2026-05-30 20:48:37,012 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:48:37,017 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9029609924
+2026-05-30 20:48:39,353 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9030414910
+2026-05-30 20:48:43,158 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:48:43,162 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9030414910
+2026-05-30 20:48:49,401 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9030203859
+2026-05-30 20:48:53,577 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:48:53,579 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9030203859
+2026-05-30 20:48:55,750 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9029493232
+2026-05-30 20:49:00,025 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:49:00,028 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9029493232
+2026-05-30 20:49:02,576 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9027351246
+2026-05-30 20:49:06,802 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:49:06,807 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9027351246
+2026-05-30 20:49:09,192 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9025704955
+2026-05-30 20:49:13,095 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:49:13,100 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9025704955
+2026-05-30 20:49:15,429 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9024354272
+2026-05-30 20:49:18,987 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:49:18,991 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9024354272
+2026-05-30 20:49:22,314 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9023702299
+2026-05-30 20:49:26,035 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:49:26,041 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9023702299
+2026-05-30 20:49:28,735 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9020208226
+2026-05-30 20:49:32,753 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:49:32,758 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9020208226
+2026-05-30 20:49:38,348 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9018384267
+2026-05-30 20:49:42,433 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:49:42,435 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9018384267
+2026-05-30 20:49:44,740 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9014842913
+2026-05-30 20:49:48,785 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:49:48,789 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9014842913
+2026-05-30 20:49:50,972 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9022460408
+2026-05-30 20:49:55,657 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:49:55,663 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9022460408
+2026-05-30 20:50:01,955 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9008458067
+2026-05-30 20:50:06,322 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:50:06,326 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9008458067
+2026-05-30 20:50:08,885 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9008049525
+2026-05-30 20:50:13,241 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:50:13,244 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9008049525
+2026-05-30 20:50:16,524 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9004912189
+2026-05-30 20:50:20,842 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:50:20,843 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9004912189
+2026-05-30 20:50:23,119 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9004321760
+2026-05-30 20:50:27,127 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:50:27,131 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9004321760
+2026-05-30 20:50:29,805 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9003561905
+2026-05-30 20:50:33,791 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:50:33,794 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9003561905
+2026-05-30 20:50:36,072 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8998593395
+2026-05-30 20:50:40,060 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:50:40,064 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8998593395
+2026-05-30 20:50:42,297 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8997160140
+2026-05-30 20:50:48,077 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:50:48,082 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8997160140
+2026-05-30 20:50:50,201 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8993682370
+2026-05-30 20:50:53,982 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:50:53,985 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8993682370
+2026-05-30 20:50:56,167 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8991716191
+2026-05-30 20:50:59,895 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:50:59,901 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8991716191
+2026-05-30 20:51:02,627 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8991414057
+2026-05-30 20:51:06,227 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:51:06,230 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8991414057
+2026-05-30 20:51:11,344 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8990608361
+2026-05-30 20:51:16,566 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:51:16,573 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8990608361
+2026-05-30 20:51:18,930 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8990190135
+2026-05-30 20:51:22,862 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:51:22,868 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8990190135
+2026-05-30 20:51:25,645 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8990182805
+2026-05-30 20:51:29,587 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:51:29,592 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8990182805
+2026-05-30 20:51:32,022 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8987932830
+2026-05-30 20:51:36,423 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:51:36,428 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8987932830
+2026-05-30 20:51:38,805 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8987566241
+2026-05-30 20:51:43,085 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:51:43,098 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8987566241
+2026-05-30 20:51:45,236 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8985263736
+2026-05-30 20:51:49,358 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:51:49,364 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8985263736
+2026-05-30 20:51:51,587 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8984665157
+2026-05-30 20:51:55,724 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:51:55,730 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8984665157
+2026-05-30 20:51:58,006 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8984548603
+2026-05-30 20:52:02,276 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:52:02,281 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8984548603
+2026-05-30 20:52:05,385 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8983095893
+2026-05-30 20:52:09,539 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:52:09,546 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8983095893
+2026-05-30 20:52:20,633 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8980952509
+2026-05-30 20:52:24,957 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:52:24,964 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8980952509
+2026-05-30 20:52:28,190 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8979096036
+2026-05-30 20:52:31,672 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:52:31,674 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8979096036
+2026-05-30 20:52:37,671 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8901450625
+2026-05-30 20:52:41,881 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:52:41,886 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8901450625
+2026-05-30 20:52:45,238 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8970023318
+2026-05-30 20:52:49,435 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:52:49,444 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8970023318
+2026-05-30 20:52:52,699 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8969711018
+2026-05-30 20:52:56,040 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:52:56,043 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8969711018
+2026-05-30 20:52:58,820 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8968961473
+2026-05-30 20:53:02,281 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:53:02,287 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8968961473
+2026-05-30 20:53:05,129 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8968748361
+2026-05-30 20:53:08,962 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:53:08,962 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8968748361
+2026-05-30 20:53:11,345 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8967937703
+2026-05-30 20:53:14,867 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:53:14,873 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8967937703
+2026-05-30 20:53:18,417 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8967944199
+2026-05-30 20:53:21,833 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:53:21,835 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8967944199
+2026-05-30 20:53:24,261 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8966654812
+2026-05-30 20:53:27,750 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:53:27,753 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8966654812
+2026-05-30 20:53:30,669 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8965419031
+2026-05-30 20:53:34,428 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:53:34,435 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8965419031
+2026-05-30 20:53:36,786 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8964922634
+2026-05-30 20:53:41,216 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:53:41,222 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8964922634
+2026-05-30 20:53:43,590 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8964451310
+2026-05-30 20:53:47,312 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:53:47,318 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8964451310
+2026-05-30 20:53:49,618 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8963060670
+2026-05-30 20:53:53,362 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:53:53,366 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8963060670
+2026-05-30 20:53:55,771 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8962684984
+2026-05-30 20:53:59,612 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:53:59,613 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8962684984
+2026-05-30 20:54:01,819 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8960862927
+2026-05-30 20:54:05,764 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:54:05,766 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8960862927
+2026-05-30 20:54:10,199 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8960526482
+2026-05-30 20:54:14,449 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:54:14,453 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8960526482
+2026-05-30 20:54:16,759 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8959214723
+2026-05-30 20:54:20,709 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:54:20,713 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8959214723
+2026-05-30 20:54:24,284 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8958001662
+2026-05-30 20:54:28,841 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:54:28,842 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8958001662
+2026-05-30 20:54:32,188 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8957550405
+2026-05-30 20:54:36,636 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:54:36,643 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8957550405
+2026-05-30 20:54:39,818 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8957268797
+2026-05-30 20:54:44,327 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:54:44,333 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8957268797
+2026-05-30 20:54:46,685 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8956922151
+2026-05-30 20:54:51,188 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:54:51,195 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8956922151
+2026-05-30 20:54:53,550 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8956691193
+2026-05-30 20:54:57,692 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:54:57,701 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8956691193
+2026-05-30 20:55:00,110 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8954723280
+2026-05-30 20:55:03,703 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:55:03,710 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8954723280
+2026-05-30 20:55:06,095 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8949536662
+2026-05-30 20:55:10,013 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:55:10,014 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8949536662
+2026-05-30 20:55:12,513 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8948271119
+2026-05-30 20:55:19,578 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:55:19,585 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8948271119
+2026-05-30 20:55:22,105 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8947163181
+2026-05-30 20:55:25,658 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:55:25,663 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8947163181
+2026-05-30 20:55:28,211 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8947114346
+2026-05-30 20:55:31,885 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:55:31,891 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8947114346
+2026-05-30 20:55:31,929 - bot - INFO - Search summary 'AirPods Pro 2': matched=77, already_seen=0, filtered_out=18, dry_run=False
+2026-05-30 20:55:31,944 - bot - INFO - Running search: PlayStation 5
+2026-05-30 20:55:47,788 - bot - INFO - Found 480 items for 'PlayStation 5'
+2026-05-30 20:55:52,030 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9044357251
+2026-05-30 20:55:55,814 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:55:55,818 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9044357251
+2026-05-30 20:56:00,252 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9043408389
+2026-05-30 20:56:04,049 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:56:04,057 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9043408389
+2026-05-30 20:56:06,239 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9042972702
+2026-05-30 20:56:10,210 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:56:10,216 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9042972702
+2026-05-30 20:56:12,464 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9040691273
+2026-05-30 20:56:16,107 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:56:16,114 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9040691273
+2026-05-30 20:56:18,512 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9040049113
+2026-05-30 20:56:22,500 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:56:22,504 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9040049113
+2026-05-30 20:56:24,732 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9038799334
+2026-05-30 20:56:28,275 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:56:28,280 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9038799334
+2026-05-30 20:56:31,291 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9038747562
+2026-05-30 20:56:34,998 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:56:35,004 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9038747562
+2026-05-30 20:56:39,765 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9036110223
+2026-05-30 20:56:43,712 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:56:43,719 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9036110223
+2026-05-30 20:56:46,019 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9036092923
+2026-05-30 20:56:50,448 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:56:50,454 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9036092923
+2026-05-30 20:56:52,664 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9035909482
+2026-05-30 20:56:56,791 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:56:56,793 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9035909482
+2026-05-30 20:57:04,341 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9035792452
+2026-05-30 20:57:08,684 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:57:08,690 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9035792452
+2026-05-30 20:57:22,763 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9035895906
+2026-05-30 20:57:27,007 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:57:27,013 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9035895906
+2026-05-30 20:57:32,158 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9035696158
+2026-05-30 20:57:36,713 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:57:36,714 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9035696158
+2026-05-30 20:57:40,653 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9034598394
+2026-05-30 20:57:45,001 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:57:45,009 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9034598394
+2026-05-30 20:57:49,579 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9033130063
+2026-05-30 20:57:53,719 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 20:57:53,719 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9033130063
+2026-05-30 20:58:04,244 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9030406109
+2026-05-30 22:44:50,665 - root - INFO - Starting Vinted Alert Bot...
+2026-05-30 22:44:50,667 - scraper - INFO - Fetching new cookies from https://www.vinted.pt...
+2026-05-30 22:44:54,216 - scraper - INFO - Successfully fetched and saved new cookies.
+2026-05-30 22:44:55,884 - root - INFO - Telegram commands enabled: /pause, /resume, /status, /search
+2026-05-30 22:44:55,890 - root - INFO - Running in scheduler mode. Interval: 30 minutes.
+2026-05-30 22:44:55,920 - root - INFO - --- Starting periodic check ---
+2026-05-30 22:44:55,927 - bot - INFO - Running search: PlayStation 5
+2026-05-30 22:45:12,185 - bot - INFO - Found 480 items for 'PlayStation 5'
+2026-05-30 22:45:14,532 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9045218559
+2026-05-30 22:45:18,389 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 22:45:18,392 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9045218559
+2026-05-30 22:45:27,951 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9041529053
+2026-05-30 22:45:32,020 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 22:45:32,022 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9041529053
+2026-05-30 22:45:46,723 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9036528984
+2026-05-30 22:45:50,503 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 22:45:50,504 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9036528984
+2026-05-30 22:45:52,910 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9035022320
+2026-05-30 22:45:56,697 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 22:45:56,698 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9035022320
+2026-05-30 22:46:03,386 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9032422615
+2026-05-30 22:46:07,271 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 22:46:07,274 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9032422615
+2026-05-30 22:46:09,455 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9032209770
+2026-05-30 22:46:13,458 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 22:46:13,460 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9032209770
+2026-05-30 22:46:43,362 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9017724968
+2026-05-30 22:46:47,934 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 22:46:47,947 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9017724968
+2026-05-30 22:46:51,545 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9017713743
+2026-05-30 22:46:55,966 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 22:46:55,968 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9017713743
+2026-05-30 22:47:07,402 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9010984582
+2026-05-30 22:47:11,165 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 22:47:11,167 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9010984582
+2026-05-30 22:47:13,962 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9010982502
+2026-05-30 22:47:17,556 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 22:47:17,558 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9010982502
+2026-05-30 22:47:27,605 - bot - INFO - NEW MATCH: PlayStation 5 - Item 9007935387
+2026-05-30 22:47:31,213 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 22:47:31,215 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9007935387
+2026-05-30 22:48:03,526 - bot - INFO - NEW MATCH: PlayStation 5 - Item 8985017362
+2026-05-30 22:48:07,178 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 22:48:07,181 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8985017362
+2026-05-30 22:48:13,965 - bot - INFO - NEW MATCH: PlayStation 5 - Item 8974011489
+2026-05-30 22:48:17,536 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 22:48:17,540 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8974011489
+2026-05-30 22:48:19,901 - bot - INFO - NEW MATCH: PlayStation 5 - Item 8964486694
+2026-05-30 22:48:23,906 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 22:48:23,909 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8964486694
+2026-05-30 22:48:26,139 - bot - INFO - NEW MATCH: PlayStation 5 - Item 8962977318
+2026-05-30 22:48:31,803 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 22:48:31,804 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8962977318
+2026-05-30 22:48:35,442 - bot - INFO - NEW MATCH: PlayStation 5 - Item 8961971925
+2026-05-30 22:48:39,254 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 22:48:39,256 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8961971925
+2026-05-30 22:48:48,794 - bot - INFO - NEW MATCH: PlayStation 5 - Item 8959036753
+2026-05-30 22:48:52,526 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 22:48:52,529 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8959036753
+2026-05-30 22:48:54,548 - bot - INFO - NEW MATCH: PlayStation 5 - Item 8953313044
+2026-05-30 22:48:58,614 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 22:48:58,617 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8953313044
+2026-05-30 22:49:03,805 - bot - INFO - NEW MATCH: PlayStation 5 - Item 8951271956
+2026-05-30 22:49:07,482 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 22:49:07,485 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8951271956
+2026-05-30 22:49:10,188 - bot - INFO - NEW MATCH: PlayStation 5 - Item 8950175818
+2026-05-30 22:49:13,649 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 22:49:13,652 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8950175818
+2026-05-30 22:49:17,906 - bot - INFO - NEW MATCH: PlayStation 5 - Item 8944527880
+2026-05-30 22:49:21,831 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 22:49:21,833 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8944527880
+2026-05-30 22:49:24,030 - bot - INFO - NEW MATCH: PlayStation 5 - Item 8942918182
+2026-05-30 22:49:27,842 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 22:49:27,844 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8942918182
+2026-05-30 23:05:45,723 - bot - INFO - Search summary 'PlayStation 5': matched=22, already_seen=2, filtered_out=456, dry_run=False
+2026-05-30 23:05:45,759 - bot - INFO - Running search: iPhone 17 Pro Max
+2026-05-30 23:06:00,335 - bot - INFO - Found 438 items for 'iPhone 17 Pro Max'
+2026-05-30 23:06:02,438 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 9045462075
+2026-05-30 23:06:05,898 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:06:05,899 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9045462075
+2026-05-30 23:06:08,087 - bot - INFO - NEW MATCH: iPhone 17 Pro Max - Item 9045124271
+2026-05-30 23:06:11,703 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:06:11,705 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9045124271
+2026-05-30 23:06:19,171 - bot - INFO - Search summary 'iPhone 17 Pro Max': matched=2, already_seen=433, filtered_out=3, dry_run=False
+2026-05-30 23:06:19,172 - bot - INFO - Running search: AirPods Pro 2
+2026-05-30 23:06:20,355 - bot - INFO - Found 95 items for 'AirPods Pro 2'
+2026-05-30 23:06:22,395 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 9045276320
+2026-05-30 23:06:25,685 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:06:25,687 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9045276320
+2026-05-30 23:06:30,652 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8944775811
+2026-05-30 23:06:34,466 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:06:34,468 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8944775811
+2026-05-30 23:06:36,775 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8943585187
+2026-05-30 23:06:40,634 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:06:40,635 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8943585187
+2026-05-30 23:06:42,693 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8943406563
+2026-05-30 23:06:46,695 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:06:46,699 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8943406563
+2026-05-30 23:06:48,728 - bot - INFO - NEW MATCH: AirPods Pro 2 - Item 8942815787
+2026-05-30 23:06:52,757 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:06:52,760 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8942815787
+2026-05-30 23:06:52,799 - bot - INFO - Search summary 'AirPods Pro 2': matched=5, already_seen=89, filtered_out=1, dry_run=False
+2026-05-30 23:06:52,802 - bot - INFO - Running search: MacBook Air M2 / M1 / M3 / M4 / PRO
+2026-05-30 23:06:57,432 - bot - INFO - Found 184 items for 'MacBook Air M2 / M1 / M3 / M4 / PRO'
+2026-05-30 23:06:59,580 - bot - INFO - NEW MATCH: MacBook Air M2 / M1 / M3 / M4 / PRO - Item 9039425858
+2026-05-30 23:07:03,290 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:07:03,291 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9039425858
+2026-05-30 23:07:06,048 - bot - INFO - NEW MATCH: MacBook Air M2 / M1 / M3 / M4 / PRO - Item 9032893013
+2026-05-30 23:07:10,665 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:07:10,667 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9032893013
+2026-05-30 23:07:13,038 - bot - INFO - NEW MATCH: MacBook Air M2 / M1 / M3 / M4 / PRO - Item 9026741304
+2026-05-30 23:07:17,039 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:07:17,042 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9026741304
+2026-05-30 23:07:19,556 - bot - INFO - NEW MATCH: MacBook Air M2 / M1 / M3 / M4 / PRO - Item 9019341079
+2026-05-30 23:07:24,034 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:07:24,036 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9019341079
+2026-05-30 23:07:27,584 - bot - INFO - NEW MATCH: MacBook Air M2 / M1 / M3 / M4 / PRO - Item 9019000139
+2026-05-30 23:07:31,369 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:07:31,372 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9019000139
+2026-05-30 23:07:34,375 - bot - INFO - NEW MATCH: MacBook Air M2 / M1 / M3 / M4 / PRO - Item 9018866200
+2026-05-30 23:07:38,130 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:07:38,131 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9018866200
+2026-05-30 23:07:40,689 - bot - INFO - NEW MATCH: MacBook Air M2 / M1 / M3 / M4 / PRO - Item 9018634677
+2026-05-30 23:07:44,351 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:07:44,352 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9018634677
+2026-05-30 23:07:46,843 - bot - INFO - NEW MATCH: MacBook Air M2 / M1 / M3 / M4 / PRO - Item 9012465562
+2026-05-30 23:07:51,121 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:07:51,127 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9012465562
+2026-05-30 23:07:53,751 - bot - INFO - NEW MATCH: MacBook Air M2 / M1 / M3 / M4 / PRO - Item 9010319099
+2026-05-30 23:07:57,326 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:07:57,327 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9010319099
+2026-05-30 23:07:59,719 - bot - INFO - NEW MATCH: MacBook Air M2 / M1 / M3 / M4 / PRO - Item 9009262692
+2026-05-30 23:08:03,678 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:08:03,679 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9009262692
+2026-05-30 23:08:06,509 - bot - INFO - NEW MATCH: MacBook Air M2 / M1 / M3 / M4 / PRO - Item 9001594365
+2026-05-30 23:08:11,340 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:08:11,344 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9001594365
+2026-05-30 23:08:13,672 - bot - INFO - NEW MATCH: MacBook Air M2 / M1 / M3 / M4 / PRO - Item 8996913216
+2026-05-30 23:08:17,812 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:08:17,813 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8996913216
+2026-05-30 23:08:20,662 - bot - INFO - NEW MATCH: MacBook Air M2 / M1 / M3 / M4 / PRO - Item 8996167155
+2026-05-30 23:08:24,889 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:08:24,893 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8996167155
+2026-05-30 23:08:27,267 - bot - INFO - NEW MATCH: MacBook Air M2 / M1 / M3 / M4 / PRO - Item 8988554147
+2026-05-30 23:08:31,380 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:08:31,383 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8988554147
+2026-05-30 23:08:33,944 - bot - INFO - NEW MATCH: MacBook Air M2 / M1 / M3 / M4 / PRO - Item 8986847753
+2026-05-30 23:08:38,193 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:08:38,197 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8986847753
+2026-05-30 23:08:40,856 - bot - INFO - NEW MATCH: MacBook Air M2 / M1 / M3 / M4 / PRO - Item 8973471700
+2026-05-30 23:08:45,252 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:08:45,254 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8973471700
+2026-05-30 23:08:47,571 - bot - INFO - NEW MATCH: MacBook Air M2 / M1 / M3 / M4 / PRO - Item 8972084819
+2026-05-30 23:08:51,387 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:08:51,389 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8972084819
+2026-05-30 23:08:53,887 - bot - INFO - NEW MATCH: MacBook Air M2 / M1 / M3 / M4 / PRO - Item 8971066514
+2026-05-30 23:08:58,062 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:08:58,065 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8971066514
+2026-05-30 23:09:00,362 - bot - INFO - NEW MATCH: MacBook Air M2 / M1 / M3 / M4 / PRO - Item 8970596030
+2026-05-30 23:09:04,636 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:09:04,639 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8970596030
+2026-05-30 23:09:06,944 - bot - INFO - NEW MATCH: MacBook Air M2 / M1 / M3 / M4 / PRO - Item 8966262778
+2026-05-30 23:09:11,728 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:09:11,730 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8966262778
+2026-05-30 23:09:14,241 - bot - INFO - NEW MATCH: MacBook Air M2 / M1 / M3 / M4 / PRO - Item 8962185207
+2026-05-30 23:09:18,657 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:09:18,658 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8962185207
+2026-05-30 23:09:20,961 - bot - INFO - NEW MATCH: MacBook Air M2 / M1 / M3 / M4 / PRO - Item 8951203904
+2026-05-30 23:09:24,638 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:09:24,639 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8951203904
+2026-05-30 23:09:27,077 - bot - INFO - NEW MATCH: MacBook Air M2 / M1 / M3 / M4 / PRO - Item 8951035570
+2026-05-30 23:09:31,080 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:09:31,082 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8951035570
+2026-05-30 23:09:33,372 - bot - INFO - NEW MATCH: MacBook Air M2 / M1 / M3 / M4 / PRO - Item 8938782576
+2026-05-30 23:09:37,262 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:09:37,264 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8938782576
+2026-05-30 23:09:39,960 - bot - INFO - NEW MATCH: MacBook Air M2 / M1 / M3 / M4 / PRO - Item 8934917139
+2026-05-30 23:09:43,949 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:09:43,950 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8934917139
+2026-05-30 23:16:04,588 - bot - INFO - Search summary 'MacBook Air M2 / M1 / M3 / M4 / PRO': matched=25, already_seen=4, filtered_out=155, dry_run=False
+2026-05-30 23:16:04,589 - bot - INFO - Running search: iPhone XR
+2026-05-30 23:16:19,563 - bot - INFO - Found 480 items for 'iPhone XR'
+2026-05-30 23:16:24,077 - bot - INFO - NEW MATCH: iPhone XR - Item 9045398520
+2026-05-30 23:16:27,903 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:16:27,906 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9045398520
+2026-05-30 23:16:30,430 - bot - INFO - NEW MATCH: iPhone XR - Item 9044745052
+2026-05-30 23:16:34,310 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:16:34,312 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9044745052
+2026-05-30 23:16:36,514 - bot - INFO - NEW MATCH: iPhone XR - Item 9044691551
+2026-05-30 23:16:40,337 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:16:40,340 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9044691551
+2026-05-30 23:16:42,509 - bot - INFO - NEW MATCH: iPhone XR - Item 9044613998
+2026-05-30 23:16:46,399 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:16:46,401 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9044613998
+2026-05-30 23:16:48,646 - bot - INFO - NEW MATCH: iPhone XR - Item 9036436387
+2026-05-30 23:16:52,107 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:16:52,109 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9036436387
+2026-05-30 23:16:54,528 - bot - INFO - NEW MATCH: iPhone XR - Item 9036259430
+2026-05-30 23:16:58,432 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:16:58,435 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9036259430
+2026-05-30 23:17:00,697 - bot - INFO - NEW MATCH: iPhone XR - Item 9025403508
+2026-05-30 23:17:04,152 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:17:04,154 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9025403508
+2026-05-30 23:17:06,464 - bot - INFO - NEW MATCH: iPhone XR - Item 9002610849
+2026-05-30 23:17:10,488 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:17:10,489 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9002610849
+2026-05-30 23:17:49,764 - bot - INFO - Search summary 'iPhone XR': matched=8, already_seen=455, filtered_out=17, dry_run=False
+2026-05-30 23:17:49,765 - bot - INFO - Running search: iPhone 11
+2026-05-30 23:18:04,606 - bot - INFO - Found 480 items for 'iPhone 11'
+2026-05-30 23:18:08,958 - bot - INFO - NEW MATCH: iPhone 11 - Item 9045308208
+2026-05-30 23:18:12,180 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:18:12,180 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9045308208
+2026-05-30 23:18:16,769 - bot - INFO - NEW MATCH: iPhone 11 - Item 9044217871
+2026-05-30 23:18:20,169 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:18:20,172 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9044217871
+2026-05-30 23:18:35,334 - bot - INFO - NEW MATCH: iPhone 11 - Item 9041719940
+2026-05-30 23:18:38,464 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:18:38,465 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9041719940
+2026-05-30 23:18:40,454 - bot - INFO - NEW MATCH: iPhone 11 - Item 9041220320
+2026-05-30 23:18:43,838 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:18:43,839 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9041220320
+2026-05-30 23:18:45,817 - bot - INFO - NEW MATCH: iPhone 11 - Item 9041015449
+2026-05-30 23:18:49,303 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:18:49,304 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9041015449
+2026-05-30 23:18:51,403 - bot - INFO - NEW MATCH: iPhone 11 - Item 9040676121
+2026-05-30 23:18:54,734 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:18:54,737 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9040676121
+2026-05-30 23:18:56,748 - bot - INFO - NEW MATCH: iPhone 11 - Item 9039875148
+2026-05-30 23:19:00,100 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:19:00,101 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9039875148
+2026-05-30 23:19:02,447 - bot - INFO - NEW MATCH: iPhone 11 - Item 9038789009
+2026-05-30 23:19:05,827 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:19:05,831 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9038789009
+2026-05-30 23:19:08,054 - bot - INFO - NEW MATCH: iPhone 11 - Item 9038756589
+2026-05-30 23:19:11,396 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:19:11,399 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9038756589
+2026-05-30 23:19:13,610 - bot - INFO - NEW MATCH: iPhone 11 - Item 9038564988
+2026-05-30 23:19:17,416 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:19:17,418 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9038564988
+2026-05-30 23:19:19,571 - bot - INFO - NEW MATCH: iPhone 11 - Item 9038504407
+2026-05-30 23:19:23,199 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:19:23,201 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9038504407
+2026-05-30 23:19:26,160 - bot - INFO - NEW MATCH: iPhone 11 - Item 9038474030
+2026-05-30 23:19:29,280 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:19:29,281 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9038474030
+2026-05-30 23:19:31,726 - bot - INFO - NEW MATCH: iPhone 11 - Item 9038362556
+2026-05-30 23:19:35,125 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:19:35,126 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9038362556
+2026-05-30 23:19:41,797 - bot - INFO - NEW MATCH: iPhone 11 - Item 9037299813
+2026-05-30 23:19:45,826 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:19:45,829 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9037299813
+2026-05-30 23:19:52,769 - bot - INFO - NEW MATCH: iPhone 11 - Item 9013838070
+2026-05-30 23:19:56,385 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:19:56,388 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9013838070
+2026-05-30 23:19:58,538 - bot - INFO - NEW MATCH: iPhone 11 - Item 8987109866
+2026-05-30 23:20:01,854 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:20:01,856 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8987109866
+2026-05-30 23:29:22,573 - bot - INFO - Search summary 'iPhone 11': matched=16, already_seen=215, filtered_out=249, dry_run=False
+2026-05-30 23:29:22,574 - bot - INFO - Running search: iPhone 11 Pro
+2026-05-30 23:29:38,517 - bot - INFO - Found 480 items for 'iPhone 11 Pro'
+2026-05-30 23:29:45,366 - bot - INFO - NEW MATCH: iPhone 11 Pro - Item 9041385973
+2026-05-30 23:29:48,946 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:29:48,949 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9041385973
+2026-05-30 23:30:16,783 - bot - INFO - Search summary 'iPhone 11 Pro': matched=1, already_seen=466, filtered_out=13, dry_run=False
+2026-05-30 23:30:16,785 - bot - INFO - Running search: iPhone 11 Pro Max
+2026-05-30 23:30:32,094 - bot - INFO - Found 395 items for 'iPhone 11 Pro Max'
+2026-05-30 23:30:34,899 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 9045380897
+2026-05-30 23:30:38,923 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:30:38,926 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9045380897
+2026-05-30 23:30:41,411 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 9042964990
+2026-05-30 23:30:45,211 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:30:45,213 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9042964990
+2026-05-30 23:30:47,457 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 9042870416
+2026-05-30 23:30:51,698 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:30:51,702 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9042870416
+2026-05-30 23:30:53,863 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 9042747948
+2026-05-30 23:30:57,776 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:30:57,776 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9042747948
+2026-05-30 23:31:01,381 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 9042174601
+2026-05-30 23:31:05,379 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:31:05,380 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9042174601
+2026-05-30 23:31:07,778 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 9040363188
+2026-05-30 23:31:11,734 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:31:11,735 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9040363188
+2026-05-30 23:31:16,353 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 9037576882
+2026-05-30 23:31:19,721 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:31:19,722 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9037576882
+2026-05-30 23:31:21,986 - bot - INFO - NEW MATCH: iPhone 11 Pro Max - Item 9023494648
+2026-05-30 23:31:25,308 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:31:25,312 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9023494648
+2026-05-30 23:36:38,277 - bot - INFO - Search summary 'iPhone 11 Pro Max': matched=8, already_seen=261, filtered_out=126, dry_run=False
+2026-05-30 23:36:38,279 - bot - INFO - Running search: iPhone 12
+2026-05-30 23:36:53,758 - bot - INFO - Found 480 items for 'iPhone 12'
+2026-05-30 23:36:58,067 - bot - INFO - NEW MATCH: iPhone 12 - Item 9045714565
+2026-05-30 23:37:01,690 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:37:01,690 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9045714565
+2026-05-30 23:37:03,834 - bot - INFO - NEW MATCH: iPhone 12 - Item 9045477490
+2026-05-30 23:37:07,551 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:37:07,554 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9045477490
+2026-05-30 23:37:09,616 - bot - INFO - NEW MATCH: iPhone 12 - Item 9045448546
+2026-05-30 23:37:13,157 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:37:13,160 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9045448546
+2026-05-30 23:37:17,344 - bot - INFO - NEW MATCH: iPhone 12 - Item 9045320187
+2026-05-30 23:37:20,826 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:37:20,828 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9045320187
+2026-05-30 23:37:27,485 - bot - INFO - NEW MATCH: iPhone 12 - Item 9044595821
+2026-05-30 23:37:30,799 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:37:30,802 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9044595821
+2026-05-30 23:37:32,898 - bot - INFO - NEW MATCH: iPhone 12 - Item 9044501234
+2026-05-30 23:37:36,230 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:37:36,230 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9044501234
+2026-05-30 23:37:38,365 - bot - INFO - NEW MATCH: iPhone 12 - Item 9044151512
+2026-05-30 23:37:41,769 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:37:41,771 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9044151512
+2026-05-30 23:37:43,841 - bot - INFO - NEW MATCH: iPhone 12 - Item 9043672392
+2026-05-30 23:37:47,277 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:37:47,278 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9043672392
+2026-05-30 23:37:49,367 - bot - INFO - NEW MATCH: iPhone 12 - Item 9043136684
+2026-05-30 23:37:52,942 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:37:52,943 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9043136684
+2026-05-30 23:37:54,970 - bot - INFO - NEW MATCH: iPhone 12 - Item 9043305919
+2026-05-30 23:37:58,318 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:37:58,321 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9043305919
+2026-05-30 23:38:00,347 - bot - INFO - NEW MATCH: iPhone 12 - Item 9043221463
+2026-05-30 23:38:04,563 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:38:04,566 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9043221463
+2026-05-30 23:38:08,812 - bot - INFO - NEW MATCH: iPhone 12 - Item 9042672016
+2026-05-30 23:38:12,145 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:38:12,149 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9042672016
+2026-05-30 23:38:16,305 - bot - INFO - NEW MATCH: iPhone 12 - Item 9042106740
+2026-05-30 23:38:19,938 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:38:19,939 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9042106740
+2026-05-30 23:38:23,868 - bot - INFO - NEW MATCH: iPhone 12 - Item 9041388869
+2026-05-30 23:38:27,445 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:38:27,445 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9041388869
+2026-05-30 23:38:29,377 - bot - INFO - NEW MATCH: iPhone 12 - Item 9041094751
+2026-05-30 23:38:32,707 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:38:32,707 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9041094751
+2026-05-30 23:38:36,708 - bot - INFO - NEW MATCH: iPhone 12 - Item 9040930330
+2026-05-30 23:38:40,302 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:38:40,304 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9040930330
+2026-05-30 23:38:44,256 - bot - INFO - NEW MATCH: iPhone 12 - Item 9040293429
+2026-05-30 23:38:47,606 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:38:47,609 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9040293429
+2026-05-30 23:38:49,652 - bot - INFO - NEW MATCH: iPhone 12 - Item 9040087628
+2026-05-30 23:38:53,187 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:38:53,189 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9040087628
+2026-05-30 23:38:57,196 - bot - INFO - NEW MATCH: iPhone 12 - Item 9039054456
+2026-05-30 23:39:00,578 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:39:00,581 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9039054456
+2026-05-30 23:39:03,287 - bot - INFO - NEW MATCH: iPhone 12 - Item 9038834814
+2026-05-30 23:39:06,638 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:39:06,642 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9038834814
+2026-05-30 23:39:11,389 - bot - INFO - NEW MATCH: iPhone 12 - Item 9038119637
+2026-05-30 23:39:14,751 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:39:14,751 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9038119637
+2026-05-30 23:39:16,896 - bot - INFO - NEW MATCH: iPhone 12 - Item 9036801813
+2026-05-30 23:39:20,219 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:39:20,223 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9036801813
+2026-05-30 23:39:24,839 - bot - INFO - NEW MATCH: iPhone 12 - Item 9037886833
+2026-05-30 23:39:28,644 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:39:28,644 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9037886833
+2026-05-30 23:39:30,950 - bot - INFO - NEW MATCH: iPhone 12 - Item 9037803102
+2026-05-30 23:39:34,329 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:39:34,330 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9037803102
+2026-05-30 23:39:38,457 - bot - INFO - NEW MATCH: iPhone 12 - Item 9036744394
+2026-05-30 23:39:41,818 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:39:41,819 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9036744394
+2026-05-30 23:39:43,931 - bot - INFO - NEW MATCH: iPhone 12 - Item 9036586171
+2026-05-30 23:39:47,425 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:39:47,428 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9036586171
+2026-05-30 23:39:51,795 - bot - INFO - NEW MATCH: iPhone 12 - Item 9036517274
+2026-05-30 23:39:55,260 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:39:55,261 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9036517274
+2026-05-30 23:39:57,242 - bot - INFO - NEW MATCH: iPhone 12 - Item 9035671768
+2026-05-30 23:40:00,630 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:40:00,633 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9035671768
+2026-05-30 23:40:04,884 - bot - INFO - NEW MATCH: iPhone 12 - Item 9035120115
+2026-05-30 23:40:08,320 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:40:08,320 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9035120115
+2026-05-30 23:40:10,722 - bot - INFO - NEW MATCH: iPhone 12 - Item 9034814367
+2026-05-30 23:40:14,179 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:40:14,182 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9034814367
+2026-05-30 23:40:16,184 - bot - INFO - NEW MATCH: iPhone 12 - Item 9033202768
+2026-05-30 23:40:20,092 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:40:20,095 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9033202768
+2026-05-30 23:40:25,713 - bot - INFO - NEW MATCH: iPhone 12 - Item 9034253955
+2026-05-30 23:40:29,086 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:40:29,086 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9034253955
+2026-05-30 23:40:35,806 - bot - INFO - NEW MATCH: iPhone 12 - Item 9033721707
+2026-05-30 23:40:39,223 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:40:39,224 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9033721707
+2026-05-30 23:40:44,654 - bot - INFO - NEW MATCH: iPhone 12 - Item 9032877331
+2026-05-30 23:40:48,162 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:40:48,165 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9032877331
+2026-05-30 23:40:56,975 - bot - INFO - NEW MATCH: iPhone 12 - Item 9030842610
+2026-05-30 23:41:00,203 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:41:00,207 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9030842610
+2026-05-30 23:41:05,371 - bot - INFO - NEW MATCH: iPhone 12 - Item 9029681737
+2026-05-30 23:41:08,677 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:41:08,680 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9029681737
+2026-05-30 23:41:11,368 - bot - INFO - NEW MATCH: iPhone 12 - Item 9029129904
+2026-05-30 23:41:14,986 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:41:14,988 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9029129904
+2026-05-30 23:41:17,264 - bot - INFO - NEW MATCH: iPhone 12 - Item 9028305302
+2026-05-30 23:41:21,249 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:41:21,251 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9028305302
+2026-05-30 23:41:23,749 - bot - INFO - NEW MATCH: iPhone 12 - Item 9027285354
+2026-05-30 23:41:27,379 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:41:27,383 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9027285354
+2026-05-30 23:41:30,009 - bot - INFO - NEW MATCH: iPhone 12 - Item 9025207564
+2026-05-30 23:41:33,513 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:41:33,515 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9025207564
+2026-05-30 23:41:35,791 - bot - INFO - NEW MATCH: iPhone 12 - Item 9024412922
+2026-05-30 23:41:39,585 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:41:39,588 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9024412922
+2026-05-30 23:41:41,954 - bot - INFO - NEW MATCH: iPhone 12 - Item 9024029354
+2026-05-30 23:41:45,742 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:41:45,745 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9024029354
+2026-05-30 23:41:48,035 - bot - INFO - NEW MATCH: iPhone 12 - Item 9023513503
+2026-05-30 23:41:51,522 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:41:51,523 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9023513503
+2026-05-30 23:41:53,706 - bot - INFO - NEW MATCH: iPhone 12 - Item 9023038150
+2026-05-30 23:41:57,187 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:41:57,188 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9023038150
+2026-05-30 23:41:59,624 - bot - INFO - NEW MATCH: iPhone 12 - Item 9022889972
+2026-05-30 23:42:03,263 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:42:03,264 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9022889972
+2026-05-30 23:42:05,634 - bot - INFO - NEW MATCH: iPhone 12 - Item 9022407295
+2026-05-30 23:42:09,014 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:42:09,014 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9022407295
+2026-05-30 23:42:11,048 - bot - INFO - NEW MATCH: iPhone 12 - Item 9020880072
+2026-05-30 23:42:18,632 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:42:18,633 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9020880072
+2026-05-30 23:42:31,016 - bot - INFO - NEW MATCH: iPhone 12 - Item 9016260485
+2026-05-30 23:42:34,487 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:42:34,490 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9016260485
+2026-05-30 23:42:39,297 - bot - INFO - NEW MATCH: iPhone 12 - Item 9013108898
+2026-05-30 23:42:42,782 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:42:42,785 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9013108898
+2026-05-30 23:42:45,587 - bot - INFO - NEW MATCH: iPhone 12 - Item 9011218437
+2026-05-30 23:42:49,080 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:42:49,083 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9011218437
+2026-05-30 23:42:53,586 - bot - INFO - NEW MATCH: iPhone 12 - Item 9010695613
+2026-05-30 23:42:57,317 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:42:57,317 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9010695613
+2026-05-30 23:43:03,839 - bot - INFO - NEW MATCH: iPhone 12 - Item 9009095958
+2026-05-30 23:43:07,348 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:43:07,349 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9009095958
+2026-05-30 23:43:09,494 - bot - INFO - NEW MATCH: iPhone 12 - Item 9007438786
+2026-05-30 23:43:12,942 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:43:12,942 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9007438786
+2026-05-30 23:43:15,580 - bot - INFO - NEW MATCH: iPhone 12 - Item 9006746780
+2026-05-30 23:43:19,285 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:43:19,286 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9006746780
+2026-05-30 23:43:21,555 - bot - INFO - NEW MATCH: iPhone 12 - Item 9006749964
+2026-05-30 23:43:25,176 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:43:25,177 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9006749964
+2026-05-30 23:43:27,269 - bot - INFO - NEW MATCH: iPhone 12 - Item 9006460579
+2026-05-30 23:43:30,701 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:43:30,703 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9006460579
+2026-05-30 23:43:35,044 - bot - INFO - NEW MATCH: iPhone 12 - Item 9006242415
+2026-05-30 23:43:38,543 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:43:38,544 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9006242415
+2026-05-30 23:43:43,504 - bot - INFO - NEW MATCH: iPhone 12 - Item 9006029112
+2026-05-30 23:43:47,208 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:43:47,210 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9006029112
+2026-05-30 23:43:49,341 - bot - INFO - NEW MATCH: iPhone 12 - Item 9005692424
+2026-05-30 23:43:53,260 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:43:53,263 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9005692424
+2026-05-30 23:43:56,006 - bot - INFO - NEW MATCH: iPhone 12 - Item 9005159739
+2026-05-30 23:43:59,415 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:43:59,418 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9005159739
+2026-05-30 23:44:02,088 - bot - INFO - NEW MATCH: iPhone 12 - Item 9005017201
+2026-05-30 23:44:06,341 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:44:06,344 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9005017201
+2026-05-30 23:44:13,405 - bot - INFO - NEW MATCH: iPhone 12 - Item 9003058531
+2026-05-30 23:44:18,045 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:44:18,047 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9003058531
+2026-05-30 23:44:20,485 - bot - INFO - NEW MATCH: iPhone 12 - Item 9002833970
+2026-05-30 23:44:24,426 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:44:24,429 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9002833970
+2026-05-30 23:44:26,708 - bot - INFO - NEW MATCH: iPhone 12 - Item 9002395043
+2026-05-30 23:44:31,362 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:44:31,363 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9002395043
+2026-05-30 23:44:33,981 - bot - INFO - NEW MATCH: iPhone 12 - Item 9001439747
+2026-05-30 23:44:37,453 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:44:37,456 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9001439747
+2026-05-30 23:44:39,602 - bot - INFO - NEW MATCH: iPhone 12 - Item 9001421688
+2026-05-30 23:44:43,891 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:44:43,892 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9001421688
+2026-05-30 23:44:46,303 - bot - INFO - NEW MATCH: iPhone 12 - Item 9001274122
+2026-05-30 23:44:49,742 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:44:49,744 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9001274122
+2026-05-30 23:44:52,480 - bot - INFO - NEW MATCH: iPhone 12 - Item 9001126194
+2026-05-30 23:44:55,949 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:44:55,952 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9001126194
+2026-05-30 23:44:58,874 - bot - INFO - NEW MATCH: iPhone 12 - Item 9000767488
+2026-05-30 23:45:02,794 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:45:02,794 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9000767488
+2026-05-30 23:45:04,878 - bot - INFO - NEW MATCH: iPhone 12 - Item 8999778137
+2026-05-30 23:45:08,271 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:45:08,272 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8999778137
+2026-05-30 23:45:10,503 - bot - INFO - NEW MATCH: iPhone 12 - Item 8999076053
+2026-05-30 23:45:13,655 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:45:13,659 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8999076053
+2026-05-30 23:45:18,101 - bot - INFO - NEW MATCH: iPhone 12 - Item 8997924188
+2026-05-30 23:45:22,492 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:45:22,492 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8997924188
+2026-05-30 23:45:24,785 - bot - INFO - NEW MATCH: iPhone 12 - Item 8997825747
+2026-05-30 23:45:28,145 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:45:28,148 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8997825747
+2026-05-30 23:45:30,179 - bot - INFO - NEW MATCH: iPhone 12 - Item 8997150362
+2026-05-30 23:45:33,847 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:45:33,849 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8997150362
+2026-05-30 23:45:37,081 - bot - INFO - NEW MATCH: iPhone 12 - Item 8996750574
+2026-05-30 23:45:40,428 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:45:40,428 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8996750574
+2026-05-30 23:45:42,819 - bot - INFO - NEW MATCH: iPhone 12 - Item 8994325086
+2026-05-30 23:45:46,130 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:45:46,132 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8994325086
+2026-05-30 23:45:53,986 - bot - INFO - NEW MATCH: iPhone 12 - Item 8992499350
+2026-05-30 23:45:57,812 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:45:57,813 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8992499350
+2026-05-30 23:46:00,166 - bot - INFO - NEW MATCH: iPhone 12 - Item 8990204736
+2026-05-30 23:46:03,822 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:46:03,822 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8990204736
+2026-05-30 23:46:11,747 - bot - INFO - NEW MATCH: iPhone 12 - Item 8991614087
+2026-05-30 23:46:15,086 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:46:15,087 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8991614087
+2026-05-30 23:46:17,551 - bot - INFO - NEW MATCH: iPhone 12 - Item 8531336617
+2026-05-30 23:46:20,907 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:46:20,910 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8531336617
+2026-05-30 23:46:23,763 - bot - INFO - NEW MATCH: iPhone 12 - Item 8991091989
+2026-05-30 23:46:27,145 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:46:27,150 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8991091989
+2026-05-30 23:46:32,663 - bot - INFO - NEW MATCH: iPhone 12 - Item 8989904114
+2026-05-30 23:46:36,007 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:46:36,009 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8989904114
+2026-05-30 23:46:41,347 - bot - INFO - NEW MATCH: iPhone 12 - Item 8988921226
+2026-05-30 23:46:44,711 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:46:44,714 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8988921226
+2026-05-30 23:46:47,010 - bot - INFO - NEW MATCH: iPhone 12 - Item 8987721840
+2026-05-30 23:46:50,362 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:46:50,365 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8987721840
+2026-05-30 23:46:57,628 - bot - INFO - NEW MATCH: iPhone 12 - Item 8986839234
+2026-05-30 23:47:00,942 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:47:00,943 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8986839234
+2026-05-30 23:47:03,399 - bot - INFO - NEW MATCH: iPhone 12 - Item 8986203042
+2026-05-30 23:47:06,948 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:47:06,952 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8986203042
+2026-05-30 23:47:09,082 - bot - INFO - NEW MATCH: iPhone 12 - Item 8986037133
+2026-05-30 23:47:12,444 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:47:12,447 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8986037133
+2026-05-30 23:47:14,647 - bot - INFO - NEW MATCH: iPhone 12 - Item 8985103025
+2026-05-30 23:47:18,165 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:47:18,166 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8985103025
+2026-05-30 23:47:20,355 - bot - INFO - NEW MATCH: iPhone 12 - Item 8984552492
+2026-05-30 23:47:24,218 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:47:24,219 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8984552492
+2026-05-30 23:47:26,401 - bot - INFO - NEW MATCH: iPhone 12 - Item 8984136510
+2026-05-30 23:47:29,749 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:47:29,752 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8984136510
+2026-05-30 23:47:32,095 - bot - INFO - NEW MATCH: iPhone 12 - Item 8983390680
+2026-05-30 23:47:35,442 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:47:35,443 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8983390680
+2026-05-30 23:47:40,267 - bot - INFO - NEW MATCH: iPhone 12 - Item 8983003528
+2026-05-30 23:47:43,591 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:47:43,592 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8983003528
+2026-05-30 23:47:45,761 - bot - INFO - NEW MATCH: iPhone 12 - Item 8982633321
+2026-05-30 23:47:49,189 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:47:49,190 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8982633321
+2026-05-30 23:47:51,335 - bot - INFO - NEW MATCH: iPhone 12 - Item 8981417346
+2026-05-30 23:47:54,716 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:47:54,718 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8981417346
+2026-05-30 23:47:56,867 - bot - INFO - NEW MATCH: iPhone 12 - Item 8981358515
+2026-05-30 23:48:00,206 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:48:00,207 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8981358515
+2026-05-30 23:48:04,297 - bot - INFO - NEW MATCH: iPhone 12 - Item 8980384486
+2026-05-30 23:48:07,801 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:48:07,804 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8980384486
+2026-05-30 23:48:09,944 - bot - INFO - NEW MATCH: iPhone 12 - Item 8979981369
+2026-05-30 23:48:13,304 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:48:13,307 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8979981369
+2026-05-30 23:48:15,515 - bot - INFO - NEW MATCH: iPhone 12 - Item 8979655721
+2026-05-30 23:48:18,872 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:48:18,873 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8979655721
+2026-05-30 23:48:21,209 - bot - INFO - NEW MATCH: iPhone 12 - Item 8979358415
+2026-05-30 23:48:24,829 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:48:24,831 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8979358415
+2026-05-30 23:48:27,148 - bot - INFO - NEW MATCH: iPhone 12 - Item 8979058762
+2026-05-30 23:48:30,628 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:48:30,631 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8979058762
+2026-05-30 23:48:32,852 - bot - INFO - NEW MATCH: iPhone 12 - Item 8973794321
+2026-05-30 23:48:36,356 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:48:36,359 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8973794321
+2026-05-30 23:48:49,258 - bot - INFO - NEW MATCH: iPhone 12 - Item 8975339754
+2026-05-30 23:48:56,038 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:48:56,043 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8975339754
+2026-05-30 23:48:58,229 - bot - INFO - NEW MATCH: iPhone 12 - Item 8975277434
+2026-05-30 23:49:01,837 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:49:01,840 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8975277434
+2026-05-30 23:49:03,878 - bot - INFO - NEW MATCH: iPhone 12 - Item 8975248061
+2026-05-30 23:49:07,444 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:49:07,447 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8975248061
+2026-05-30 23:49:09,519 - bot - INFO - NEW MATCH: iPhone 12 - Item 8975068093
+2026-05-30 23:49:14,394 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:49:14,397 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8975068093
+2026-05-30 23:49:18,879 - bot - INFO - NEW MATCH: iPhone 12 - Item 8974741093
+2026-05-30 23:49:22,359 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:49:22,363 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8974741093
+2026-05-30 23:49:24,401 - bot - INFO - NEW MATCH: iPhone 12 - Item 8974047705
+2026-05-30 23:49:27,718 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:49:27,719 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8974047705
+2026-05-30 23:49:29,930 - bot - INFO - NEW MATCH: iPhone 12 - Item 8973464069
+2026-05-30 23:49:33,262 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:49:33,264 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8973464069
+2026-05-30 23:49:37,510 - bot - INFO - NEW MATCH: iPhone 12 - Item 8969992336
+2026-05-30 23:49:40,927 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:49:40,928 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8969992336
+2026-05-30 23:49:43,006 - bot - INFO - NEW MATCH: iPhone 12 - Item 8968065865
+2026-05-30 23:49:46,407 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:49:46,411 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8968065865
+2026-05-30 23:49:50,594 - bot - INFO - NEW MATCH: iPhone 12 - Item 8966021905
+2026-05-30 23:49:53,982 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:49:53,986 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8966021905
+2026-05-30 23:49:55,984 - bot - INFO - NEW MATCH: iPhone 12 - Item 8965895059
+2026-05-30 23:49:59,555 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:49:59,558 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8965895059
+2026-05-30 23:50:01,734 - bot - INFO - NEW MATCH: iPhone 12 - Item 8963324781
+2026-05-30 23:50:05,396 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:50:05,397 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8963324781
+2026-05-30 23:50:07,491 - bot - INFO - NEW MATCH: iPhone 12 - Item 8962843919
+2026-05-30 23:50:10,840 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:50:10,843 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8962843919
+2026-05-30 23:50:12,914 - bot - INFO - NEW MATCH: iPhone 12 - Item 8962641715
+2026-05-30 23:50:16,830 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:50:16,831 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8962641715
+2026-05-30 23:50:18,897 - bot - INFO - NEW MATCH: iPhone 12 - Item 8962265535
+2026-05-30 23:50:22,830 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:50:22,832 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8962265535
+2026-05-30 23:50:24,906 - bot - INFO - NEW MATCH: iPhone 12 - Item 8962224892
+2026-05-30 23:50:28,233 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:50:28,234 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8962224892
+2026-05-30 23:50:30,332 - bot - INFO - NEW MATCH: iPhone 12 - Item 8961675983
+2026-05-30 23:50:33,780 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:50:33,780 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8961675983
+2026-05-30 23:50:42,215 - bot - INFO - NEW MATCH: iPhone 12 - Item 8960845565
+2026-05-30 23:50:45,941 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:50:45,942 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8960845565
+2026-05-30 23:50:47,964 - bot - INFO - NEW MATCH: iPhone 12 - Item 8960608855
+2026-05-30 23:50:51,407 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:50:51,410 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8960608855
+2026-05-30 23:50:57,878 - bot - INFO - NEW MATCH: iPhone 12 - Item 8959311746
+2026-05-30 23:51:01,269 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:51:01,273 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8959311746
+2026-05-30 23:51:04,019 - bot - INFO - NEW MATCH: iPhone 12 - Item 8958224077
+2026-05-30 23:51:07,607 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:51:07,607 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8958224077
+2026-05-30 23:51:09,603 - bot - INFO - NEW MATCH: iPhone 12 - Item 8958213369
+2026-05-30 23:51:13,085 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:51:13,088 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8958213369
+2026-05-30 23:51:15,433 - bot - INFO - NEW MATCH: iPhone 12 - Item 8956799674
+2026-05-30 23:51:19,058 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:51:19,062 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8956799674
+2026-05-30 23:51:23,443 - bot - INFO - NEW MATCH: iPhone 12 - Item 8956066252
+2026-05-30 23:51:26,858 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:51:26,860 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8956066252
+2026-05-30 23:51:33,665 - bot - INFO - NEW MATCH: iPhone 12 - Item 8955229566
+2026-05-30 23:51:37,249 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:51:37,251 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8955229566
+2026-05-30 23:51:39,258 - bot - INFO - NEW MATCH: iPhone 12 - Item 8953840163
+2026-05-30 23:51:43,068 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:51:43,071 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8953840163
+2026-05-30 23:51:45,152 - bot - INFO - NEW MATCH: iPhone 12 - Item 8953804697
+2026-05-30 23:51:49,009 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:51:49,011 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8953804697
+2026-05-30 23:51:51,116 - bot - INFO - NEW MATCH: iPhone 12 - Item 8953642223
+2026-05-30 23:51:54,750 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:51:54,752 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8953642223
+2026-05-30 23:51:56,841 - bot - INFO - NEW MATCH: iPhone 12 - Item 8953217544
+2026-05-30 23:52:00,419 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:52:00,422 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8953217544
+2026-05-30 23:52:02,625 - bot - INFO - NEW MATCH: iPhone 12 - Item 8953021462
+2026-05-30 23:52:06,148 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:52:06,151 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8953021462
+2026-05-30 23:52:08,381 - bot - INFO - NEW MATCH: iPhone 12 - Item 8952352360
+2026-05-30 23:52:11,767 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:52:11,768 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8952352360
+2026-05-30 23:52:13,907 - bot - INFO - NEW MATCH: iPhone 12 - Item 8951594594
+2026-05-30 23:52:17,640 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:52:17,643 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8951594594
+2026-05-30 23:52:19,677 - bot - INFO - NEW MATCH: iPhone 12 - Item 8950437508
+2026-05-30 23:52:23,536 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:52:23,539 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8950437508
+2026-05-30 23:52:25,589 - bot - INFO - NEW MATCH: iPhone 12 - Item 8949716320
+2026-05-30 23:52:29,051 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:52:29,052 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8949716320
+2026-05-30 23:52:33,387 - bot - INFO - NEW MATCH: iPhone 12 - Item 8949048001
+2026-05-30 23:52:36,949 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:52:36,952 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8949048001
+2026-05-30 23:52:41,636 - bot - INFO - NEW MATCH: iPhone 12 - Item 8948005598
+2026-05-30 23:52:45,069 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:52:45,073 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8948005598
+2026-05-30 23:52:47,212 - bot - INFO - NEW MATCH: iPhone 12 - Item 8947982501
+2026-05-30 23:52:50,739 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:52:50,742 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8947982501
+2026-05-30 23:52:52,796 - bot - INFO - NEW MATCH: iPhone 12 - Item 8946799012
+2026-05-30 23:52:56,373 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:52:56,375 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8946799012
+2026-05-30 23:52:58,444 - bot - INFO - NEW MATCH: iPhone 12 - Item 8945726060
+2026-05-30 23:53:01,982 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:53:01,984 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8945726060
+2026-05-30 23:53:03,956 - bot - INFO - NEW MATCH: iPhone 12 - Item 8945441500
+2026-05-30 23:53:07,474 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:53:07,475 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8945441500
+2026-05-30 23:53:14,444 - bot - INFO - NEW MATCH: iPhone 12 - Item 8944040986
+2026-05-30 23:53:17,852 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:53:17,854 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8944040986
+2026-05-30 23:53:19,976 - bot - INFO - NEW MATCH: iPhone 12 - Item 8943875121
+2026-05-30 23:53:23,766 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:53:23,768 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8943875121
+2026-05-30 23:53:30,975 - bot - INFO - NEW MATCH: iPhone 12 - Item 8940595796
+2026-05-30 23:53:34,571 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:53:34,574 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8940595796
+2026-05-30 23:53:36,673 - bot - INFO - NEW MATCH: iPhone 12 - Item 8938430285
+2026-05-30 23:53:40,278 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:53:40,281 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8938430285
+2026-05-30 23:53:42,570 - bot - INFO - NEW MATCH: iPhone 12 - Item 8937514088
+2026-05-30 23:53:46,338 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:53:46,339 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8937514088
+2026-05-30 23:53:49,682 - bot - INFO - NEW MATCH: iPhone 12 - Item 8935507186
+2026-05-30 23:53:53,445 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:53:53,447 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8935507186
+2026-05-30 23:54:00,919 - bot - INFO - NEW MATCH: iPhone 12 - Item 8933428585
+2026-05-30 23:54:04,754 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-30 23:54:04,757 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8933428585
+2026-05-31 00:04:01,487 - bot - INFO - Search summary 'iPhone 12': matched=148, already_seen=67, filtered_out=265, dry_run=False
+2026-05-31 00:04:01,488 - bot - INFO - Running search: iPhone 12 Pro
+2026-05-31 00:04:10,005 - bot - INFO - Found 280 items for 'iPhone 12 Pro'
+2026-05-31 00:04:11,984 - bot - INFO - NEW MATCH: iPhone 12 Pro - Item 9039441497
+2026-05-31 00:04:15,723 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:04:15,726 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9039441497
+2026-05-31 00:04:18,129 - bot - INFO - NEW MATCH: iPhone 12 Pro - Item 9032905459
+2026-05-31 00:04:21,685 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:04:21,687 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9032905459
+2026-05-31 00:04:25,548 - bot - INFO - NEW MATCH: iPhone 12 Pro - Item 9016192181
+2026-05-31 00:04:28,825 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:04:28,826 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9016192181
+2026-05-31 00:04:30,789 - bot - INFO - NEW MATCH: iPhone 12 Pro - Item 9010885042
+2026-05-31 00:04:35,124 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:04:35,126 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9010885042
+2026-05-31 00:04:37,111 - bot - INFO - NEW MATCH: iPhone 12 Pro - Item 8990757401
+2026-05-31 00:04:38,469 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:04:40,393 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:04:40,394 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8990757401
+2026-05-31 00:04:47,467 - bot - INFO - NEW MATCH: iPhone 12 Pro - Item 8961999956
+2026-05-31 00:04:50,774 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:04:50,775 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8961999956
+2026-05-31 00:04:52,962 - bot - INFO - NEW MATCH: iPhone 12 Pro - Item 8961951564
+2026-05-31 00:04:56,281 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:04:56,284 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8961951564
+2026-05-31 00:05:43,157 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:06:11,931 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:06:11,934 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9045057213
+2026-05-31 00:06:17,399 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:06:17,401 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9043918513
+2026-05-31 00:06:21,755 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:06:21,756 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9043597967
+2026-05-31 00:06:26,633 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:06:26,635 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9041283211
+2026-05-31 00:06:30,967 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:06:30,969 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9038693265
+2026-05-31 00:06:56,204 - scraper - WARNING - Retrying after 122.8s due to HTTP 429
+2026-05-31 00:08:20,318 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:09:26,854 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:09:26,856 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9045123202
+2026-05-31 00:09:31,173 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:09:31,174 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9045121507
+2026-05-31 00:09:35,819 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:09:35,822 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9044379466
+2026-05-31 00:09:40,402 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:09:40,404 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9044195090
+2026-05-31 00:09:45,098 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:09:45,099 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9041620678
+2026-05-31 00:13:17,740 - scraper - WARNING - Retrying after 129.7s due to ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-05-31 00:16:54,643 - bot - INFO - Search summary 'iPhone 12 Pro': matched=7, already_seen=92, filtered_out=181, dry_run=False
+2026-05-31 00:16:54,644 - bot - INFO - Running search: iPhone 12 Pro Max
+2026-05-31 00:17:08,477 - bot - INFO - Found 388 items for 'iPhone 12 Pro Max'
+2026-05-31 00:17:11,700 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 9045663726
+2026-05-31 00:17:15,051 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:17:15,051 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9045663726
+2026-05-31 00:17:17,301 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 9043279611
+2026-05-31 00:17:20,699 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:17:20,700 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9043279611
+2026-05-31 00:17:22,802 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 9041880678
+2026-05-31 00:17:26,195 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:17:26,198 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9041880678
+2026-05-31 00:17:28,345 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 9039905507
+2026-05-31 00:17:32,020 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:17:32,021 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9039905507
+2026-05-31 00:17:36,473 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 9038996646
+2026-05-31 00:17:39,878 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:17:39,880 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9038996646
+2026-05-31 00:17:41,997 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 9038056590
+2026-05-31 00:17:45,342 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:17:45,343 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9038056590
+2026-05-31 00:17:47,326 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 9037671506
+2026-05-31 00:17:51,290 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:17:51,293 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9037671506
+2026-05-31 00:17:53,437 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 9035735925
+2026-05-31 00:17:57,062 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:17:57,063 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9035735925
+2026-05-31 00:17:59,507 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 9035235991
+2026-05-31 00:18:03,336 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:18:03,336 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9035235991
+2026-05-31 00:18:07,236 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 9007965390
+2026-05-31 00:18:11,166 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:18:11,169 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9007965390
+2026-05-31 00:18:13,300 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 9009201766
+2026-05-31 00:18:16,639 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:18:16,640 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9009201766
+2026-05-31 00:18:23,208 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 9001706097
+2026-05-31 00:18:26,805 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:18:26,805 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9001706097
+2026-05-31 00:18:29,418 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 9001341990
+2026-05-31 00:18:32,849 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:18:32,852 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9001341990
+2026-05-31 00:18:35,317 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 9000491321
+2026-05-31 00:18:38,679 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:18:38,680 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9000491321
+2026-05-31 00:18:44,528 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 8997623289
+2026-05-31 00:18:47,875 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:18:47,878 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8997623289
+2026-05-31 00:18:50,116 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 8996850867
+2026-05-31 00:18:54,294 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:18:54,297 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8996850867
+2026-05-31 00:18:56,517 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 8990673085
+2026-05-31 00:19:00,069 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:19:00,070 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8990673085
+2026-05-31 00:19:02,183 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 8979565106
+2026-05-31 00:19:05,560 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:19:05,561 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8979565106
+2026-05-31 00:19:07,705 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 8976489351
+2026-05-31 00:19:11,020 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:19:11,022 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8976489351
+2026-05-31 00:19:16,589 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 8970970764
+2026-05-31 00:19:19,958 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:19:19,960 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8970970764
+2026-05-31 00:19:24,095 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 8964891852
+2026-05-31 00:19:27,662 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:19:27,666 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8964891852
+2026-05-31 00:19:29,782 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 8964532893
+2026-05-31 00:19:33,334 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:19:33,337 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8964532893
+2026-05-31 00:19:35,910 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 8963866310
+2026-05-31 00:19:39,463 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:19:39,463 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8963866310
+2026-05-31 00:19:41,467 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 8963664629
+2026-05-31 00:19:45,417 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:19:45,421 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8963664629
+2026-05-31 00:19:47,417 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 8962276575
+2026-05-31 00:19:51,326 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:19:51,329 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8962276575
+2026-05-31 00:19:55,402 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 8955983583
+2026-05-31 00:19:58,824 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:19:58,827 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8955983583
+2026-05-31 00:20:01,240 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 8953122586
+2026-05-31 00:20:04,563 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:20:04,564 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8953122586
+2026-05-31 00:20:06,828 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 8948391276
+2026-05-31 00:20:10,399 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:20:10,399 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8948391276
+2026-05-31 00:20:12,619 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 8947277871
+2026-05-31 00:20:15,769 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:20:15,770 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8947277871
+2026-05-31 00:20:18,042 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 8945468639
+2026-05-31 00:20:21,571 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:20:21,573 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8945468639
+2026-05-31 00:20:23,990 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 8940696262
+2026-05-31 00:20:27,333 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:20:27,335 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8940696262
+2026-05-31 00:20:33,781 - bot - INFO - NEW MATCH: iPhone 12 Pro Max - Item 8918036654
+2026-05-31 00:20:37,583 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:20:37,584 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8918036654
+2026-05-31 00:29:07,296 - bot - INFO - Search summary 'iPhone 12 Pro Max': matched=32, already_seen=117, filtered_out=239, dry_run=False
+2026-05-31 00:29:07,297 - bot - INFO - Running search: iPhone 13
+2026-05-31 00:29:22,005 - bot - INFO - Found 480 items for 'iPhone 13'
+2026-05-31 00:29:26,490 - bot - INFO - NEW MATCH: iPhone 13 - Item 9045070576
+2026-05-31 00:29:30,081 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:29:30,084 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9045070576
+2026-05-31 00:29:36,672 - bot - INFO - NEW MATCH: iPhone 13 - Item 9044239446
+2026-05-31 00:29:40,217 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:29:40,220 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9044239446
+2026-05-31 00:29:44,404 - bot - INFO - NEW MATCH: iPhone 13 - Item 9044043740
+2026-05-31 00:29:47,933 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:29:47,935 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9044043740
+2026-05-31 00:29:50,062 - bot - INFO - NEW MATCH: iPhone 13 - Item 9043846629
+2026-05-31 00:29:53,755 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:29:53,759 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9043846629
+2026-05-31 00:29:55,719 - bot - INFO - NEW MATCH: iPhone 13 - Item 9037528250
+2026-05-31 00:29:59,312 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:29:59,315 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9037528250
+2026-05-31 00:30:03,367 - bot - INFO - NEW MATCH: iPhone 13 - Item 9042653074
+2026-05-31 00:30:06,948 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:30:06,949 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9042653074
+2026-05-31 00:30:08,891 - bot - INFO - NEW MATCH: iPhone 13 - Item 9042178610
+2026-05-31 00:30:12,912 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:30:12,915 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9042178610
+2026-05-31 00:30:19,110 - bot - INFO - NEW MATCH: iPhone 13 - Item 9041730397
+2026-05-31 00:30:22,723 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:30:22,726 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9041730397
+2026-05-31 00:30:27,540 - bot - INFO - NEW MATCH: iPhone 13 - Item 9041206498
+2026-05-31 00:30:31,181 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:30:31,182 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9041206498
+2026-05-31 00:30:38,211 - bot - INFO - NEW MATCH: iPhone 13 - Item 9039901923
+2026-05-31 00:30:41,798 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:30:41,800 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9039901923
+2026-05-31 00:30:44,043 - bot - INFO - NEW MATCH: iPhone 13 - Item 9039448229
+2026-05-31 00:30:48,545 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:30:48,546 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9039448229
+2026-05-31 00:30:52,619 - bot - INFO - NEW MATCH: iPhone 13 - Item 9038724492
+2026-05-31 00:30:56,370 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:30:56,373 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9038724492
+2026-05-31 00:31:00,325 - bot - INFO - NEW MATCH: iPhone 13 - Item 9037814259
+2026-05-31 00:31:03,668 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:31:03,670 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9037814259
+2026-05-31 00:31:05,644 - bot - INFO - NEW MATCH: iPhone 13 - Item 9037024625
+2026-05-31 00:31:09,489 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:31:09,492 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9037024625
+2026-05-31 00:31:11,929 - bot - INFO - NEW MATCH: iPhone 13 - Item 9036448331
+2026-05-31 00:31:15,495 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:31:15,498 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9036448331
+2026-05-31 00:31:21,634 - bot - INFO - NEW MATCH: iPhone 13 - Item 9035300818
+2026-05-31 00:31:25,263 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:31:25,264 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9035300818
+2026-05-31 00:31:29,496 - bot - INFO - NEW MATCH: iPhone 13 - Item 9034833980
+2026-05-31 00:31:33,126 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:31:33,126 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9034833980
+2026-05-31 00:31:36,977 - bot - INFO - NEW MATCH: iPhone 13 - Item 9034386016
+2026-05-31 00:31:40,396 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:31:40,398 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9034386016
+2026-05-31 00:31:44,334 - bot - INFO - NEW MATCH: iPhone 13 - Item 9034257094
+2026-05-31 00:31:47,927 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:31:47,930 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9034257094
+2026-05-31 00:31:53,886 - bot - INFO - NEW MATCH: iPhone 13 - Item 9033482298
+2026-05-31 00:31:57,448 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:31:57,449 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9033482298
+2026-05-31 00:32:02,541 - bot - INFO - NEW MATCH: iPhone 13 - Item 9032010902
+2026-05-31 00:32:06,294 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:32:06,296 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9032010902
+2026-05-31 00:32:24,656 - bot - INFO - NEW MATCH: iPhone 13 - Item 9027993244
+2026-05-31 00:32:28,030 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:32:28,034 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9027993244
+2026-05-31 00:32:30,471 - bot - INFO - NEW MATCH: iPhone 13 - Item 9027898965
+2026-05-31 00:32:33,917 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:32:33,918 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9027898965
+2026-05-31 00:32:35,965 - bot - INFO - NEW MATCH: iPhone 13 - Item 9027082432
+2026-05-31 00:32:39,561 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:32:39,566 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9027082432
+2026-05-31 00:32:45,899 - bot - INFO - NEW MATCH: iPhone 13 - Item 9022997040
+2026-05-31 00:32:49,476 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:32:49,479 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9022997040
+2026-05-31 00:32:51,409 - bot - INFO - NEW MATCH: iPhone 13 - Item 9022617181
+2026-05-31 00:32:54,756 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:32:54,759 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9022617181
+2026-05-31 00:32:56,738 - bot - INFO - NEW MATCH: iPhone 13 - Item 9022356691
+2026-05-31 00:33:00,329 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:33:00,332 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9022356691
+2026-05-31 00:33:02,428 - bot - INFO - NEW MATCH: iPhone 13 - Item 9022180978
+2026-05-31 00:33:06,039 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:33:06,043 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9022180978
+2026-05-31 00:33:08,435 - bot - INFO - NEW MATCH: iPhone 13 - Item 9021733480
+2026-05-31 00:33:12,412 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:33:12,414 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9021733480
+2026-05-31 00:33:15,231 - bot - INFO - NEW MATCH: iPhone 13 - Item 9021512547
+2026-05-31 00:33:18,570 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:33:18,573 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9021512547
+2026-05-31 00:33:22,826 - bot - INFO - NEW MATCH: iPhone 13 - Item 9020805252
+2026-05-31 00:33:26,207 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:33:26,210 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9020805252
+2026-05-31 00:33:29,261 - bot - INFO - NEW MATCH: iPhone 13 - Item 9019689179
+2026-05-31 00:33:32,882 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:33:32,883 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9019689179
+2026-05-31 00:33:35,363 - bot - INFO - NEW MATCH: iPhone 13 - Item 9019242157
+2026-05-31 00:33:39,072 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:33:39,075 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9019242157
+2026-05-31 00:33:41,247 - bot - INFO - NEW MATCH: iPhone 13 - Item 9019026565
+2026-05-31 00:33:44,822 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:33:44,823 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9019026565
+2026-05-31 00:33:46,806 - bot - INFO - NEW MATCH: iPhone 13 - Item 9017847637
+2026-05-31 00:33:50,844 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:33:50,848 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9017847637
+2026-05-31 00:33:54,986 - bot - INFO - NEW MATCH: iPhone 13 - Item 9017669658
+2026-05-31 00:33:59,051 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:33:59,053 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9017669658
+2026-05-31 00:34:01,247 - bot - INFO - NEW MATCH: iPhone 13 - Item 9016182954
+2026-05-31 00:34:04,985 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:34:04,989 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9016182954
+2026-05-31 00:34:17,689 - bot - INFO - NEW MATCH: iPhone 13 - Item 9014444056
+2026-05-31 00:34:21,189 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:34:21,191 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9014444056
+2026-05-31 00:34:25,806 - bot - INFO - NEW MATCH: iPhone 13 - Item 9013950147
+2026-05-31 00:34:29,474 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:34:29,478 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9013950147
+2026-05-31 00:34:31,611 - bot - INFO - NEW MATCH: iPhone 13 - Item 9013919852
+2026-05-31 00:34:35,383 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:34:35,386 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9013919852
+2026-05-31 00:34:42,370 - bot - INFO - NEW MATCH: iPhone 13 - Item 9012104925
+2026-05-31 00:34:45,765 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:34:45,767 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9012104925
+2026-05-31 00:34:48,267 - bot - INFO - NEW MATCH: iPhone 13 - Item 9011467470
+2026-05-31 00:34:51,905 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:34:51,906 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9011467470
+2026-05-31 00:34:53,892 - bot - INFO - NEW MATCH: iPhone 13 - Item 9009998978
+2026-05-31 00:34:57,639 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:34:57,641 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9009998978
+2026-05-31 00:34:59,793 - bot - INFO - NEW MATCH: iPhone 13 - Item 9009563293
+2026-05-31 00:35:03,581 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:35:03,584 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9009563293
+2026-05-31 00:35:11,129 - bot - INFO - NEW MATCH: iPhone 13 - Item 9007917134
+2026-05-31 00:35:19,848 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:35:19,851 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9007917134
+2026-05-31 00:35:22,305 - bot - INFO - NEW MATCH: iPhone 13 - Item 9007477061
+2026-05-31 00:35:26,085 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:35:26,087 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9007477061
+2026-05-31 00:35:28,399 - bot - INFO - NEW MATCH: iPhone 13 - Item 9006762899
+2026-05-31 00:35:31,961 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:35:31,963 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9006762899
+2026-05-31 00:35:34,272 - bot - INFO - NEW MATCH: iPhone 13 - Item 9005737308
+2026-05-31 00:35:37,830 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:35:37,831 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9005737308
+2026-05-31 00:35:40,085 - bot - INFO - NEW MATCH: iPhone 13 - Item 9005319424
+2026-05-31 00:35:44,026 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:35:44,028 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9005319424
+2026-05-31 00:35:48,676 - bot - INFO - NEW MATCH: iPhone 13 - Item 9002947939
+2026-05-31 00:35:52,285 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:35:52,288 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9002947939
+2026-05-31 00:35:54,484 - bot - INFO - NEW MATCH: iPhone 13 - Item 9002676099
+2026-05-31 00:35:58,081 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:35:58,082 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9002676099
+2026-05-31 00:36:07,261 - bot - INFO - NEW MATCH: iPhone 13 - Item 9001035793
+2026-05-31 00:36:11,067 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:36:11,071 - notifier - INFO - SENT: Alert sent to 7688548847 for item 9001035793
+2026-05-31 00:36:13,390 - bot - INFO - NEW MATCH: iPhone 13 - Item 8999354251
+2026-05-31 00:36:16,918 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:36:16,921 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8999354251
+2026-05-31 00:36:19,279 - bot - INFO - NEW MATCH: iPhone 13 - Item 8999177019
+2026-05-31 00:36:23,516 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:36:23,519 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8999177019
+2026-05-31 00:36:25,824 - bot - INFO - NEW MATCH: iPhone 13 - Item 8999175399
+2026-05-31 00:36:30,763 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:36:30,764 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8999175399
+2026-05-31 00:36:34,010 - bot - INFO - NEW MATCH: iPhone 13 - Item 8999173869
+2026-05-31 00:36:37,414 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:36:37,416 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8999173869
+2026-05-31 00:36:42,530 - bot - INFO - NEW MATCH: iPhone 13 - Item 8997738190
+2026-05-31 00:36:46,348 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:36:46,351 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8997738190
+2026-05-31 00:36:56,461 - bot - INFO - NEW MATCH: iPhone 13 - Item 8995842951
+2026-05-31 00:37:00,065 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:37:00,066 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8995842951
+2026-05-31 00:37:02,794 - bot - INFO - NEW MATCH: iPhone 13 - Item 8995403956
+2026-05-31 00:37:06,121 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:37:06,122 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8995403956
+2026-05-31 00:37:08,494 - bot - INFO - NEW MATCH: iPhone 13 - Item 8993505985
+2026-05-31 00:37:12,415 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:37:12,417 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8993505985
+2026-05-31 00:37:21,541 - bot - INFO - NEW MATCH: iPhone 13 - Item 8991458598
+2026-05-31 00:37:25,314 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:37:25,317 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8991458598
+2026-05-31 00:37:29,398 - bot - INFO - NEW MATCH: iPhone 13 - Item 8990605371
+2026-05-31 00:37:32,825 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:37:32,826 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8990605371
+2026-05-31 00:37:34,792 - bot - INFO - NEW MATCH: iPhone 13 - Item 8990591080
+2026-05-31 00:37:38,391 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:37:38,393 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8990591080
+2026-05-31 00:37:47,099 - bot - INFO - NEW MATCH: iPhone 13 - Item 8989263941
+2026-05-31 00:37:52,376 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:37:52,377 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8989263941
+2026-05-31 00:38:05,663 - bot - INFO - NEW MATCH: iPhone 13 - Item 8984259089
+2026-05-31 00:38:09,282 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:38:09,282 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8984259089
+2026-05-31 00:38:13,995 - bot - INFO - NEW MATCH: iPhone 13 - Item 8982761416
+2026-05-31 00:38:17,846 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:38:17,848 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8982761416
+2026-05-31 00:38:20,362 - bot - INFO - NEW MATCH: iPhone 13 - Item 8982225843
+2026-05-31 00:38:24,439 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:38:24,440 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8982225843
+2026-05-31 00:38:26,965 - bot - INFO - NEW MATCH: iPhone 13 - Item 8981344773
+2026-05-31 00:38:30,612 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:38:30,614 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8981344773
+2026-05-31 00:38:34,462 - bot - INFO - NEW MATCH: iPhone 13 - Item 8980398320
+2026-05-31 00:38:37,847 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:38:37,850 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8980398320
+2026-05-31 00:38:39,793 - bot - INFO - NEW MATCH: iPhone 13 - Item 8979679209
+2026-05-31 00:38:43,415 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:38:43,416 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8979679209
+2026-05-31 00:38:47,331 - bot - INFO - NEW MATCH: iPhone 13 - Item 8979385035
+2026-05-31 00:38:51,054 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:38:51,057 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8979385035
+2026-05-31 00:38:53,088 - bot - INFO - NEW MATCH: iPhone 13 - Item 8977609059
+2026-05-31 00:38:57,221 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:38:57,224 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8977609059
+2026-05-31 00:39:01,352 - bot - INFO - NEW MATCH: iPhone 13 - Item 8976284950
+2026-05-31 00:39:04,915 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:39:04,916 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8976284950
+2026-05-31 00:39:11,198 - bot - INFO - NEW MATCH: iPhone 13 - Item 8975428560
+2026-05-31 00:39:15,221 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:39:15,222 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8975428560
+2026-05-31 00:39:17,376 - bot - INFO - NEW MATCH: iPhone 13 - Item 8974547744
+2026-05-31 00:39:21,074 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:39:21,078 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8974547744
+2026-05-31 00:39:27,227 - bot - INFO - NEW MATCH: iPhone 13 - Item 8970692759
+2026-05-31 00:39:30,585 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:39:30,587 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8970692759
+2026-05-31 00:39:32,673 - bot - INFO - NEW MATCH: iPhone 13 - Item 8969674060
+2026-05-31 00:39:35,982 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:39:35,984 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8969674060
+2026-05-31 00:39:38,090 - bot - INFO - NEW MATCH: iPhone 13 - Item 8969119044
+2026-05-31 00:39:41,469 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:39:41,473 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8969119044
+2026-05-31 00:39:45,969 - bot - INFO - NEW MATCH: iPhone 13 - Item 8967930510
+2026-05-31 00:39:49,313 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:39:49,316 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8967930510
+2026-05-31 00:39:56,793 - bot - INFO - NEW MATCH: iPhone 13 - Item 8967834015
+2026-05-31 00:40:00,118 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:40:00,121 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8967834015
+2026-05-31 00:40:02,304 - bot - INFO - NEW MATCH: iPhone 13 - Item 8967541661
+2026-05-31 00:40:05,855 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:40:05,857 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8967541661
+2026-05-31 00:40:14,728 - bot - INFO - NEW MATCH: iPhone 13 - Item 8958113880
+2026-05-31 00:40:18,357 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:40:18,357 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8958113880
+2026-05-31 00:40:20,734 - bot - INFO - NEW MATCH: iPhone 13 - Item 8957726655
+2026-05-31 00:40:24,908 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:40:24,909 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8957726655
+2026-05-31 00:40:26,979 - bot - INFO - NEW MATCH: iPhone 13 - Item 8956671162
+2026-05-31 00:40:30,374 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:40:30,375 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8956671162
+2026-05-31 00:40:33,162 - bot - INFO - NEW MATCH: iPhone 13 - Item 8955534560
+2026-05-31 00:40:36,965 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:40:36,965 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8955534560
+2026-05-31 00:40:41,657 - bot - INFO - NEW MATCH: iPhone 13 - Item 8951839082
+2026-05-31 00:40:45,364 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:40:45,365 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8951839082
+2026-05-31 00:40:49,890 - bot - INFO - NEW MATCH: iPhone 13 - Item 8950681099
+2026-05-31 00:40:53,802 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:40:53,804 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8950681099
+2026-05-31 00:40:56,312 - bot - INFO - NEW MATCH: iPhone 13 - Item 8948951012
+2026-05-31 00:41:00,026 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:41:00,030 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8948951012
+2026-05-31 00:41:04,635 - bot - INFO - NEW MATCH: iPhone 13 - Item 8946928987
+2026-05-31 00:41:08,263 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:41:08,265 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8946928987
+2026-05-31 00:41:22,695 - bot - INFO - NEW MATCH: iPhone 13 - Item 8942213428
+2026-05-31 00:41:26,074 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:41:26,076 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8942213428
+2026-05-31 00:41:32,550 - bot - INFO - NEW MATCH: iPhone 13 - Item 8940270556
+2026-05-31 00:41:35,920 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:41:35,921 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8940270556
+2026-05-31 00:41:38,036 - bot - INFO - NEW MATCH: iPhone 13 - Item 8935718307
+2026-05-31 00:41:41,373 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:41:41,374 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8935718307
+2026-05-31 00:41:43,335 - bot - INFO - NEW MATCH: iPhone 13 - Item 8934053742
+2026-05-31 00:41:46,717 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:41:46,720 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8934053742
+2026-05-31 00:41:48,637 - bot - INFO - NEW MATCH: iPhone 13 - Item 8933634579
+2026-05-31 00:41:52,211 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-05-31 00:41:52,213 - notifier - INFO - SENT: Alert sent to 7688548847 for item 8933634579
+2026-05-31 00:44:06,494 - telegram_commands - ERROR - Failed to fetch Telegram updates: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+2026-06-02 13:23:22,777 - root - INFO - Starting Vinted Alert Bot...
+2026-06-02 13:23:22,788 - scraper - INFO - Fetching new cookies from https://www.vinted.pt...
+2026-06-02 13:23:28,358 - scraper - INFO - Successfully fetched and saved new cookies.
+2026-06-02 13:23:29,670 - root - INFO - Telegram commands enabled: /pause, /resume, /status, /search
+2026-06-02 13:23:29,671 - root - INFO - Running in scheduler mode. Interval: 30 minutes.
+2026-06-02 13:23:29,674 - root - INFO - --- Starting periodic check ---
+2026-06-02 13:23:29,674 - bot - INFO - Running search: PlayStation 5
+2026-06-02 13:23:46,821 - bot - INFO - Found 480 items for 'PlayStation 5'
+2026-06-02 13:27:48,529 - bot - INFO - Search summary 'PlayStation 5': matched=0, already_seen=382, filtered_out=98, dry_run=False
+2026-06-02 13:27:48,532 - bot - INFO - Running search: iPhone 17 Pro Max
+2026-06-02 13:27:49,657 - bot - INFO - Found 95 items for 'iPhone 17 Pro Max'
+2026-06-02 13:28:53,885 - bot - INFO - Search summary 'iPhone 17 Pro Max': matched=0, already_seen=74, filtered_out=21, dry_run=False
+2026-06-02 13:28:53,885 - bot - INFO - Running search: AirPods Pro 2
+2026-06-02 13:28:55,358 - bot - INFO - Found 95 items for 'AirPods Pro 2'
+2026-06-02 13:30:31,179 - bot - INFO - Search summary 'AirPods Pro 2': matched=0, already_seen=53, filtered_out=42, dry_run=False
+2026-06-02 13:30:31,182 - bot - INFO - Running search: MacBook Air M2 / M1 / M3 / M4 / PRO
+2026-06-02 13:30:36,234 - bot - INFO - Found 186 items for 'MacBook Air M2 / M1 / M3 / M4 / PRO'
+2026-06-02 13:31:18,919 - bot - INFO - Search summary 'MacBook Air M2 / M1 / M3 / M4 / PRO': matched=0, already_seen=168, filtered_out=18, dry_run=False
+2026-06-02 13:31:18,920 - bot - INFO - Running search: iPhone XR
+2026-06-02 13:31:34,853 - bot - INFO - Found 480 items for 'iPhone XR'
+2026-06-02 13:33:45,808 - bot - INFO - Search summary 'iPhone XR': matched=0, already_seen=427, filtered_out=53, dry_run=False
+2026-06-02 13:33:45,809 - bot - INFO - Running search: iPhone 11
+2026-06-02 13:34:00,067 - bot - INFO - Found 480 items for 'iPhone 11'
+2026-06-02 13:36:37,724 - scraper - WARNING - Timeout detected. Refreshing cookies and retrying...
+2026-06-02 13:36:37,726 - scraper - INFO - Fetching new cookies from https://www.vinted.pt...
+2026-06-02 13:36:40,190 - scraper - INFO - Successfully fetched and saved new cookies.
+2026-06-02 13:36:40,194 - scraper - WARNING - Retrying after 128.4s due to HTTPSConnectionPool(host='www.vinted.pt', port=443): Read timed out. (read timeout=30)
+2026-06-02 13:39:22,932 - bot - INFO - Search summary 'iPhone 11': matched=0, already_seen=411, filtered_out=69, dry_run=False
+2026-06-02 13:39:22,959 - bot - INFO - Running search: iPhone 11 Pro
+2026-06-02 13:39:39,590 - bot - INFO - Found 480 items for 'iPhone 11 Pro'
+2026-06-02 13:41:25,385 - bot - INFO - Search summary 'iPhone 11 Pro': matched=0, already_seen=438, filtered_out=42, dry_run=False
+2026-06-02 13:41:25,386 - bot - INFO - Running search: iPhone 11 Pro Max
+2026-06-02 13:41:40,764 - bot - INFO - Found 394 items for 'iPhone 11 Pro Max'
+2026-06-02 13:42:23,565 - bot - INFO - Search summary 'iPhone 11 Pro Max': matched=0, already_seen=379, filtered_out=15, dry_run=False
+2026-06-02 13:42:23,566 - bot - INFO - Running search: iPhone 12
+2026-06-02 13:42:38,826 - bot - INFO - Found 480 items for 'iPhone 12'
+2026-06-02 13:46:40,983 - bot - INFO - Search summary 'iPhone 12': matched=0, already_seen=377, filtered_out=103, dry_run=False
+2026-06-02 13:46:40,986 - bot - INFO - Running search: iPhone 12 Pro
+2026-06-02 13:46:50,477 - bot - INFO - Found 273 items for 'iPhone 12 Pro'
+2026-06-02 13:47:18,642 - bot - INFO - Search summary 'iPhone 12 Pro': matched=0, already_seen=261, filtered_out=12, dry_run=False
+2026-06-02 13:47:18,651 - bot - INFO - Running search: iPhone 12 Pro Max
+2026-06-02 13:47:30,326 - bot - INFO - Found 352 items for 'iPhone 12 Pro Max'
+2026-06-02 13:48:44,955 - bot - INFO - Search summary 'iPhone 12 Pro Max': matched=0, already_seen=326, filtered_out=26, dry_run=False
+2026-06-02 13:48:44,957 - bot - INFO - Running search: iPhone 13
+2026-06-02 13:48:46,533 - bot - INFO - Found 95 items for 'iPhone 13'
+2026-06-02 13:50:41,198 - bot - INFO - Search summary 'iPhone 13': matched=0, already_seen=50, filtered_out=45, dry_run=False
+2026-06-02 13:50:41,200 - bot - INFO - Running search: iPhone 13 Pro
+2026-06-02 13:50:55,916 - bot - INFO - Found 391 items for 'iPhone 13 Pro'
+2026-06-02 14:00:11,026 - notifier - INFO - SENT: Text message sent to 7688548847
+2026-06-02 14:03:24,396 - root - INFO - Starting Vinted Alert Bot...
+2026-06-02 14:03:24,398 - scraper - INFO - Fetching new cookies from https://www.vinted.pt...
+2026-06-02 14:03:26,606 - scraper - INFO - Successfully fetched and saved new cookies.
+2026-06-02 14:03:26,608 - root - INFO - Running in '--once' mode.
+2026-06-02 14:03:26,609 - root - INFO - --- Starting periodic check ---
+2026-06-02 14:03:26,610 - bot - INFO - Running search: PlayStation 5
+2026-06-02 14:03:40,849 - bot - INFO - Found 480 items for 'PlayStation 5'
+2026-06-02 14:03:45,964 - bot - INFO - Search summary 'PlayStation 5': matched=0, already_seen=478, filtered_out=2, dry_run=False
+2026-06-02 14:03:45,964 - bot - INFO - Running search: iPhone 17 Pro Max
+2026-06-02 14:03:47,108 - bot - INFO - Found 95 items for 'iPhone 17 Pro Max'
+2026-06-02 14:03:51,934 - bot - INFO - Search summary 'iPhone 17 Pro Max': matched=0, already_seen=93, filtered_out=2, dry_run=False
+2026-06-02 14:03:51,935 - bot - INFO - Running search: AirPods Pro 2
+2026-06-02 14:03:52,871 - bot - INFO - Found 95 items for 'AirPods Pro 2'
+2026-06-02 14:04:17,178 - bot - INFO - Search summary 'AirPods Pro 2': matched=0, already_seen=84, filtered_out=11, dry_run=False
+2026-06-02 14:04:17,179 - bot - INFO - Running search: MacBook Air M2 / M1 / M3 / M4 / PRO
+2026-06-02 14:04:21,806 - bot - INFO - Found 186 items for 'MacBook Air M2 / M1 / M3 / M4 / PRO'
+2026-06-02 14:04:28,396 - bot - INFO - Search summary 'MacBook Air M2 / M1 / M3 / M4 / PRO': matched=0, already_seen=183, filtered_out=3, dry_run=False
+2026-06-02 14:04:28,396 - bot - INFO - Running search: iPhone XR
+2026-06-02 14:07:33,280 - root - INFO - Starting Vinted Alert Bot...
+2026-06-02 14:07:33,282 - scraper - INFO - Fetching new cookies from https://www.vinted.pt...
+2026-06-02 14:07:35,835 - scraper - INFO - Successfully fetched and saved new cookies.
+2026-06-02 14:07:37,170 - root - INFO - Telegram commands enabled: /pause, /resume, /status, /search
+2026-06-02 14:07:37,172 - root - INFO - Running in scheduler mode. Interval: 30 minutes.
+2026-06-02 14:07:37,179 - root - INFO - --- Starting periodic check ---
+2026-06-02 14:07:37,182 - bot - INFO - Running search: PlayStation 5
+2026-06-02 14:07:50,702 - bot - INFO - Found 480 items for 'PlayStation 5'
+2026-06-02 14:07:50,904 - bot - INFO - Search summary 'PlayStation 5': matched=0, already_seen=480, filtered_out=0, dry_run=False
+2026-06-02 14:07:50,904 - bot - INFO - Running search: iPhone 17 Pro Max
+2026-06-02 14:07:51,961 - bot - INFO - Found 95 items for 'iPhone 17 Pro Max'
+2026-06-02 14:07:51,992 - bot - INFO - Search summary 'iPhone 17 Pro Max': matched=0, already_seen=95, filtered_out=0, dry_run=False
+2026-06-02 14:07:51,993 - bot - INFO - Running search: AirPods Pro 2
+2026-06-02 14:07:52,976 - bot - INFO - Found 95 items for 'AirPods Pro 2'
+2026-06-02 14:07:53,016 - bot - INFO - Search summary 'AirPods Pro 2': matched=0, already_seen=95, filtered_out=0, dry_run=False
+2026-06-02 14:07:53,017 - bot - INFO - Running search: MacBook Air M2 / M1 / M3 / M4 / PRO
+2026-06-02 14:07:57,446 - bot - INFO - Found 186 items for 'MacBook Air M2 / M1 / M3 / M4 / PRO'
+2026-06-02 14:07:57,520 - bot - INFO - Search summary 'MacBook Air M2 / M1 / M3 / M4 / PRO': matched=0, already_seen=186, filtered_out=0, dry_run=False
+2026-06-02 14:07:57,520 - bot - INFO - Running search: iPhone XR
+2026-06-02 14:11:13,576 - root - INFO - Starting Vinted Alert Bot...
+2026-06-02 14:11:13,580 - scraper - INFO - Fetching new cookies from https://www.vinted.pt...
+2026-06-02 14:11:15,889 - scraper - INFO - Successfully fetched and saved new cookies.
+2026-06-02 14:11:16,970 - root - INFO - Telegram commands enabled: /pause, /resume, /status, /search
+2026-06-02 14:11:16,972 - root - INFO - Running in scheduler mode. Interval: 30 minutes.
+2026-06-02 14:11:16,984 - root - INFO - --- Starting periodic check ---
+2026-06-02 14:11:16,985 - bot - INFO - Running search: iPhone 11 Pro
+2026-06-02 14:11:31,797 - bot - INFO - Found 480 items for 'iPhone 11 Pro'
+2026-06-02 14:15:54,271 - root - INFO - Starting Vinted Alert Bot...
+2026-06-02 14:15:54,274 - scraper - INFO - Fetching new cookies from https://www.vinted.pt...
+2026-06-02 14:15:56,343 - scraper - INFO - Successfully fetched and saved new cookies.
+2026-06-02 14:15:57,420 - root - INFO - Telegram commands enabled: /pause, /resume, /status, /search
+2026-06-02 14:15:57,422 - root - INFO - Running in scheduler mode. Interval: 30 minutes.
+2026-06-02 14:15:57,439 - root - INFO - --- Starting periodic check ---
+2026-06-02 14:15:57,443 - bot - INFO - Running search: iPhone 11 Pro
+2026-06-02 14:16:12,672 - bot - INFO - Found 480 items for 'iPhone 11 Pro'
+2026-06-02 15:26:12,497 - root - INFO - Starting Vinted Alert Bot...
+2026-06-02 15:26:12,499 - scraper - INFO - Fetching new cookies from https://www.vinted.pt...
+2026-06-02 15:26:13,362 - scraper - INFO - Successfully fetched and saved new cookies.
+2026-06-02 15:26:13,871 - root - INFO - Telegram commands enabled: /pause, /resume, /status, /search
+2026-06-02 15:26:13,872 - root - INFO - Running in scheduler mode. Interval: 30 minutes.
+2026-06-02 15:26:13,876 - root - INFO - --- Starting periodic check ---
+2026-06-02 15:26:13,876 - bot - INFO - Running search: iPhone 11 Pro
+2026-06-02 15:26:28,678 - bot - INFO - Found 480 items for 'iPhone 11 Pro'
+2026-06-02 15:31:10,671 - bot - INFO - Search summary 'iPhone 11 Pro': matched=0, already_seen=360, filtered_out=120, dry_run=False
+2026-06-02 15:31:10,674 - bot - INFO - Running search: PlayStation 5
+2026-06-02 15:31:25,318 - bot - INFO - Found 480 items for 'PlayStation 5'
+2026-06-02 15:31:30,267 - bot - INFO - Search summary 'PlayStation 5': matched=0, already_seen=478, filtered_out=2, dry_run=False
+2026-06-02 15:31:30,269 - bot - INFO - Running search: iPhone 17 Pro Max
+2026-06-02 15:31:31,701 - bot - INFO - Found 95 items for 'iPhone 17 Pro Max'
+2026-06-02 15:31:41,095 - bot - INFO - Search summary 'iPhone 17 Pro Max': matched=0, already_seen=91, filtered_out=4, dry_run=False
+2026-06-02 15:31:41,098 - bot - INFO - Running search: AirPods Pro 2
+2026-06-02 15:31:42,182 - bot - INFO - Found 95 items for 'AirPods Pro 2'
+2026-06-02 15:32:04,629 - bot - INFO - Search summary 'AirPods Pro 2': matched=0, already_seen=85, filtered_out=10, dry_run=False
+2026-06-02 15:32:04,633 - bot - INFO - Running search: MacBook Air M2 / M1 / M3 / M4 / PRO
+2026-06-02 15:32:09,606 - bot - INFO - Found 186 items for 'MacBook Air M2 / M1 / M3 / M4 / PRO'
+2026-06-02 15:32:10,180 - bot - INFO - Search summary 'MacBook Air M2 / M1 / M3 / M4 / PRO': matched=0, already_seen=186, filtered_out=0, dry_run=False
+2026-06-02 15:32:10,181 - bot - INFO - Running search: iPhone XR
+2026-06-02 15:32:24,228 - bot - INFO - Found 480 items for 'iPhone XR'
+2026-06-02 15:32:46,196 - bot - INFO - Search summary 'iPhone XR': matched=0, already_seen=471, filtered_out=9, dry_run=False
+2026-06-02 15:32:46,202 - bot - INFO - Running search: iPhone 11
+2026-06-02 15:33:01,828 - bot - INFO - Found 480 items for 'iPhone 11'
+2026-06-02 15:33:07,535 - bot - INFO - Search summary 'iPhone 11': matched=0, already_seen=478, filtered_out=2, dry_run=False
+2026-06-02 15:33:07,539 - bot - INFO - Running search: iPhone 11 Pro
+2026-06-02 15:33:23,368 - bot - INFO - Found 480 items for 'iPhone 11 Pro'
+2026-06-02 15:33:30,831 - bot - INFO - Search summary 'iPhone 11 Pro': matched=0, already_seen=477, filtered_out=3, dry_run=False
+2026-06-02 15:33:30,834 - bot - INFO - Running search: iPhone 11 Pro Max
+2026-06-02 15:33:46,000 - bot - INFO - Found 393 items for 'iPhone 11 Pro Max'
+2026-06-02 15:33:49,973 - bot - INFO - Search summary 'iPhone 11 Pro Max': matched=0, already_seen=393, filtered_out=0, dry_run=False
+2026-06-02 15:33:50,001 - bot - INFO - Running search: iPhone 12
+2026-06-02 15:34:05,674 - bot - INFO - Found 480 items for 'iPhone 12'
+2026-06-02 15:34:20,106 - bot - INFO - Search summary 'iPhone 12': matched=0, already_seen=473, filtered_out=7, dry_run=False
+2026-06-02 15:34:20,109 - bot - INFO - Running search: iPhone 12 Pro
+2026-06-02 15:34:27,648 - bot - INFO - Found 273 items for 'iPhone 12 Pro'
+2026-06-02 15:34:37,353 - bot - INFO - Search summary 'iPhone 12 Pro': matched=0, already_seen=269, filtered_out=4, dry_run=False
+2026-06-02 15:34:37,355 - bot - INFO - Running search: iPhone 12 Pro Max
+2026-06-02 15:34:47,656 - bot - INFO - Found 334 items for 'iPhone 12 Pro Max'
+2026-06-02 15:34:52,527 - bot - INFO - Search summary 'iPhone 12 Pro Max': matched=0, already_seen=332, filtered_out=2, dry_run=False
+2026-06-02 15:34:52,529 - bot - INFO - Running search: iPhone 13
+2026-06-02 15:34:53,772 - bot - INFO - Found 95 items for 'iPhone 13'
+2026-06-02 15:35:02,603 - bot - INFO - Search summary 'iPhone 13': matched=0, already_seen=91, filtered_out=4, dry_run=False
+2026-06-02 15:35:02,605 - bot - INFO - Running search: iPhone 13 Pro
+2026-06-02 15:35:14,045 - bot - INFO - Found 378 items for 'iPhone 13 Pro'
+2026-06-02 15:38:52,660 - bot - INFO - Search summary 'iPhone 13 Pro': matched=0, already_seen=289, filtered_out=89, dry_run=False
+2026-06-02 15:38:52,663 - bot - INFO - Running search: iPhone 13 Pro Max
+2026-06-02 15:39:03,677 - bot - INFO - Found 297 items for 'iPhone 13 Pro Max'
+2026-06-02 15:44:11,829 - bot - INFO - Search summary 'iPhone 13 Pro Max': matched=0, already_seen=166, filtered_out=131, dry_run=False
+2026-06-02 15:44:11,832 - bot - INFO - Running search: iPhone 14
+2026-06-02 15:44:26,564 - bot - INFO - Found 480 items for 'iPhone 14'
+2026-06-02 16:03:19,285 - bot - INFO - Search summary 'iPhone 14': matched=0, already_seen=33, filtered_out=447, dry_run=False
+2026-06-02 16:03:19,286 - bot - INFO - Running search: iPhone 14 Plus
+2026-06-02 16:03:27,678 - bot - INFO - Found 239 items for 'iPhone 14 Plus'
+2026-06-02 16:10:10,463 - bot - INFO - Search summary 'iPhone 14 Plus': matched=0, already_seen=68, filtered_out=171, dry_run=False
+2026-06-02 16:10:10,464 - bot - INFO - Running search: iPhone 14 Pro
+2026-06-02 16:10:18,206 - bot - INFO - Found 264 items for 'iPhone 14 Pro'
