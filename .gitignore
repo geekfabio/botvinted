@@ -3,8 +3,5 @@
 /.pytest_cache
 /venv
 /tests
-
 /tests/*
-/testes
-/testes/*
 /__pycache__

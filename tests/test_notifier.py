@@ -1,5 +1,7 @@
 from unittest.mock import MagicMock, patch
 
+import requests
+
 from notifier import TelegramNotifier
 
 
@@ -8,7 +10,7 @@ def _response(status_code=200, json_data=None):
     response.status_code = status_code
     response.json.return_value = json_data or {}
     if status_code >= 400:
-        response.raise_for_status.side_effect = Exception(f"{status_code} error")
+        response.raise_for_status.side_effect = requests.HTTPError(f"{status_code} error", response=response)
     return response
 
 
@@ -145,3 +147,41 @@ def test_photo_alert_sends_short_photo_caption_then_full_html_message(mock_post)
     assert "caption" in first_payload
     assert len(first_payload["caption"]) < 1024
     assert second_payload["parse_mode"] == "HTML"
+
+
+@patch("notifier.requests.get")
+@patch("notifier.requests.post")
+def test_photo_alert_falls_back_to_download_upload_when_public_url_fails(mock_post, mock_get):
+    notifier = TelegramNotifier("token", [], config={"send_delay_seconds": 0})
+    mock_post.side_effect = [_response(400), _response(200), _response(200)]
+
+    image_response = MagicMock()
+    image_response.content = b"fake-image-bytes"
+    image_response.headers = {"Content-Type": "image/jpeg"}
+    image_response.raise_for_status.return_value = None
+    mock_get.return_value = image_response
+
+    sent = notifier.send_alert_to_chat(
+        {
+            "id": 2,
+            "title": "iPhone",
+            "price": {"amount": "100", "currency_code": "EUR"},
+            "description": "Descricao completa",
+            "url": "https://example.com/item",
+            "photos": [{"url": "https://example.com/photo.jpg"}],
+            "user": {"login": "seller", "feedback_count": 3, "feedback_reputation": 1.0},
+        },
+        "Pesquisa",
+        "123",
+    )
+
+    assert sent is True
+    assert mock_post.call_count == 3
+    assert mock_post.call_args_list[0].kwargs["data"]["photo"] == "https://example.com/photo.jpg"
+    assert mock_post.call_args_list[1].kwargs["files"]["photo"][0] == "vinted_photo.jpg"
+    assert mock_post.call_args_list[2].kwargs["data"]["parse_mode"] == "HTML"
+    mock_get.assert_called_once_with(
+        "https://example.com/photo.jpg",
+        timeout=15,
+        headers={"User-Agent": "Mozilla/5.0"},
+    )

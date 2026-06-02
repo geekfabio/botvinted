@@ -1,6 +1,7 @@
 import logging
 import time
 from html import escape
+from mimetypes import guess_extension
 
 import requests
 from resale import calculate_resale_costs
@@ -109,12 +110,12 @@ class TelegramNotifier:
         if elapsed < self.min_delay_seconds:
             time.sleep(self.min_delay_seconds - elapsed)
 
-    def _post(self, method: str, payload: dict):
+    def _post(self, method: str, payload: dict, files: dict = None):
         url = f"{self.api_url}/{method}"
 
         for attempt in range(self.max_retries):
             self._wait_for_send_slot()
-            response = requests.post(url, data=payload, timeout=10)
+            response = requests.post(url, data=payload, files=files, timeout=10)
             self.last_send_at = time.time()
 
             if response.status_code == 429:
@@ -138,6 +139,35 @@ class TelegramNotifier:
 
         response.raise_for_status()
         return response
+
+    def _download_photo(self, photo_url: str):
+        response = requests.get(
+            photo_url,
+            timeout=15,
+            headers={"User-Agent": "Mozilla/5.0"},
+        )
+        response.raise_for_status()
+
+        content = response.content
+        if not content:
+            raise ValueError("Downloaded photo is empty")
+
+        content_type = response.headers.get("Content-Type", "image/jpeg").split(";")[0].strip() or "image/jpeg"
+        extension = guess_extension(content_type) or ".jpg"
+        filename = f"vinted_photo{extension}"
+        return filename, content, content_type
+
+    def _send_photo_by_upload(self, chat_id: str, photo_url: str, caption: str):
+        filename, photo_bytes, content_type = self._download_photo(photo_url)
+        payload = {
+            "chat_id": chat_id,
+            "caption": caption,
+            "parse_mode": "HTML",
+        }
+        files = {
+            "photo": (filename, photo_bytes, content_type),
+        }
+        self._post("sendPhoto", payload, files=files)
 
     def send_alert(self, item: dict, search_name: str):
         sent_any = False
@@ -183,7 +213,20 @@ class TelegramNotifier:
                 try:
                     self._post("sendPhoto", payload)
                 except requests.HTTPError as e:
-                    logger.warning(f"Photo send failed for item {item.get('id')}; falling back to text: {e}")
+                    logger.warning(
+                        f"Photo send by URL failed for item {item.get('id')}; trying download/upload fallback: {e}"
+                    )
+                    try:
+                        self._send_photo_by_upload(chat_id, photo_url, photo_caption)
+                    except Exception as upload_error:
+                        logger.warning(
+                            f"Photo upload fallback failed for item {item.get('id')}; falling back to text: {upload_error}"
+                        )
+                    else:
+                        if not self.send_text_to_chat(chat_id, message, parse_mode="HTML"):
+                            return False
+                        logger.info(f"SENT: Alert sent to {chat_id} for item {item.get('id')}")
+                        return True
                 else:
                     if not self.send_text_to_chat(chat_id, message, parse_mode="HTML"):
                         return False

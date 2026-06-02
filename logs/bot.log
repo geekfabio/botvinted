@@ -4169,3 +4169,10 @@
 2026-06-02 16:10:10,463 - bot - INFO - Search summary 'iPhone 14 Plus': matched=0, already_seen=68, filtered_out=171, dry_run=False
 2026-06-02 16:10:10,464 - bot - INFO - Running search: iPhone 14 Pro
 2026-06-02 16:10:18,206 - bot - INFO - Found 264 items for 'iPhone 14 Pro'
+2026-06-02 16:23:38,764 - root - INFO - Starting Vinted Alert Bot...
+2026-06-02 16:23:38,766 - scraper - INFO - Fetching new cookies from https://www.vinted.pt...
+2026-06-02 16:23:42,347 - scraper - INFO - Successfully fetched and saved new cookies.
+2026-06-02 16:23:43,459 - root - INFO - Telegram commands enabled: /pause, /resume, /status, /search
+2026-06-02 16:23:43,459 - root - INFO - Running in scheduler mode. Interval: 30 minutes.
+2026-06-02 16:23:43,465 - root - INFO - --- Starting periodic check ---
+2026-06-02 16:23:43,466 - bot - INFO - Running search: iPhone 11 Pro
