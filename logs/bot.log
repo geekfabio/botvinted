@@ -4338,3 +4338,229 @@
 2026-06-02 16:55:20,392 - bot - INFO - Search summary 'iPhone 15': matched=0, already_seen=13, filtered_out=82, dry_run=False
 2026-06-02 16:55:20,394 - bot - INFO - Running search: iPhone 15 Plus
 2026-06-02 16:55:33,574 - bot - INFO - Found 248 items for 'iPhone 15 Plus'
+2026-06-02 16:58:11,923 - scraper - WARNING - Retrying after 128.6s due to ("Connection broken: ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)", ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-06-02 16:58:11,923 - telegram_commands - ERROR - Failed to fetch Telegram updates: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2026-06-03 13:54:01,828 - root - INFO - Starting Vinted Alert Bot...
+2026-06-03 13:54:01,838 - scraper - INFO - Fetching new cookies from https://www.vinted.pt...
+2026-06-03 13:54:10,338 - scraper - INFO - Successfully fetched and saved new cookies.
+2026-06-03 13:54:10,822 - root - INFO - Telegram commands enabled: /pause, /resume, /status, /search
+2026-06-03 13:54:10,822 - root - INFO - Running in scheduler mode. Interval: 30 minutes.
+2026-06-03 13:54:10,824 - root - INFO - --- Starting periodic check ---
+2026-06-03 13:54:10,824 - bot - INFO - Running search: iPhone 11 Pro
+2026-06-03 13:54:12,421 - bot - INFO - Found 95 items for 'iPhone 11 Pro'
+2026-06-03 13:55:04,251 - bot - INFO - Search summary 'iPhone 11 Pro': matched=0, already_seen=75, filtered_out=20, dry_run=False
+2026-06-03 13:55:04,252 - bot - INFO - Running search: PlayStation 5
+2026-06-03 13:55:05,502 - bot - INFO - Found 92 items for 'PlayStation 5'
+2026-06-03 13:55:36,004 - bot - INFO - Search summary 'PlayStation 5': matched=0, already_seen=78, filtered_out=14, dry_run=False
+2026-06-03 13:55:36,004 - bot - INFO - Running search: iPhone 17 Pro Max
+2026-06-03 13:55:37,549 - bot - INFO - Found 93 items for 'iPhone 17 Pro Max'
+2026-06-03 13:56:05,157 - bot - INFO - Search summary 'iPhone 17 Pro Max': matched=0, already_seen=81, filtered_out=12, dry_run=False
+2026-06-03 13:56:05,157 - bot - INFO - Running search: AirPods Pro 2
+2026-06-03 13:56:06,225 - bot - INFO - Found 95 items for 'AirPods Pro 2'
+2026-06-03 13:56:32,661 - bot - INFO - Search summary 'AirPods Pro 2': matched=0, already_seen=83, filtered_out=12, dry_run=False
+2026-06-03 13:56:32,661 - bot - INFO - Running search: MacBook Air M2 / M1 / M3 / M4 / PRO
+2026-06-03 13:56:33,889 - bot - INFO - Found 95 items for 'MacBook Air M2 / M1 / M3 / M4 / PRO'
+2026-06-03 13:56:38,709 - bot - INFO - Search summary 'MacBook Air M2 / M1 / M3 / M4 / PRO': matched=0, already_seen=93, filtered_out=2, dry_run=False
+2026-06-03 13:56:38,709 - bot - INFO - Running search: iPhone XR
+2026-06-03 13:56:39,723 - bot - INFO - Found 95 items for 'iPhone XR'
+2026-06-03 13:56:59,814 - bot - INFO - Search summary 'iPhone XR': matched=0, already_seen=85, filtered_out=10, dry_run=False
+2026-06-03 13:56:59,815 - bot - INFO - Running search: iPhone 11
+2026-06-03 13:57:00,957 - bot - INFO - Found 93 items for 'iPhone 11'
+2026-06-03 13:57:19,531 - bot - INFO - Search summary 'iPhone 11': matched=0, already_seen=85, filtered_out=8, dry_run=False
+2026-06-03 13:57:19,531 - bot - INFO - Running search: iPhone 11 Pro
+2026-06-03 13:57:20,775 - bot - INFO - Found 95 items for 'iPhone 11 Pro'
+2026-06-03 13:57:20,831 - bot - INFO - Search summary 'iPhone 11 Pro': matched=0, already_seen=95, filtered_out=0, dry_run=False
+2026-06-03 13:57:20,833 - bot - INFO - Running search: iPhone 11 Pro Max
+2026-06-03 13:57:36,283 - bot - INFO - Found 387 items for 'iPhone 11 Pro Max'
+2026-06-03 13:57:44,251 - bot - INFO - Search summary 'iPhone 11 Pro Max': matched=0, already_seen=384, filtered_out=3, dry_run=False
+2026-06-03 13:57:44,252 - bot - INFO - Running search: iPhone 12
+2026-06-03 13:57:45,450 - bot - INFO - Found 95 items for 'iPhone 12'
+2026-06-03 13:59:01,370 - bot - INFO - Search summary 'iPhone 12': matched=0, already_seen=64, filtered_out=31, dry_run=False
+2026-06-03 13:59:01,380 - bot - INFO - Running search: iPhone 12 Pro
+2026-06-03 13:59:10,063 - bot - INFO - Found 273 items for 'iPhone 12 Pro'
+2026-06-03 13:59:24,075 - bot - INFO - Search summary 'iPhone 12 Pro': matched=0, already_seen=270, filtered_out=3, dry_run=False
+2026-06-03 13:59:24,079 - bot - INFO - Running search: iPhone 12 Pro Max
+2026-06-03 13:59:39,515 - bot - INFO - Found 328 items for 'iPhone 12 Pro Max'
+2026-06-03 13:59:40,556 - telegram_commands - ERROR - Failed to fetch Telegram updates: HTTPSConnectionPool(host='api.telegram.org', port=443): Read timed out. (read timeout=15)
+2026-06-03 13:59:58,714 - bot - INFO - Search summary 'iPhone 12 Pro Max': matched=0, already_seen=320, filtered_out=8, dry_run=False
+2026-06-03 13:59:58,722 - bot - INFO - Running search: iPhone 13
+2026-06-03 13:59:59,919 - bot - INFO - Found 92 items for 'iPhone 13'
+2026-06-03 14:00:40,306 - bot - INFO - Search summary 'iPhone 13': matched=0, already_seen=74, filtered_out=18, dry_run=False
+2026-06-03 14:00:40,308 - bot - INFO - Running search: iPhone 13 Pro
+2026-06-03 14:00:41,319 - bot - INFO - Found 94 items for 'iPhone 13 Pro'
+2026-06-03 14:00:50,223 - bot - INFO - Search summary 'iPhone 13 Pro': matched=0, already_seen=90, filtered_out=4, dry_run=False
+2026-06-03 14:00:50,223 - bot - INFO - Running search: iPhone 13 Pro Max
+2026-06-03 14:01:00,888 - bot - INFO - Found 296 items for 'iPhone 13 Pro Max'
+2026-06-03 14:01:31,578 - bot - INFO - Search summary 'iPhone 13 Pro Max': matched=0, already_seen=284, filtered_out=12, dry_run=False
+2026-06-03 14:01:31,579 - bot - INFO - Running search: iPhone 14
+2026-06-03 14:01:32,631 - bot - INFO - Found 94 items for 'iPhone 14'
+2026-06-03 14:01:58,928 - bot - INFO - Search summary 'iPhone 14': matched=0, already_seen=82, filtered_out=12, dry_run=False
+2026-06-03 14:01:58,928 - bot - INFO - Running search: iPhone 14 Plus
+2026-06-03 14:02:00,119 - bot - INFO - Found 92 items for 'iPhone 14 Plus'
+2026-06-03 14:02:04,620 - bot - INFO - Search summary 'iPhone 14 Plus': matched=0, already_seen=90, filtered_out=2, dry_run=False
+2026-06-03 14:02:04,625 - bot - INFO - Running search: iPhone 14 Pro
+2026-06-03 14:02:05,705 - bot - INFO - Found 95 items for 'iPhone 14 Pro'
+2026-06-03 14:02:12,446 - bot - INFO - Search summary 'iPhone 14 Pro': matched=0, already_seen=92, filtered_out=3, dry_run=False
+2026-06-03 14:02:12,447 - bot - INFO - Running search: iPhone 14 Pro Max
+2026-06-03 14:02:13,666 - bot - INFO - Found 94 items for 'iPhone 14 Pro Max'
+2026-06-03 14:02:30,718 - bot - INFO - Search summary 'iPhone 14 Pro Max': matched=0, already_seen=86, filtered_out=8, dry_run=False
+2026-06-03 14:02:30,719 - bot - INFO - Running search: iPhone 15
+2026-06-03 14:02:31,833 - bot - INFO - Found 93 items for 'iPhone 15'
+2026-06-03 14:02:51,544 - bot - INFO - Search summary 'iPhone 15': matched=0, already_seen=84, filtered_out=9, dry_run=False
+2026-06-03 14:02:51,546 - bot - INFO - Running search: iPhone 15 Plus
+2026-06-03 14:02:59,580 - bot - INFO - Found 245 items for 'iPhone 15 Plus'
+2026-06-03 14:07:24,013 - bot - INFO - Search summary 'iPhone 15 Plus': matched=0, already_seen=132, filtered_out=113, dry_run=False
+2026-06-03 14:07:24,014 - bot - INFO - Running search: iPhone 15 Pro
+2026-06-03 14:07:25,081 - bot - INFO - Found 93 items for 'iPhone 15 Pro'
+2026-06-03 14:08:58,453 - bot - INFO - Search summary 'iPhone 15 Pro': matched=0, already_seen=52, filtered_out=41, dry_run=False
+2026-06-03 14:08:58,455 - bot - INFO - Running search: iPhone 15 Pro Max
+2026-06-03 14:08:59,534 - bot - INFO - Found 95 items for 'iPhone 15 Pro Max'
+2026-06-03 14:10:05,858 - bot - INFO - Search summary 'iPhone 15 Pro Max': matched=0, already_seen=66, filtered_out=29, dry_run=False
+2026-06-03 14:10:05,860 - bot - INFO - Running search: iPhone 16
+2026-06-03 14:10:06,969 - bot - INFO - Found 93 items for 'iPhone 16'
+2026-06-03 14:12:42,003 - bot - INFO - Search summary 'iPhone 16': matched=0, already_seen=22, filtered_out=71, dry_run=False
+2026-06-03 14:12:42,004 - bot - INFO - Running search: iPhone 16 Plus
+2026-06-03 14:12:43,377 - bot - INFO - Found 93 items for 'iPhone 16 Plus'
+2026-06-03 14:14:54,678 - bot - INFO - Search summary 'iPhone 16 Plus': matched=0, already_seen=42, filtered_out=51, dry_run=False
+2026-06-03 14:14:54,683 - bot - INFO - Running search: iPhone 16 Pro
+2026-06-03 14:14:55,809 - bot - INFO - Found 94 items for 'iPhone 16 Pro'
+2026-06-03 14:16:31,615 - bot - INFO - Search summary 'iPhone 16 Pro': matched=0, already_seen=51, filtered_out=43, dry_run=False
+2026-06-03 14:16:31,615 - bot - INFO - Running search: iPhone 16 Pro Max
+2026-06-03 14:16:32,812 - bot - INFO - Found 93 items for 'iPhone 16 Pro Max'
+2026-06-03 14:17:42,289 - bot - INFO - Search summary 'iPhone 16 Pro Max': matched=0, already_seen=62, filtered_out=31, dry_run=False
+2026-06-03 14:17:42,291 - bot - INFO - Running search: iPhone 17
+2026-06-03 14:17:43,650 - bot - INFO - Found 94 items for 'iPhone 17'
+2026-06-03 14:19:22,278 - bot - INFO - Search summary 'iPhone 17': matched=0, already_seen=52, filtered_out=42, dry_run=False
+2026-06-03 14:19:22,284 - bot - INFO - Running search: iPhone 17 Pro
+2026-06-03 14:19:23,312 - bot - INFO - Found 94 items for 'iPhone 17 Pro'
+2026-06-03 14:19:59,494 - bot - INFO - Search summary 'iPhone 17 Pro': matched=0, already_seen=78, filtered_out=16, dry_run=False
+2026-06-03 14:19:59,495 - bot - INFO - Running search: iPhone 17 Pro Max
+2026-06-03 14:20:00,845 - bot - INFO - Found 93 items for 'iPhone 17 Pro Max'
+2026-06-03 14:20:08,023 - bot - INFO - Search summary 'iPhone 17 Pro Max': matched=0, already_seen=90, filtered_out=3, dry_run=False
+2026-06-03 14:20:08,028 - bot - INFO - Running search: AirPods Pro 2
+2026-06-03 14:20:09,162 - bot - INFO - Found 94 items for 'AirPods Pro 2'
+2026-06-03 14:20:09,335 - bot - INFO - Search summary 'AirPods Pro 2': matched=0, already_seen=94, filtered_out=0, dry_run=False
+2026-06-03 14:20:09,340 - bot - INFO - Running search: PlayStation 5
+2026-06-03 14:20:10,682 - bot - INFO - Found 94 items for 'PlayStation 5'
+2026-06-03 14:22:46,299 - bot - INFO - Search summary 'PlayStation 5': matched=0, already_seen=28, filtered_out=66, dry_run=False
+2026-06-03 14:22:46,302 - bot - INFO - Running search: MacBook Air M2 / M1 / M3 / M4 / PRO
+2026-06-03 14:22:47,405 - bot - INFO - Found 95 items for 'MacBook Air M2 / M1 / M3 / M4 / PRO'
+2026-06-03 14:22:47,535 - bot - INFO - Search summary 'MacBook Air M2 / M1 / M3 / M4 / PRO': matched=0, already_seen=95, filtered_out=0, dry_run=False
+2026-06-03 14:22:47,542 - root - INFO - --- Finished periodic check ---
+2026-06-03 14:52:48,457 - root - INFO - --- Starting periodic check ---
+2026-06-03 14:52:48,466 - bot - INFO - Running search: iPhone 11 Pro
+2026-06-03 14:52:48,871 - scraper - WARNING - Retrying after 126.5s due to HTTP 403
+2026-06-03 14:54:55,783 - scraper - WARNING - Retrying after 243.6s due to HTTP 403
+2026-06-03 14:58:59,704 - scraper - ERROR - Error scraping https://www.vinted.pt/api/v2/catalog/items?search_text=iphone 11 pro&currency=EUR&order=newest_first&per_page=96&price_from=50&price_to=200&page=1: 403 Client Error: Forbidden for url: https://www.vinted.pt/api/v2/catalog/items?search_text=iphone%2011%20pro&currency=EUR&order=newest_first&per_page=96&price_from=50&price_to=200&page=1
+2026-06-03 14:58:59,709 - bot - INFO - Found 0 items for 'iPhone 11 Pro'
+2026-06-03 14:58:59,712 - bot - INFO - Search summary 'iPhone 11 Pro': matched=0, already_seen=0, filtered_out=0, dry_run=False
+2026-06-03 14:58:59,724 - bot - INFO - Running search: PlayStation 5
+2026-06-03 14:58:59,838 - scraper - WARNING - Retrying after 125.6s due to HTTP 403
+2026-06-03 15:01:06,156 - scraper - WARNING - Retrying after 247.8s due to HTTP 403
+2026-06-03 15:05:14,252 - scraper - ERROR - Error scraping https://www.vinted.pt/api/v2/catalog/items?search_text=ps5 playstation 5&currency=EUR&order=newest_first&per_page=96&price_from=200&price_to=320&status_ids[]=2&status_ids[]=3&status_ids[]=4&page=1: 403 Client Error: Forbidden for url: https://www.vinted.pt/api/v2/catalog/items?search_text=ps5%20playstation%205&currency=EUR&order=newest_first&per_page=96&price_from=200&price_to=320&status_ids%5B%5D=2&status_ids%5B%5D=3&status_ids%5B%5D=4&page=1
+2026-06-03 15:05:14,270 - bot - INFO - Found 0 items for 'PlayStation 5'
+2026-06-03 15:05:14,286 - bot - INFO - Search summary 'PlayStation 5': matched=0, already_seen=0, filtered_out=0, dry_run=False
+2026-06-03 15:05:14,311 - bot - INFO - Running search: iPhone 17 Pro Max
+2026-06-03 15:05:14,444 - scraper - WARNING - Retrying after 122.8s due to HTTP 403
+2026-06-03 15:07:17,493 - scraper - WARNING - Retrying after 250.0s due to HTTP 403
+2026-06-03 15:11:27,744 - scraper - ERROR - Error scraping https://www.vinted.pt/api/v2/catalog/items?search_text=iphone 17 pro max&currency=EUR&order=newest_first&per_page=96&price_from=300&price_to=700&page=1: 403 Client Error: Forbidden for url: https://www.vinted.pt/api/v2/catalog/items?search_text=iphone%2017%20pro%20max&currency=EUR&order=newest_first&per_page=96&price_from=300&price_to=700&page=1
+2026-06-03 15:11:27,751 - bot - INFO - Found 0 items for 'iPhone 17 Pro Max'
+2026-06-03 15:11:27,753 - bot - INFO - Search summary 'iPhone 17 Pro Max': matched=0, already_seen=0, filtered_out=0, dry_run=False
+2026-06-03 15:11:27,760 - bot - INFO - Running search: AirPods Pro 2
+2026-06-03 15:11:27,856 - scraper - WARNING - Retrying after 123.7s due to HTTP 403
+2026-06-03 15:13:31,856 - scraper - WARNING - Retrying after 240.7s due to HTTP 403
+2026-06-03 15:17:32,814 - scraper - ERROR - Error scraping https://www.vinted.pt/api/v2/catalog/items?search_text=airpods pro 2&currency=EUR&order=newest_first&per_page=96&price_from=20&price_to=60&page=1: 403 Client Error: Forbidden for url: https://www.vinted.pt/api/v2/catalog/items?search_text=airpods%20pro%202&currency=EUR&order=newest_first&per_page=96&price_from=20&price_to=60&page=1
+2026-06-03 15:17:32,822 - bot - INFO - Found 0 items for 'AirPods Pro 2'
+2026-06-03 15:17:32,828 - bot - INFO - Search summary 'AirPods Pro 2': matched=0, already_seen=0, filtered_out=0, dry_run=False
+2026-06-03 15:17:32,829 - bot - INFO - Running search: MacBook Air M2 / M1 / M3 / M4 / PRO
+2026-06-03 15:17:32,970 - scraper - WARNING - Retrying after 129.2s due to HTTP 403
+2026-06-03 15:19:42,492 - scraper - WARNING - Retrying after 241.9s due to HTTP 403
+2026-06-03 15:23:44,622 - scraper - ERROR - Error scraping https://www.vinted.pt/api/v2/catalog/items?search_text=macbook air m2&currency=EUR&order=newest_first&per_page=96&price_from=100&price_to=300&page=1: 403 Client Error: Forbidden for url: https://www.vinted.pt/api/v2/catalog/items?search_text=macbook%20air%20m2&currency=EUR&order=newest_first&per_page=96&price_from=100&price_to=300&page=1
+2026-06-03 15:23:44,625 - bot - INFO - Found 0 items for 'MacBook Air M2 / M1 / M3 / M4 / PRO'
+2026-06-03 15:23:44,626 - bot - INFO - Search summary 'MacBook Air M2 / M1 / M3 / M4 / PRO': matched=0, already_seen=0, filtered_out=0, dry_run=False
+2026-06-03 15:23:44,627 - bot - INFO - Running search: iPhone XR
+2026-06-03 15:23:44,775 - scraper - WARNING - Retrying after 120.7s due to HTTP 403
+2026-06-03 15:25:47,746 - bot - INFO - Found 94 items for 'iPhone XR'
+2026-06-03 15:25:47,948 - bot - INFO - Search summary 'iPhone XR': matched=0, already_seen=94, filtered_out=0, dry_run=False
+2026-06-03 15:25:47,949 - bot - INFO - Running search: iPhone 11
+2026-06-03 15:25:50,105 - bot - INFO - Found 92 items for 'iPhone 11'
+2026-06-03 15:25:50,297 - bot - INFO - Search summary 'iPhone 11': matched=0, already_seen=92, filtered_out=0, dry_run=False
+2026-06-03 15:25:50,298 - bot - INFO - Running search: iPhone 11 Pro
+2026-06-03 15:25:51,550 - bot - INFO - Found 95 items for 'iPhone 11 Pro'
+2026-06-03 15:25:51,753 - bot - INFO - Search summary 'iPhone 11 Pro': matched=0, already_seen=95, filtered_out=0, dry_run=False
+2026-06-03 15:25:51,756 - bot - INFO - Running search: iPhone 11 Pro Max
+2026-06-03 15:26:06,139 - bot - INFO - Found 387 items for 'iPhone 11 Pro Max'
+2026-06-03 15:26:09,812 - bot - INFO - Search summary 'iPhone 11 Pro Max': matched=0, already_seen=386, filtered_out=1, dry_run=False
+2026-06-03 15:26:09,816 - bot - INFO - Running search: iPhone 12
+2026-06-03 15:26:11,138 - bot - INFO - Found 95 items for 'iPhone 12'
+2026-06-03 15:26:11,295 - bot - INFO - Search summary 'iPhone 12': matched=0, already_seen=95, filtered_out=0, dry_run=False
+2026-06-03 15:26:11,300 - bot - INFO - Running search: iPhone 12 Pro
+2026-06-03 15:26:19,092 - bot - INFO - Found 273 items for 'iPhone 12 Pro'
+2026-06-03 15:26:20,385 - bot - INFO - Search summary 'iPhone 12 Pro': matched=0, already_seen=273, filtered_out=0, dry_run=False
+2026-06-03 15:26:20,399 - bot - INFO - Running search: iPhone 12 Pro Max
+2026-06-03 15:26:21,865 - bot - INFO - Found 95 items for 'iPhone 12 Pro Max'
+2026-06-03 15:26:22,105 - bot - INFO - Search summary 'iPhone 12 Pro Max': matched=0, already_seen=95, filtered_out=0, dry_run=False
+2026-06-03 15:26:22,107 - bot - INFO - Running search: iPhone 13
+2026-06-03 15:26:23,773 - bot - INFO - Found 91 items for 'iPhone 13'
+2026-06-03 15:26:24,126 - bot - INFO - Search summary 'iPhone 13': matched=0, already_seen=91, filtered_out=0, dry_run=False
+2026-06-03 15:26:24,136 - bot - INFO - Running search: iPhone 13 Pro
+2026-06-03 15:26:25,420 - bot - INFO - Found 93 items for 'iPhone 13 Pro'
+2026-06-03 15:26:25,601 - bot - INFO - Search summary 'iPhone 13 Pro': matched=0, already_seen=93, filtered_out=0, dry_run=False
+2026-06-03 15:26:25,603 - bot - INFO - Running search: iPhone 13 Pro Max
+2026-06-03 15:26:36,016 - bot - INFO - Found 289 items for 'iPhone 13 Pro Max'
+2026-06-03 15:26:43,249 - bot - INFO - Search summary 'iPhone 13 Pro Max': matched=0, already_seen=286, filtered_out=3, dry_run=False
+2026-06-03 15:26:43,252 - bot - INFO - Running search: iPhone 14
+2026-06-03 15:26:44,260 - bot - INFO - Found 94 items for 'iPhone 14'
+2026-06-03 15:26:44,394 - bot - INFO - Search summary 'iPhone 14': matched=0, already_seen=94, filtered_out=0, dry_run=False
+2026-06-03 15:26:44,395 - bot - INFO - Running search: iPhone 14 Plus
+2026-06-03 15:26:45,609 - bot - INFO - Found 92 items for 'iPhone 14 Plus'
+2026-06-03 15:26:49,865 - bot - INFO - Search summary 'iPhone 14 Plus': matched=0, already_seen=90, filtered_out=2, dry_run=False
+2026-06-03 15:26:49,868 - bot - INFO - Running search: iPhone 14 Pro
+2026-06-03 15:26:51,076 - bot - INFO - Found 95 items for 'iPhone 14 Pro'
+2026-06-03 15:26:51,349 - bot - INFO - Search summary 'iPhone 14 Pro': matched=0, already_seen=95, filtered_out=0, dry_run=False
+2026-06-03 15:26:51,350 - bot - INFO - Running search: iPhone 14 Pro Max
+2026-06-03 15:26:52,478 - bot - INFO - Found 94 items for 'iPhone 14 Pro Max'
+2026-06-03 15:26:52,710 - bot - INFO - Search summary 'iPhone 14 Pro Max': matched=0, already_seen=94, filtered_out=0, dry_run=False
+2026-06-03 15:26:52,712 - bot - INFO - Running search: iPhone 15
+2026-06-03 15:26:53,922 - bot - INFO - Found 90 items for 'iPhone 15'
+2026-06-03 15:27:01,847 - bot - INFO - Search summary 'iPhone 15': matched=0, already_seen=87, filtered_out=3, dry_run=False
+2026-06-03 15:27:01,849 - bot - INFO - Running search: iPhone 15 Plus
+2026-06-03 15:27:03,503 - bot - INFO - Found 95 items for 'iPhone 15 Plus'
+2026-06-03 15:27:10,355 - bot - INFO - Search summary 'iPhone 15 Plus': matched=0, already_seen=92, filtered_out=3, dry_run=False
+2026-06-03 15:27:10,356 - bot - INFO - Running search: iPhone 15 Pro
+2026-06-03 15:27:12,709 - bot - INFO - Found 92 items for 'iPhone 15 Pro'
+2026-06-03 15:27:14,851 - bot - INFO - Search summary 'iPhone 15 Pro': matched=0, already_seen=91, filtered_out=1, dry_run=False
+2026-06-03 15:27:14,853 - bot - INFO - Running search: iPhone 15 Pro Max
+2026-06-03 15:27:15,928 - bot - INFO - Found 94 items for 'iPhone 15 Pro Max'
+2026-06-03 15:27:20,344 - bot - INFO - Search summary 'iPhone 15 Pro Max': matched=0, already_seen=92, filtered_out=2, dry_run=False
+2026-06-03 15:27:20,345 - bot - INFO - Running search: iPhone 16
+2026-06-03 15:27:21,744 - bot - INFO - Found 90 items for 'iPhone 16'
+2026-06-03 15:27:21,868 - bot - INFO - Search summary 'iPhone 16': matched=0, already_seen=90, filtered_out=0, dry_run=False
+2026-06-03 15:27:21,871 - bot - INFO - Running search: iPhone 16 Plus
+2026-06-03 15:27:22,932 - bot - INFO - Found 91 items for 'iPhone 16 Plus'
+2026-06-03 15:27:27,382 - bot - INFO - Search summary 'iPhone 16 Plus': matched=0, already_seen=89, filtered_out=2, dry_run=False
+2026-06-03 15:27:27,383 - bot - INFO - Running search: iPhone 16 Pro
+2026-06-03 15:27:28,499 - bot - INFO - Found 93 items for 'iPhone 16 Pro'
+2026-06-03 15:27:35,574 - bot - INFO - Search summary 'iPhone 16 Pro': matched=0, already_seen=90, filtered_out=3, dry_run=False
+2026-06-03 15:27:35,576 - bot - INFO - Running search: iPhone 16 Pro Max
+2026-06-03 15:27:36,662 - bot - INFO - Found 94 items for 'iPhone 16 Pro Max'
+2026-06-03 15:27:43,754 - bot - INFO - Search summary 'iPhone 16 Pro Max': matched=0, already_seen=91, filtered_out=3, dry_run=False
+2026-06-03 15:27:43,756 - bot - INFO - Running search: iPhone 17
+2026-06-03 15:27:44,932 - bot - INFO - Found 94 items for 'iPhone 17'
+2026-06-03 15:27:47,368 - bot - INFO - Search summary 'iPhone 17': matched=0, already_seen=93, filtered_out=1, dry_run=False
+2026-06-03 15:27:47,372 - bot - INFO - Running search: iPhone 17 Pro
+2026-06-03 15:27:48,706 - bot - INFO - Found 94 items for 'iPhone 17 Pro'
+2026-06-03 15:27:48,832 - bot - INFO - Search summary 'iPhone 17 Pro': matched=0, already_seen=94, filtered_out=0, dry_run=False
+2026-06-03 15:27:48,833 - bot - INFO - Running search: iPhone 17 Pro Max
+2026-06-03 15:27:49,921 - bot - INFO - Found 94 items for 'iPhone 17 Pro Max'
+2026-06-03 15:27:54,229 - bot - INFO - Search summary 'iPhone 17 Pro Max': matched=0, already_seen=92, filtered_out=2, dry_run=False
+2026-06-03 15:27:54,231 - bot - INFO - Running search: AirPods Pro 2
+2026-06-03 15:27:55,509 - bot - INFO - Found 95 items for 'AirPods Pro 2'
+2026-06-03 15:27:55,675 - bot - INFO - Search summary 'AirPods Pro 2': matched=0, already_seen=95, filtered_out=0, dry_run=False
+2026-06-03 15:27:55,675 - bot - INFO - Running search: PlayStation 5
+2026-06-03 15:27:56,987 - bot - INFO - Found 93 items for 'PlayStation 5'
+2026-06-03 15:28:06,727 - bot - INFO - Search summary 'PlayStation 5': matched=0, already_seen=89, filtered_out=4, dry_run=False
+2026-06-03 15:28:06,730 - bot - INFO - Running search: MacBook Air M2 / M1 / M3 / M4 / PRO
+2026-06-03 15:28:08,070 - bot - INFO - Found 95 items for 'MacBook Air M2 / M1 / M3 / M4 / PRO'
+2026-06-03 15:28:08,250 - bot - INFO - Search summary 'MacBook Air M2 / M1 / M3 / M4 / PRO': matched=0, already_seen=95, filtered_out=0, dry_run=False
+2026-06-03 15:28:08,256 - root - INFO - --- Finished periodic check ---
