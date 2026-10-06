@@ -56,15 +56,15 @@ cd C:\Users\Admin\Documents\sources\NextJs\botvinted
 ### 2. Criar e ativar o ambiente virtual 
 
 ```powershell
-python -m venv venv
-.\venv\Scripts\Activate.ps1
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
 ```
 
 Se usar o `cmd.exe`: 
 
 ```cmd
-python -m venv venv
-venv\Scripts\activate.bat
+python -m venv .venv
+.venv\Scripts\activate.bat
 ```
 
 ### 3. Atualizar o pip e instalar dependências 
@@ -85,16 +85,22 @@ Abra `config.yaml` e `.env` e atualize `TELEGRAM_TOKEN` e `destinations.chat_id`
 
 ### 5. Executar o bot 
 
-Executar uma vez usando o `venv`: 
+Testar primeiro o token e o `chat_id` sem consultar a Vinted:
 
 ```powershell
-.\venv\Scripts\python.exe bot.py --once
+.\run.ps1 --test-telegram
+```
+
+Executar uma vez usando o ambiente virtual:
+
+```powershell
+.\.venv\Scripts\python.exe bot.py --once
 ```
 
 Executar continuamente:
 
 ```powershell
-.\venv\Scripts\python.exe bot.py
+.\.venv\Scripts\python.exe bot.py
 ```
 
 ### 5.1 Usar um script de arranque rápido 
@@ -206,6 +212,9 @@ Pesquisa pelo username do teu bot no Telegram e envia `/start`. O bot precisa de
 # ───────────────────────────────────────────── 
 telegram: 
   token: "${TELEGRAM_TOKEN}"       # lido do .env — não colocar aqui directamente 
+  send_timeout_seconds: 20
+  verify_on_startup: true
+  notify_on_startup: true
   destinations: 
     - chat_id: "123456789"         # o teu chat pessoal 
       label: "Pessoal" 
@@ -232,6 +241,11 @@ global_filters:
 # ───────────────────────────────────────────── 
 # Pesquisas — adiciona quantas quiseres! 
 # ───────────────────────────────────────────── 
+detail_validation:
+  enabled: true
+  delay_between_detail_requests: 1
+  max_items_per_search: 10
+
 searches: 
  
   # ── iPhones ────────────────────────────── 
@@ -306,7 +320,7 @@ searches:
 # ───────────────────────────────────────────── 
 scraping: 
   delay_between_requests: 2       # segundos entre pedidos (não reduzir abaixo de 1) 
-  max_pages_per_search: 5         # páginas máximas por pesquisa (96 itens/página) 
+  max_pages_per_search: 1         # página mais recente; evita bloqueios 403/429
   results_per_page: 96 
   country: "pt"                   # pt, es, fr, de, it, etc. 
   currency: "EUR" 
@@ -335,7 +349,7 @@ logging:
 vinted-bot/ 
 │ 
 ├── bot.py                  # Entry point — inicia o scheduler 
-├── scraper.py              # Comunicação com a API da Vinted 
+├── scraper.py              # Leitura das páginas oficiais da Vinted
 ├── filters.py              # Lógica de filtros (preço, vendedor, condição, keywords) 
 ├── notifier.py             # Envio de mensagens via Telegram 
 ├── db.py                   # SQLite — deduplicação de IDs 
@@ -671,7 +685,7 @@ sudo systemctl restart vinted-bot
  
 ## Notas Técnicas 
  
-O bot usa a **API interna não documentada** da Vinted (`/api/v2/catalog/items`), que é a mesma que o site usa internamente. Isto é mais estável e eficiente do que fazer parse do HTML. 
+O bot consulta as páginas públicas oficiais da Vinted: o catálogo (`https://www.vinted.pt/catalog`) para pesquisas e as páginas `/items/...` para detalhes. Os anúncios são extraídos do HTML dessas páginas; não é usada a API interna `/api/v2/catalog/items`. A estrutura HTML pode mudar e, nesse caso, o parser poderá precisar de atualização. 
  
 O sistema de rating da Vinted usa `feedback_reputation` (valor de 0.0 a 1.0). O valor de "3 estrelas" corresponde a `0.6` nesta escala, o que equivale a 60% de feedback positivo. 
  

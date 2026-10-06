@@ -1,12 +1,19 @@
 import pytest
 import time
-from filters import map_condition, item_passes_global_filters, build_search_url_params
+from filters import (
+    map_condition,
+    item_passes_global_filters,
+    item_within_price_range,
+    build_search_url_params,
+)
 
 def test_map_condition():
-    assert map_condition("new") == 2
-    assert map_condition("new_with_tags") == 1
-    assert map_condition("like_new") == 3
-    assert map_condition("satisfactory") == 8
+    assert map_condition("new") == 1
+    assert map_condition("new_without_tags") == 1
+    assert map_condition("new_with_tags") == 6
+    assert map_condition("like_new") == 2
+    assert map_condition("good") == 3
+    assert map_condition("satisfactory") == 4
     assert map_condition("nonexistent") is None
 
 def test_item_passes_global_filters_empty_filters():
@@ -63,6 +70,63 @@ def test_item_passes_global_filters_rejects_old_items():
     assert item_passes_global_filters({"created_at_ts": old_ts}, global_filters) is False
     assert item_passes_global_filters({"created_at_ts": fresh_ts}, global_filters) is True
 
+
+def test_item_age_uses_photo_timestamp_and_never_ranking_score():
+    global_filters = {"max_item_age_days": 14, "require_item_age": True}
+    fresh_ts = int(time.time()) - 60
+    item = {
+        "search_tracking_params": {"score": 1.0038462},
+        "photo": {"high_resolution": {"timestamp": fresh_ts}},
+    }
+
+    assert item_passes_global_filters(item, global_filters) is True
+    assert item_passes_global_filters(
+        {"search_tracking_params": {"score": 1.0038462}},
+        global_filters,
+    ) is False
+
+
+def test_pre_detail_filter_can_skip_seller_checks():
+    global_filters = {
+        "require_seller_feedback": True,
+        "seller_min_stars": 3,
+        "seller_min_reviews": 1,
+    }
+
+    assert item_passes_global_filters({"user": {}}, global_filters) is False
+    assert item_passes_global_filters(
+        {"user": {}}, global_filters, check_seller=False
+    ) is True
+
+
+def test_pre_detail_filter_defers_required_item_age_until_details_are_loaded():
+    global_filters = {"max_item_age_days": 14, "require_item_age": True}
+
+    assert item_passes_global_filters(
+        {"title": "iPhone", "user": {}},
+        global_filters,
+        check_seller=False,
+        check_item_age=False,
+    ) is True
+    assert item_passes_global_filters(
+        {"title": "iPhone", "user": {}}, global_filters
+    ) is False
+
+
+@pytest.mark.parametrize(
+    ("item", "search", "expected"),
+    [
+        ({"price": {"amount": "50.00"}}, {"price_min": 50, "price_max": 240}, True),
+        ({"price": {"amount": "240.00"}}, {"price_min": 50, "price_max": 240}, True),
+        ({"price": {"amount": "49.99"}}, {"price_min": 50, "price_max": 240}, False),
+        ({"price": {"amount": "240.01"}}, {"price_min": 50, "price_max": 240}, False),
+        ({"price_numeric": 125}, {"price_min": 75, "price_max": 125}, True),
+        ({"title": "missing price"}, {"price_min": 1}, False),
+    ],
+)
+def test_item_within_configured_price_range(item, search, expected):
+    assert item_within_price_range(item, search) is expected
+
 def test_item_passes_global_filters_keywords():
     global_filters = {"exclude_keywords": ["avariado", "partido"]}
     
@@ -95,4 +159,4 @@ def test_build_search_url_params():
     assert params["currency"] == "EUR"
     assert params["order"] == "newest_first"
     assert params["per_page"] == 50
-    assert params["status_ids[]"] == [2, 3]
+    assert params["status_ids[]"] == [1, 2]

@@ -13,7 +13,7 @@ from bot_state import BotState
 from scraper import VintedScraper
 from notifier import TelegramNotifier
 from telegram_commands import TelegramCommandHandler
-from filters import item_passes_global_filters, build_search_url_params
+from filters import item_passes_global_filters, item_within_price_range, build_search_url_params
 
 def setup_logging(config: dict, debug_mode: bool):
     log_config = config.get("logging", {})
@@ -61,6 +61,7 @@ def run_searches(
     detail_validation = config.get("detail_validation", {})
     detail_enabled = detail_validation.get("enabled", True)
     detail_delay = detail_validation.get("delay_between_detail_requests", 1)
+    detail_limit = max(1, int(detail_validation.get("max_items_per_search", 10)))
     max_pages = scraping_config.get("max_pages_per_search", 1)
     
     searches = config.get("searches", [])
@@ -90,20 +91,60 @@ def run_searches(
             logger.info(f"Found {len(items)} items for '{name}'")
             already_seen = 0
             filtered_out = 0
+            detail_failed = 0
+            detail_attempted = 0
             matched = 0
             
             for item in items:
                 item_id = str(item.get("id"))
+                if not item.get("id"):
+                    logger.warning("Skipping item without an id")
+                    continue
                 
                 # Se jÃ¡ vimos este item, saltar
                 if db.is_item_seen(item_id):
                     already_seen += 1
                     continue
 
+                # Apply local bounds as a safety net in case the public catalog
+                # ignores price_from/price_to for a particular search.
+                if not item_within_price_range(item, search):
+                    filtered_out += 1
+                    if not dry_run:
+                        db.mark_item_seen(item_id)
+                    continue
+
+                # Reject age/keyword matches using catalog data before requesting
+                # the heavier detail page. Catalog HTML has no reliable upload
+                # date, so age must be checked after loading the item's details.
+                if not item_passes_global_filters(
+                    item,
+                    search_filters,
+                    check_seller=False,
+                    check_item_age=False,
+                ):
+                    filtered_out += 1
+                    if not dry_run:
+                        db.mark_item_seen(item_id)
+                    continue
+
                 if detail_enabled:
+                    if detail_attempted >= detail_limit:
+                        logger.info(
+                            f"Detail limit reached for '{name}' ({detail_limit}); "
+                            "remaining unseen items will be checked next cycle"
+                        )
+                        break
+                    detail_attempted += 1
                     item = scraper.get_item_details(item)
                     if detail_delay:
                         time.sleep(detail_delay)
+
+                    # A temporary Vinted/network failure must not permanently
+                    # suppress an otherwise valid listing.
+                    if not item.get("detail_loaded") and not item.get("unavailable"):
+                        detail_failed += 1
+                        continue
                     
                 # Verifica filtros globais
                 if not item_passes_global_filters(item, search_filters):
@@ -122,7 +163,8 @@ def run_searches(
 
             logger.info(
                 f"Search summary '{name}': matched={matched}, "
-                f"already_seen={already_seen}, filtered_out={filtered_out}, dry_run={dry_run}"
+                f"already_seen={already_seen}, filtered_out={filtered_out}, "
+                f"detail_failed={detail_failed}, dry_run={dry_run}"
             )
             
     # Limpeza da base de dados (remoÃ§Ã£o de itens > 90 dias)
@@ -133,27 +175,24 @@ def run_searches(
 def main():
     parser = argparse.ArgumentParser(description="Vinted Alert Bot")
     parser.add_argument("--once", action="store_true", help="Executar apenas uma vez e terminar")
-    parser.add_argument("--dry-run", action="store_true", help="Executar sem enviar notificaÃ§Ãµes para o Telegram")
-    parser.add_argument("--search", type=str, help="Correr apenas a pesquisa que contÃ©m este nome")
-    parser.add_argument("--debug", action="store_true", help="ForÃ§ar o nÃ­vel de logging para DEBUG")
+    parser.add_argument("--dry-run", action="store_true", help="Executar sem enviar notificações para o Telegram")
+    parser.add_argument("--search", type=str, help="Correr apenas a pesquisa que contém este nome")
+    parser.add_argument("--debug", action="store_true", help="Forçar o nível de logging para DEBUG")
+    parser.add_argument(
+        "--test-telegram",
+        action="store_true",
+        help="Validar o bot e enviar uma mensagem de teste sem consultar a Vinted",
+    )
     args = parser.parse_args()
     
     try:
         config = load_config()
     except Exception as e:
-        print(f"Erro ao carregar a configuraÃ§Ã£o: {e}")
+        print(f"Erro ao carregar a configuração: {e}")
         sys.exit(1)
         
     logger = setup_logging(config, args.debug)
     logger.info("Starting Vinted Alert Bot...")
-    
-    db_path = config.get("database", {}).get("path", "data/seen_items.db")
-    db = Database(db_path=db_path)
-    state_path = config.get("telegram_commands", {}).get("state_path", "data/bot_state.json")
-    bot_state = BotState(path=state_path)
-    operation_lock = threading.Lock()
-    
-    scraper = VintedScraper(config.get("scraping", {}))
     
     telegram_token = config.get("telegram", {}).get("token")
     destinations = config.get("telegram", {}).get("destinations", [])
@@ -165,6 +204,44 @@ def main():
             "resale": config.get("resale", {}),
         }
     )
+
+    telegram_config = config.get("telegram", {})
+    try:
+        if (
+            telegram_config.get("verify_on_startup", True) or args.test_telegram
+        ) and not args.dry_run:
+            bot_info = notifier.validate_bot()
+            logger.info(
+                f"Telegram bot validated: @{bot_info.get('username', 'unknown')}"
+            )
+
+        if args.test_telegram:
+            if not notifier.test_destinations(
+                "✅ Teste concluído: o Vinted Alert Bot consegue enviar mensagens para este chat."
+            ):
+                logger.error("Telegram destination test failed")
+                return 1
+            logger.info("All Telegram destinations passed the delivery test")
+            return 0
+
+        if telegram_config.get("notify_on_startup", False) and not args.dry_run:
+            if not notifier.test_destinations(
+                "✅ Vinted Alert Bot iniciado. A monitorização está ativa."
+            ):
+                logger.error("Telegram startup notification failed; stopping")
+                return 1
+    except Exception as exc:
+        logger.error(f"Telegram validation failed: {exc}")
+        return 1
+
+    db_path = config.get("database", {}).get("path", "data/seen_items.db")
+    db = Database(db_path=db_path)
+    state_path = config.get("telegram_commands", {}).get("state_path", "data/bot_state.json")
+    bot_state = BotState(path=state_path)
+    operation_lock = threading.Lock()
+
+    scraper = VintedScraper(config.get("scraping", {}))
+
     allowed_chat_ids = [dest.get("chat_id") for dest in destinations if dest.get("chat_id")]
     telegram_commands_config = config.get("telegram_commands", {})
     command_handler = None
@@ -229,4 +306,4 @@ def main():
             logger.info("Bot stopped manually.")
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

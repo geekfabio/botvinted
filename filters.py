@@ -1,27 +1,52 @@
 import time
 
 
+MIN_REASONABLE_TIMESTAMP = 946684800  # 2000-01-01 UTC
+
+
+def get_item_created_timestamp(item: dict):
+    """Return a real item timestamp, never Vinted's ranking score."""
+    candidates = (
+        item.get("created_at_ts"),
+        item.get("created_at_timestamp"),
+        item.get("photo", {}).get("high_resolution", {}).get("timestamp"),
+    )
+    max_reasonable_timestamp = int(time.time()) + (24 * 60 * 60)
+    for value in candidates:
+        if isinstance(value, (int, float)):
+            timestamp = int(value)
+            if MIN_REASONABLE_TIMESTAMP <= timestamp <= max_reasonable_timestamp:
+                return timestamp
+    return None
+
+
 def map_condition(condition_str: str) -> int:
     """
     Mapeia uma string de condição para o ID numérico da Vinted.
     Valores aproximados:
-    1 - Novo com etiquetas (new_with_tags)
-    2 - Novo sem etiquetas (new_without_tags / new)
-    3 - Muito bom estado (like_new)
-    4 - Bom estado (good)
-    8 - Satisfatório (satisfactory)
+    IDs confirmados no catálogo atual da Vinted:
+    1 - Novo sem etiquetas (new_without_tags / new)
+    2 - Muito bom estado (like_new)
+    3 - Bom estado (good)
+    4 - Satisfatório (satisfactory)
+    6 - Novo com etiquetas (new_with_tags)
     """
     mapping = {
-        "new_with_tags": 1,
-        "new": 2,
-        "new_without_tags": 2,
-        "like_new": 3,
-        "good": 4,
-        "satisfactory": 8
+        "new_with_tags": 6,
+        "new": 1,
+        "new_without_tags": 1,
+        "like_new": 2,
+        "good": 3,
+        "satisfactory": 4
     }
     return mapping.get(condition_str.lower())
 
-def item_passes_global_filters(item: dict, global_filters: dict) -> bool:
+def item_passes_global_filters(
+    item: dict,
+    global_filters: dict,
+    check_seller: bool = True,
+    check_item_age: bool = True,
+) -> bool:
     """
     Verifica se a listagem passa os filtros globais definidos no config.yaml.
     """
@@ -38,7 +63,7 @@ def item_passes_global_filters(item: dict, global_filters: dict) -> bool:
     # 1. Filtro de Estrelas do Vendedor
     # Na Vinted, `feedback_reputation` varia de 0.0 a 1.0
     min_stars = global_filters.get("seller_min_stars")
-    if min_stars is not None:
+    if check_seller and min_stars is not None:
         reputation = user.get("feedback_reputation")
         if reputation is None:
             reputation = user.get("feedback_reputation_percent")
@@ -53,7 +78,7 @@ def item_passes_global_filters(item: dict, global_filters: dict) -> bool:
             
     # 2. Filtro de Avaliações (Reviews) do Vendedor
     min_reviews = global_filters.get("seller_min_reviews")
-    if min_reviews is not None:
+    if check_seller and min_reviews is not None:
         reviews_count = user.get("feedback_count")
         if require_seller_feedback and reviews_count is None:
             return False
@@ -61,10 +86,8 @@ def item_passes_global_filters(item: dict, global_filters: dict) -> bool:
             return False
 
     max_item_age_days = global_filters.get("max_item_age_days")
-    if max_item_age_days is not None:
-        created_ts = item.get("created_at_ts") or item.get("created_at_timestamp")
-        if created_ts is None:
-            created_ts = item.get("search_tracking_params", {}).get("score")
+    if check_item_age and max_item_age_days is not None:
+        created_ts = get_item_created_timestamp(item)
         if require_item_age and created_ts is None:
             return False
         if created_ts is not None:
@@ -82,6 +105,28 @@ def item_passes_global_filters(item: dict, global_filters: dict) -> bool:
         if kw in title or kw in description:
             return False
             
+    return True
+
+
+def item_within_price_range(item: dict, search_config: dict) -> bool:
+    """Enforce configured price bounds locally, even if Vinted ignores query filters."""
+    price = item.get("price")
+    if isinstance(price, dict):
+        price = price.get("amount", price.get("numeric"))
+    if price is None:
+        price = item.get("price_numeric")
+
+    try:
+        amount = float(str(price).replace(" ", "").replace(",", "."))
+    except (TypeError, ValueError):
+        return False
+
+    price_min = search_config.get("price_min")
+    price_max = search_config.get("price_max")
+    if price_min is not None and amount < float(price_min):
+        return False
+    if price_max is not None and amount > float(price_max):
+        return False
     return True
 
 def build_search_url_params(search_config: dict, scraping_config: dict) -> dict:

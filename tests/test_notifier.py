@@ -1,8 +1,9 @@
 from unittest.mock import MagicMock, patch
 
 import requests
+import pytest
 
-from notifier import TelegramNotifier
+from notifier import TelegramDeliveryError, TelegramNotifier
 
 
 def _response(status_code=200, json_data=None):
@@ -119,6 +120,45 @@ def test_post_respects_telegram_rate_limit(mock_post, mock_sleep):
 
     assert mock_post.call_count == 2
     mock_sleep.assert_called_once_with(4.0)
+
+
+@patch("notifier.time.sleep")
+@patch("notifier.requests.post")
+def test_post_retries_network_errors(mock_post, mock_sleep):
+    notifier = TelegramNotifier(
+        "token",
+        [],
+        config={
+            "send_delay_seconds": 0,
+            "send_max_retries": 2,
+            "send_retry_backoff_seconds": 2,
+        },
+    )
+    mock_post.side_effect = [requests.Timeout("timed out"), _response(200)]
+
+    notifier._post("sendMessage", {"chat_id": "123", "text": "ok"})
+
+    assert mock_post.call_count == 2
+    mock_sleep.assert_called_once_with(2)
+
+
+@patch("notifier.requests.post")
+def test_post_error_never_exposes_bot_url_or_token(mock_post):
+    notifier = TelegramNotifier(
+        "123456789:very-secret-token-value-that-must-not-leak",
+        [],
+        config={"send_delay_seconds": 0, "send_max_retries": 1},
+    )
+    mock_post.side_effect = requests.Timeout(
+        "timeout for url: https://api.telegram.org/botSECRET/sendMessage"
+    )
+
+    with pytest.raises(TelegramDeliveryError) as exc_info:
+        notifier._post("sendMessage", {"chat_id": "123", "text": "ok"})
+
+    error = str(exc_info.value)
+    assert "SECRET" not in error
+    assert "api.telegram.org" not in error
 
 
 @patch("notifier.requests.post")

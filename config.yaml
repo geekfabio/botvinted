@@ -5,7 +5,10 @@ telegram:
   token: "${TELEGRAM_TOKEN}"       # lido do .env — não colocar aqui directamente 
   send_delay_seconds: 1.0
   send_max_retries: 3
-  send_retry_backoff_seconds: 5
+  send_retry_backoff_seconds: 6
+  send_timeout_seconds: 20
+  verify_on_startup: true
+  notify_on_startup: true
   destinations: 
     - chat_id: "7688548847"         # o teu chat pessoal 
       label: "Pessoal" 
@@ -30,7 +33,7 @@ scheduler:
 resale:
   enabled: true
   fixed_shipping_eur: 20
-  eur_to_kz: 1260
+  eur_to_kz: 1300
   target_currency: "Kz"
   highlight_profit_min_kz: 50000
   profiles:
@@ -57,7 +60,7 @@ global_filters:
   require_seller_feedback: true
   max_item_age_days: 14
   require_item_age: true
-  seller_min_stars: 3              # estrelas mínimas do vendedor (0–5) 
+  seller_min_stars: 3.1            # estritamente acima de 3 estrelas na escala de feedback 0–5
   seller_min_reviews: 1            # nº mínimo de avaliações do vendedor 
   exclude_keywords:                # ignora listagens com estas palavras no título 
     - "paypal" 
@@ -70,46 +73,20 @@ global_filters:
 detail_validation:
   enabled: true
   delay_between_detail_requests: 1
+  max_items_per_search: 10
 
 searches: 
- 
 
-  - name: "iPhone 11 Pro"
-    query: "iphone 11 pro"
-    price_min: 50
-    price_max: 200
-    condition: []
-    exclude_keywords: ["11 pro max"]
-  # ── iPhones ────────────────────────────── 
   - name: "PlayStation 5" 
     query: "ps5 playstation 5" 
     price_min: 200 
-    price_max: 320 
+    price_max: 720 
     condition: ["new", "like_new", "good"] 
-    exclude_keywords: ["dual sense", "pack", "Casque" ,"console", "Cover", "skin", "case", "bundle", "pack", "edition", "disc", "disk", "game", "games", "vr", "virtual reality", "camera", "headset"]
-
-  - name: "iPhone 17 Pro Max"
-    query: "iphone 17 pro max"
-    price_min: 300
-    price_max: 700
-    condition: []
-    exclude_keywords: ["17 plus"]
- 
-  # ── Pesquisas customizadas ───────────────── 
-  - name: "AirPods Pro 2" 
-    query: "airpods pro 2" 
-    price_min: 20 
-    price_max: 60 
- 
-  - name: "MacBook Air M2 / M1 / M3 / M4 / PRO" 
-    query: "macbook air m2" 
-    price_min: 100 
-    price_max: 300 
-
+  # ── iPhones ────────────────────────────── 
   - name: "iPhone XR"
     query: "iphone xr"
-    price_min: 40
-    price_max: 90
+    price_min: 50
+    price_max: 240
     condition: []
     resale:
       sale_min_kz: 160000
@@ -117,184 +94,178 @@ searches:
 
   - name: "iPhone 11"
     query: "iphone 11"
-    price_min: 50
-    price_max: 90
+    price_min: 75
+    price_max: 125
     condition: []                  # [] = todos; ou: ["new","like_new","good","satisfactory"]
     exclude_keywords: ["11 pro", "11 pro max"]
     resale:
       sale_min_kz: 190000
-      sale_max_kz: 200000
+      sale_max_kz: 230000
 
-  - name: "iPhone 11 Pro"
-    query: "iphone 11 pro"
-    price_min: 80
-    price_max: 140
+  - name: "iPhone 11"
+    query: "iphone 11"
+    price_min: 75
+    price_max: 135
     condition: []
     exclude_keywords: ["11 pro max"]
 
   - name: "iPhone 11 Pro Max"
     query: "iphone 11 pro max"
-    price_min: 120
-    price_max: 180
+    price_min: 180
+    price_max: 220
     condition: []
 
   - name: "iPhone 12"
     query: "iphone 12"
-    price_min: 60
-    price_max: 126
+    price_min: 200
+    price_max: 240
     condition: []
     exclude_keywords: ["12 pro", "iphone 12 pro"]
 
   - name: "iPhone 12 Pro"
     query: "iphone 12 pro"
-    price_min: 100
-    price_max: 130
+    price_min: 140
+    price_max: 240
     condition: []
     exclude_keywords: ["pro max", "promax"]
 
   - name: "iPhone 12 Pro Max"
     query: "iphone 12 pro max"
-    price_min: 100
-    price_max: 200
+    price_min: 190
+    price_max: 330
     condition: []
 
   - name: "iPhone 13"
     query: "iphone 13"
-    price_min: 110
-    price_max: 180
+    price_min: 180
+    price_max: 320
     condition: []
     exclude_keywords: ["13 pro", "13 pro max", "13 mini"]
 
   - name: "iPhone 13 Pro"
     query: "iphone 13 pro"
-    price_min: 120
-    price_max: 230
+    price_min: 180
+    price_max: 400
     condition: []
     exclude_keywords: ["13 pro max"]
 
   - name: "iPhone 13 Pro Max"
     query: "iphone 13 pro max"
-    price_min: 120
-    price_max: 260
+    price_min: 270
+    price_max: 490
     condition: []
 
   - name: "iPhone 14"
     query: "iphone 14"
-    price_min: 180
-    price_max: 250
+    price_min: 250
+    price_max: 320
     condition: []
     exclude_keywords: ["14 pro", "14 pro max", "14 plus"]
 
   - name: "iPhone 14 Plus"
     query: "iphone 14 plus"
-    price_min: 100
-    price_max: 180
+    price_min: 250
+    price_max: 570
     condition: []
     exclude_keywords: ["14 pro", "14 pro max"]
 
   - name: "iPhone 14 Pro"
     query: "iphone 14 pro"
-    price_min: 200
-    price_max: 270
+    price_min: 280
+    price_max: 470
     condition: []
     exclude_keywords: ["14 pro max"]
 
   - name: "iPhone 14 Pro Max"
     query: "iphone 14 pro max"
-    price_min: 200
-    price_max: 320
+    price_min: 400
+    price_max: 520
     condition: []
 
   - name: "iPhone 15"
     query: "iphone 15"
-    price_min: 200
-    price_max: 330
+    price_min: 300
+    price_max: 430
     condition: []
     exclude_keywords: ["15 pro", "15 pro max", "15 plus"]
 
   - name: "iPhone 15 Plus"
     query: "iphone 15 plus"
-    price_min: 200
-    price_max: 340
+    price_min: 350
+    price_max: 520
     condition: []
     exclude_keywords: ["15 pro", "15 pro max"]
 
   - name: "iPhone 15 Pro"
     query: "iphone 15 pro"
-    price_min: 200
-    price_max: 350
+    price_min: 400
+    price_max: 570
     condition: []
     exclude_keywords: ["15 pro max"]
 
   - name: "iPhone 15 Pro Max"
     query: "iphone 15 pro max"
-    price_min: 200
-    price_max: 380
+    price_min: 400
+    price_max: 720
     condition: []
 
   - name: "iPhone 16"
     query: "iphone 16"
-    price_min: 200
-    price_max: 400
+    price_min: 400
+    price_max: 600
     condition: []
     exclude_keywords: ["16 pro", "16 pro max", "16 plus"]
 
   - name: "iPhone 16 Plus"
     query: "iphone 16 plus"
-    price_min: 200
-    price_max: 400
+    price_min: 500
+    price_max: 820
     condition: []
     exclude_keywords: ["16 pro", "16 pro max"]
 
   - name: "iPhone 16 Pro"
     query: "iphone 16 pro"
-    price_min: 200
-    price_max: 500
+    price_min: 550
+    price_max: 720
     condition: []
     exclude_keywords: ["16 pro max"]
 
   - name: "iPhone 16 Pro Max"
     query: "iphone 16 pro max"
-    price_min: 200
-    price_max: 620
+    price_min: 250
+    price_max: 820
     condition: []
 
   - name: "iPhone 17"
     query: "iphone 17"
-    price_min: 200
-    price_max: 400
+    price_min: 270
+    price_max: 820
     condition: []
     exclude_keywords: ["17 pro", "17 pro max", "17 plus"]
 
   - name: "iPhone 17 Pro"
     query: "iphone 17 pro"
-    price_min: 200
-    price_max: 500
+    price_min: 700
+    price_max: 1100
     condition: []
     exclude_keywords: ["17 pro max"]
 
   - name: "iPhone 17 Pro Max"
     query: "iphone 17 pro max"
-    price_min: 300
-    price_max: 680
+    price_min: 800
+    price_max: 1200
     condition: []
  
   # ── Pesquisas customizadas ───────────────── 
   - name: "AirPods Pro 2" 
     query: "airpods pro 2" 
-    price_min: 20 
-    price_max: 60 
- 
-  - name: "PlayStation 5" 
-    query: "ps5 playstation 5" 
-    price_min: 100 
-    price_max: 250 
-    condition: ["new", "like_new", "good"] 
+    price_min: 80 
+    price_max: 130 
  
   - name: "MacBook Air M2 / M1 / M3 / M4 / PRO" 
     query: "macbook air m2" 
-    price_min: 100 
-    price_max: 300 
+    price_min: 580 
+    price_max: 900 
 
   # Pesquisa de texto livre — sem limite de preço máximo 
  
@@ -304,7 +275,7 @@ searches:
 # ───────────────────────────────────────────── 
 scraping: 
   delay_between_requests: 2       # segundos entre pedidos (não reduzir abaixo de 1) 
-  max_pages_per_search: 5         # páginas máximas por pesquisa (96 itens/página) 
+  max_pages_per_search: 1         # newest page is enough for periodic alerts
   results_per_page: 96 
   timeout_seconds: 30             # tempo máximo de espera por pedido
   reuse_saved_cookies: false      # false = pedir cookies frescos ao arrancar; evita loops 401/redirect

@@ -6,6 +6,9 @@ telegram:
   send_delay_seconds: 1.0
   send_max_retries: 3
   send_retry_backoff_seconds: 5
+  send_timeout_seconds: 20
+  verify_on_startup: true
+  notify_on_startup: true
   destinations: 
     - chat_id: "123456789"         # o teu chat pessoal 
       label: "Pessoal" 
@@ -64,6 +67,7 @@ global_filters:
 detail_validation:
   enabled: true
   delay_between_detail_requests: 1
+  max_items_per_search: 10
 
 searches: 
  
@@ -190,7 +194,7 @@ searches:
 # ───────────────────────────────────────────── 
 scraping: 
   delay_between_requests: 2       # segundos entre pedidos (não reduzir abaixo de 1) 
-  max_pages_per_search: 5         # páginas máximas por pesquisa (96 itens/página) 
+  max_pages_per_search: 1         # newest page is enough for periodic alerts
   results_per_page: 96 
   timeout_seconds: 30             # tempo máximo de espera por pedido
   reuse_saved_cookies: false      # false = pedir cookies frescos ao arrancar; evita loops 401/redirect

@@ -1,6 +1,7 @@
 import sqlite3
 import os
 import time
+from contextlib import contextmanager
 
 class Database:
     def __init__(self, db_path="data/seen_items.db"):
@@ -9,8 +10,13 @@ class Database:
         os.makedirs(os.path.dirname(os.path.abspath(self.db_path)), exist_ok=True)
         self._init_db()
         
+    @contextmanager
     def _get_connection(self):
-        return sqlite3.connect(self.db_path)
+        connection = sqlite3.connect(self.db_path)
+        try:
+            yield connection
+        finally:
+            connection.close()
         
     def _init_db(self):
         """Cria a tabela se não existir."""

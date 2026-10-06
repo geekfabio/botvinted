@@ -1,7 +1,11 @@
 /.env
-/.env.example
+!/.env.example
 /.pytest_cache
 /venv
+/.venv
+/logs/*.log*
+/data/*.db*
+/data/cookies.json
 /tests
 /tests/*
 /__pycache__

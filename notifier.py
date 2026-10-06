@@ -9,6 +9,10 @@ from resale import calculate_resale_costs
 logger = logging.getLogger(__name__)
 
 
+class TelegramDeliveryError(RuntimeError):
+    """A safe Telegram error that never includes the bot token or API URL."""
+
+
 class TelegramNotifier:
     def __init__(self, token: str, destinations: list, config: dict = None):
         self.token = token
@@ -17,9 +21,20 @@ class TelegramNotifier:
         self.resale_config = self.config.get("resale", {})
         self.api_url = f"https://api.telegram.org/bot{self.token}"
         self.min_delay_seconds = self.config.get("send_delay_seconds", 1.0)
-        self.max_retries = self.config.get("send_max_retries", 3)
+        self.max_retries = max(1, int(self.config.get("send_max_retries", 3)))
         self.retry_backoff_seconds = self.config.get("send_retry_backoff_seconds", 5)
+        self.request_timeout_seconds = self.config.get("send_timeout_seconds", 20)
         self.last_send_at = 0.0
+
+    def _safe_response_error(self, response) -> TelegramDeliveryError:
+        description = "request rejected"
+        try:
+            description = response.json().get("description", description)
+        except (ValueError, AttributeError):
+            pass
+        return TelegramDeliveryError(
+            f"Telegram API error {response.status_code}: {description}"
+        )
 
     def _truncate(self, text: str, max_length: int) -> str:
         text = " ".join(str(text or "").split())
@@ -112,10 +127,30 @@ class TelegramNotifier:
 
     def _post(self, method: str, payload: dict, files: dict = None):
         url = f"{self.api_url}/{method}"
+        response = None
 
         for attempt in range(self.max_retries):
             self._wait_for_send_slot()
-            response = requests.post(url, data=payload, files=files, timeout=10)
+            try:
+                response = requests.post(
+                    url,
+                    data=payload,
+                    files=files,
+                    timeout=self.request_timeout_seconds,
+                )
+            except requests.RequestException as exc:
+                self.last_send_at = time.time()
+                safe_error = TelegramDeliveryError(
+                    f"Telegram network error: {type(exc).__name__}"
+                )
+                if attempt >= self.max_retries - 1:
+                    raise safe_error from exc
+                wait_seconds = self.retry_backoff_seconds * (attempt + 1)
+                logger.warning(
+                    f"{safe_error}. Retrying after {wait_seconds}s."
+                )
+                time.sleep(wait_seconds)
+                continue
             self.last_send_at = time.time()
 
             if response.status_code == 429:
@@ -128,17 +163,43 @@ class TelegramNotifier:
                 time.sleep(float(retry_after))
                 continue
 
-            if response.status_code >= 500 and attempt < self.max_retries - 1:
-                wait_seconds = self.retry_backoff_seconds * (attempt + 1)
-                logger.warning(f"Telegram server error {response.status_code}. Retrying after {wait_seconds}s.")
-                time.sleep(wait_seconds)
-                continue
+            if response.status_code >= 500:
+                if attempt < self.max_retries - 1:
+                    wait_seconds = self.retry_backoff_seconds * (attempt + 1)
+                    logger.warning(f"Telegram server error {response.status_code}. Retrying after {wait_seconds}s.")
+                    time.sleep(wait_seconds)
+                    continue
+                raise self._safe_response_error(response)
 
-            response.raise_for_status()
+            if response.status_code >= 400:
+                raise self._safe_response_error(response)
             return response
 
-        response.raise_for_status()
-        return response
+        if response is not None:
+            raise self._safe_response_error(response)
+        raise TelegramDeliveryError("Telegram request failed without a response")
+
+    def validate_bot(self) -> dict:
+        response = self._post("getMe", {})
+        try:
+            data = response.json()
+        except ValueError as exc:
+            raise TelegramDeliveryError("Telegram returned invalid JSON") from exc
+        if not data.get("ok"):
+            raise self._safe_response_error(response)
+        return data.get("result", {})
+
+    def test_destinations(self, text: str) -> bool:
+        if not self.destinations:
+            logger.error("No Telegram destinations configured")
+            return False
+        results = []
+        for destination in self.destinations:
+            chat_id = destination.get("chat_id")
+            results.append(
+                bool(chat_id) and self.send_text_to_chat(str(chat_id), text)
+            )
+        return all(results)
 
     def _download_photo(self, photo_url: str):
         response = requests.get(
@@ -212,7 +273,7 @@ class TelegramNotifier:
                 }
                 try:
                     self._post("sendPhoto", payload)
-                except requests.HTTPError as e:
+                except Exception as e:
                     logger.warning(
                         f"Photo send by URL failed for item {item.get('id')}; trying download/upload fallback: {e}"
                     )

@@ -21,6 +21,16 @@ PLAIN_MORE_ALIASES = {"mais"}
 PACK_KEYWORDS = ("pack", "packs", "lote", "lot", "lots", "conjunto", "kit", "bundle")
 
 
+def _safe_telegram_error(error: Exception) -> str:
+    """Summarize request failures without logging the token-bearing URL."""
+    if isinstance(error, requests.RequestException):
+        response = getattr(error, "response", None)
+        if response is not None:
+            return f"HTTP {response.status_code}"
+        return type(error).__name__
+    return type(error).__name__
+
+
 @dataclass
 class ManualSearchCommand:
     query: str
@@ -184,13 +194,17 @@ class TelegramCommandHandler:
                 if command in CONTROL_COMMANDS:
                     self._handle_control_message(message, command)
         except Exception as e:
-            logger.error(f"Failed to bootstrap Telegram commands: {e}")
+            logger.error(
+                f"Failed to bootstrap Telegram commands: {_safe_telegram_error(e)}"
+            )
 
     def poll_once(self):
         try:
             updates = self._get_updates(timeout=0)
         except Exception as e:
-            logger.error(f"Failed to fetch Telegram updates: {e}")
+            logger.error(
+                f"Failed to fetch Telegram updates: {_safe_telegram_error(e)}"
+            )
             return
 
         for update in updates:
